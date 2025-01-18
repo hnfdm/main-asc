@@ -10,13 +10,13 @@ function Footer() {
           <img src="/asc.png" alt="Logo" />
           <p>© 2025 ASC All rights reserved</p>
           <div className="footer-social">
-            <a href="https://twitter.com/winsnipofficial" target="_blank" rel="noopener noreferrer">
+            <a href="https://x.com/Autosultan_team" target="_blank" rel="noopener noreferrer">
               <FaTwitter size={23} color="white" />
             </a>
-            <a href="https://t.me/winsnip" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/airdropasc" target="_blank" rel="noopener noreferrer">
               <FaTelegramPlane size={24} color="white" />
             </a>
-            <a href="https://youtube.com/c/winsnipofficial" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.youtube.com/@ZamzaSalim" target="_blank" rel="noopener noreferrer">
               <FaYoutube size={24} color="white" />
             </a>
           </div>

@@ -20,9 +20,10 @@ const Navbar = () => {
           &times;
         </button>
         <a href="#network">Network</a>
-        <a href="https://winsnip.xyz/services/">Services</a>
+        <a href="https://soumyajitblogs.vercel.app/">Blog</a>
+        <a href="/services/">Node</a>
         <a href="https://explorer/">Order Bot</a>
-        <a href="https://t.me/winnodex">Contact</a>
+        <a href="https://t.me/zamza_salim">Contact</a>
       </div>
       <div className="navbar-toggle" onClick={toggleNavbar}>
         <div className="toggle-bar"></div>

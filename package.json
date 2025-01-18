@@ -1,0 +1,67 @@
+{
+  "name": "my-website",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@craco/craco": "^7.1.0",
+    "@fortawesome/fontawesome-free": "^6.6.0",
+    "@fortawesome/free-brands-svg-icons": "^6.6.0",
+    "@fortawesome/free-solid-svg-icons": "^6.6.0",
+    "@fortawesome/react-fontawesome": "^0.2.2",
+    "@mdx-js/loader": "^3.0.1",
+    "@mdx-js/react": "^3.0.1",
+    "@nextui-org/react": "^2.4.6",
+    "@testing-library/jest-dom": "^5.17.0",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "prism-react-renderer": "^2.4.0",
+    "react": "^18.3.1",
+    "react-code-block": "^1.0.0",
+    "react-code-blocks": "^0.1.6",
+    "react-copy-to-clipboard": "^5.1.0",
+    "react-dom": "^18.3.1",
+    "react-icons": "^5.3.0",
+    "react-markdown": "^9.0.1",
+    "react-modal": "^3.16.1",
+    "react-router-dom": "^6.26.1",
+    "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.5.0",
+    "react-use": "^17.5.1",
+    "remark-gfm": "^4.0.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "craco start",
+    "build": "craco build",
+    "test": "craco test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ],
+    "rules": {
+      "no-useless-escape": "off"
+    },
+    "globals": {
+      "CUSTOM_PORT": "readonly"
+    }
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
+    "@mdx-js/mdx": "^3.0.1"
+  }
+}

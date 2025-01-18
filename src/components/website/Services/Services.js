@@ -7,10 +7,10 @@ const mainnetProjects = [
 ];
 
 const testnetProjects = [
-  { name: 'Symphony', logo: '/assets/imgproyek/symphony.jpg', link: 'https://winsnip.xyz/services/testnet/symphony' },
-  { name: 'Dill', logo: '/assets/imgproyek/dill.jpg', link: 'https://winsnip.xyz/services/testnet/dill' },
-  { name: 'Fiamma', logo: '/assets/imgproyek/fiamma.png', link: 'https://winsnip.xyz/services/testnet/fiamma' },
-  { name: 'Nillon', logo: '/assets/imgproyek/nillon.png', link: 'https://winsnip.xyz/services/testnet/nillon' },
+  { name: 'Symphony', logo: '/assets/imgproyek/symphony.jpg', link: '/services/testnet/symphony' },
+  { name: 'Dill', logo: '/assets/imgproyek/dill.jpg', link: '/services/testnet/dill' },
+  { name: 'Fiamma', logo: '/assets/imgproyek/fiamma.png', link: 'services/testnet/fiamma' },
+  { name: 'Nillon', logo: '/assets/imgproyek/nillon.png', link: 'services/testnet/nillon' },
   // Add more testnet projects here...
 ];
 

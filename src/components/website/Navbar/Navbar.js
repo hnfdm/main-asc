@@ -20,7 +20,7 @@ const Navbar = () => {
           &times;
         </button>
         <a href="#network">Network</a>
-        <a href="https://soumyajitblogs.vercel.app/">Blog</a>
+        <a href="/blog">Blog</a>
         <a href="/services/">Node</a>
         <a href="https://explorer/">Order Bot</a>
         <a href="https://t.me/zamza_salim">Contact</a>

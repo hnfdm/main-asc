@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="/">
-          <img src="/logo.png" alt="Brand Logo" className="logo-image" />
+          <img src="/logo2.png" alt="Brand Logo" className="logo-image" />
         </a>
       </div>
       <div className={`navbar-links ${isOpen ? 'open' : ''}`}>

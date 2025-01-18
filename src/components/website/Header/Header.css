@@ -54,3 +54,19 @@
     width: 100%; /* Ensure the image fills the screen width */
   }
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-10px); /* Elemen naik 10px */
+  }
+  100% {
+    transform: translateY(0); /* Kembali ke posisi awal */
+  }
+}
+
+.header-image img {
+  animation: float 3s ease-in-out infinite; /* Durasi 2 detik, efek berulang */
+}

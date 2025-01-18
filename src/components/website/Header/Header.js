@@ -10,7 +10,7 @@ function Header() {
           <p>Airdrop Script Service: The Reliable Partner for Automated Airdrop Solutions, Offering Efficient Execution, Security, and 24/7 Support.</p>
         </div>
         <div className="header-image">
-          <img src="logo.png" alt="Astronaut" />
+          <img src="mascot.png" alt="Astronaut" />
         </div>
       </div>
     </header>

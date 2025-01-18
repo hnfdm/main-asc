@@ -7,8 +7,8 @@ function Footer() {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="/bangpateng.png" alt="Logo" />
-          <p>© 2024 Winsnip All rights reserved</p>
+          <img src="/asc.png" alt="Logo" />
+          <p>© 2025 ASC All rights reserved</p>
           <div className="footer-social">
             <a href="https://twitter.com/winsnipofficial" target="_blank" rel="noopener noreferrer">
               <FaTwitter size={23} color="white" />

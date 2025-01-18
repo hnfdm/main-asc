@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+.partnership-section {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: 'Moderustic', sans-serif;
+}
+
+.partnership-logos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.partner-logo img {
+  max-width: 150px;
+  height: auto;
+  transition: transform 0.3s ease;
+}
+
+.partner-logo img:hover {
+  transform: scale(1.1);
+}

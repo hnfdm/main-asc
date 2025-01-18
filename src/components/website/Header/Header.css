@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+.header {
+  padding: 30px 20px; /* Reduced padding */
+  font-family: 'Moderustic', sans-serif;
+}
+
+.header-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header-text {
+  max-width: 50%;
+  margin-bottom: 0; /* Remove bottom margin to close gap */
+}
+
+.header-text h1 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px; /* Reduced margin */
+  color: #ffffff;
+}
+
+.header-text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+  margin-bottom: 0; /* Remove bottom margin */
+}
+
+.header-image img {
+  width: 250px; /* Set width to 250px */
+  height: 250px; /* Set height to 250px */
+  object-fit: contain; /* Optional: Ensure the image fits within the dimensions without distortion */
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column-reverse; /* Ganti urutan menjadi gambar di atas, teks di bawah */
+    text-align: center;
+  }
+
+  .header-text {
+    max-width: 100%;
+    margin-top: 10px; /* Reduced top margin */
+  }
+
+  .header-image {
+    margin-bottom: 10px; /* Reduced bottom margin */
+    width: 100%; /* Ensure the image fills the screen width */
+  }
+}

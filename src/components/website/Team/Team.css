@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+.team-section {
+  text-align: center;
+  padding: 20px 20px; /* Reduced padding to decrease space */
+  font-family: 'Moderustic', sans-serif;
+}
+
+.team-section h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #000;
+  margin-bottom: 40px;
+}
+
+.team-members {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+
+.team-member {
+  text-align: center;
+  width: 200px;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+  border-radius: 0 0 100% 100%;
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  background-color: #e0f7fa;
+  padding: 0px;
+  transform: none; /* Ensure the image doesn't affect the text */
+}
+
+.team-member h4,
+.team-member p {
+  transform: none; /* Ensure the text is not tilted */
+  margin: 0;
+}
+
+.team-member h4 {
+  font-size: 20px;
+  font-weight: 700;
+  color: #000;
+  margin-top: 20px;
+}
+
+.team-member p {
+  font-size: 16px;
+  color: #666;
+  margin-top: 5px;
+}

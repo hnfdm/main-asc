@@ -1,0 +1,48 @@
+/* Import Nunito Font */
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+/* Apply font family to the entire FAQ section */
+.faq-container {
+  font-family: 'Moderustic', sans-serif;
+}
+
+/* Styling for the FAQ header */
+.faq-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+/* Accordion container */
+.accordion {
+  border: 0px solid #ddd;
+  border-radius: 0px;
+  margin-bottom: 10px;
+}
+
+/* Accordion header */
+.accordion-header {
+  padding: 10px 20px;
+  background: #1A1A1A;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-weight: 700; /* Make the text bold */
+  color: rgb(255, 255, 255); /* Ensure the text is readable against the gradient */
+  border-radius: 5px 5px 0 0; /* Slight rounding at the top corners */
+}
+
+/* Accordion content */
+.accordion-content {
+  padding: 10px 20px;
+  background-color: #0B0B0B;
+  font-weight: 400; /* Regular weight for content */
+  border-radius: 0 0 5px 5px; /* Slight rounding at the bottom corners */
+}
+
+/* Paragraph styling */
+.accordion-content p {
+  margin: 0 0 10px 0;
+  color: white;
+}

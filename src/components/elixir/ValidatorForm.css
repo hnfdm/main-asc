@@ -1,0 +1,51 @@
+/* Import Nunito Font */
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+/* ValidatorForm.css */
+.validator-form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: 20px;
+  font-family: 'Moderustic', sans-serif; /* Apply Nunito font to the entire form */
+}
+
+.validator-form input[type="text"] {
+  flex: 1 1 22%;
+  padding: 10px 15px;
+  margin: 5px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 20px; /* Make the input rounded */
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+  box-sizing: border-box;
+  font-family: 'Moderustic', sans-serif; /* Apply Nunito font to the input */
+  background-color: #f4f6f9; /* Light background color for the input */
+}
+
+.validator-form input[type="text"]:focus {
+  border-color: #007acc;
+  box-shadow: 0 0 5px rgba(0, 122, 204, 0.5);
+  outline: none;
+}
+
+.validator-form input[type="text"]::placeholder {
+  color: #aaa;
+  font-family: 'Moderustic', sans-serif; /* Apply Nunito font to the placeholder */
+}
+
+.validator-form input[type="text"]:hover {
+  border-color: #005b99;
+}
+
+/* Media query for small devices */
+@media (max-width: 600px) {
+  .validator-form {
+    justify-content: center; /* Center the form on small devices */
+  }
+
+  .validator-form input[type="text"] {
+    flex: 1 1 48%; /* Make each input take up about half the width */
+    margin: 5px 1%; /* Add a small margin between the inputs */
+  }
+}

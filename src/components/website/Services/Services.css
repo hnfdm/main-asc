@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+body {
+  font-family: 'Moderustic', sans-serif;
+}
+
+.services-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.services-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.services-container p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.network-section h3 {
+  font-size: xrem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 20px; /* Shift the title to the left */
+}
+
+.network-grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 15px;
+}
+
+.network-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.network-item {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.network-item:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-5px);
+}
+
+.network-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.network-item span {
+  font-size: 1rem;
+  font-weight: 500;
+}

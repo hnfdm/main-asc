@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '@styles/components/website/BlogSection.css';
+import { FaBookReader } from "react-icons/fa";
 
 function BlogSection() {
   const [activeTab, setActiveTab] = useState('Script');
@@ -78,7 +79,9 @@ function BlogSection() {
           </div>
         </div>
         <a href={blog.followLink} target="_blank" rel="noopener noreferrer">
-          <button className="follow-button">Read</button>
+          <button className="read-button">
+          <FaBookReader size={15}/>
+          </button>
         </a>
       </div>
     ));

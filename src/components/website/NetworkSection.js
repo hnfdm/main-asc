@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import '@styles/components/website/NetworkSection.css';
+import { FaBookOpen } from "react-icons/fa";
 
 function NetworkSection() {
   const [activeTab, setActiveTab] = useState('Script');
@@ -262,7 +263,9 @@ function NetworkSection() {
           </div>
         </div>
         <a href={network.followLink} target="_blank" rel="noopener noreferrer">
-          <button className="follow-button">Read</button>
+          <button className="follow-button">
+          <FaBookOpen size={15}/>
+          </button>
         </a>
       </div>
     ));

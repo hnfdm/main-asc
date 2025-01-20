@@ -12,13 +12,13 @@ const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
 const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
 const Services = React.lazy(() => import('./components/website/Services'));
 
-const TabMenu = React.lazy(() => import('./components/symphony/TabMenu'));
-const DillMenu = React.lazy(() => import('./components/dill/DillMenu'));
-const FiammaMenu = React.lazy(() => import('./components/fiamma/FiammaMenu'));
-const NillonMenu = React.lazy(() => import('./components/nillon/NillonMenu'));
-const TernMenu = React.lazy(() => import('./components/t3rn/TernMenu'));
-const AutoMenu = React.lazy(() => import('./components/autonomys/AutoMenu'));
-const ElixirMenu = React.lazy(() => import('./components/elixir/ElixirMenu'));
+const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
+const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
+const FiammaMenu = React.lazy(() => import('./components/node/fiamma/FiammaMenu'));
+const NillonMenu = React.lazy(() => import('./components/node/nillon/NillonMenu'));
+const TernMenu = React.lazy(() => import('./components/node/t3rn/TernMenu'));
+const AutoMenu = React.lazy(() => import('./components/node/autonomys/AutoMenu'));
+const ElixirMenu = React.lazy(() => import('./components/node/elixir/ElixirMenu'));
 
 function App() {
   return (

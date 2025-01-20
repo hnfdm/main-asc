@@ -9,7 +9,7 @@
 
 /* Styling for the FAQ header */
 .faq-header {
-  font-size: 24px;
+  font-size: 22px;
   margin-bottom: 20px;
   text-align: center;
 }
@@ -29,7 +29,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  font-weight: 700; /* Make the text bold */
+  font-weight: 400; /* Make the text bold */
   color: rgb(255, 255, 255); /* Ensure the text is readable against the gradient */
   border-radius: 5px 5px 0 0; /* Slight rounding at the top corners */
 }

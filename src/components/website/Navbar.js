@@ -24,7 +24,7 @@ const Navbar = () => {
         <a href="/node">Node</a>
         <a href="/services/">Services</a>
         <a href="/">Partnership</a>
-        <a href="https://t.me/zamza_salim">Contact</a>
+        {/*<a href="https://t.me/zamza_salim">Contact</a>*/}
       </div>
       <div className="navbar-toggle" onClick={toggleNavbar}>
         <div className="toggle-bar"></div>

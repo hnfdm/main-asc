@@ -7,7 +7,7 @@ function Header() {
       <div className="header-content">
         <div className="header-text">
           <h1>Airdrop Insights, Tutorials, and Beyond.</h1>
-          <p>Airdrop Script Service: The Reliable Partner for Automated Airdrop Solutions, Offering Efficient Execution, Security, and 24/7 Support.</p>
+          <p>Service: The Reliable Partner for Community Builders, Ads, Research, and 24/7 Support.</p>
         </div>
         <div className="header-image">
           <img src="/logo/mascot.png" alt="Astronaut" />

@@ -11,53 +11,242 @@ function NetworkSection() {
       setTimeout(() => {
         setActiveTab(tab);
         setFadeClass('fade-in');
-      }, 300); // Adjusting the duration of the fade-out
+      }, 150); // Adjusting the duration of the fade-out
     }
   };
 
   const renderCards = () => {
     const networks = activeTab === 'Script' ? [
       {
-        name: 'Moonbix',
+        name: 'Nesa',
         username: 'Online',
-        image: '/assets/imgproyek/moonbix.jpg',
+        image: '/icons/nesa.jpg',
         status: 'online',
         followLink: 'https://github.com/winsnip/moonbix'
       },
       {
-        name: 'BybitCoinsweeper',
+        name: 'Rivalz',
         username: 'Online',
-        image: '/assets/imgproyek/bybit.jpg',
+        image: '/icons/rivalz.jpg',
         status: 'online',
         followLink: 'https://github.com/winsnip/BybitCoinsweeper'
       },
       {
-        name: 'Hemi Miner',
-        username: 'Offline',
-        image: '/assets/imgproyek/hemi.png',
-        status: 'offline',
+        name: 'Brinx AI',
+        username: 'Online',
+        image: '/icons/brinxai.jpg',
+        status: 'online',
         followLink: 'https://github.com/winsnip/Hemi-Miner'
       },
       {
-        name: 'Dawn Validator',
+        name: 'Hemi Network',
         username: 'Online',
-        image: '/assets/imgproyek/dawn.jpg',
+        image: '/icons/hemi.jpg',
         status: 'online',
         followLink: 'https://github.com/winsnip/Dawn-Validator'
       },
       {
-        name: 'Coub',
+        name: 'Spheron Network',
         username: 'Online',
-        image: '/assets/imgproyek/coub.jpg',
+        image: '/icons/spheron.jpg',
         status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Cysic',
+        username: 'Online',
+        image: '/icons/cysic.jpg',
+        status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Multiple Network',
+        username: 'Online',
+        image: '/icons/mtp.jpg',
+        status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Titan Network',
+        username: 'Online',
+        image: '/icons/titan.jpg',
+        status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Covalent',
+        username: 'Online',
+        image: '/icons/covalent.png',
+        status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Cyberfly',
+        username: 'Offline',
+        image: '/icons/cyberfly.jpg',
+        status: 'offline',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Init Verse',
+        username: 'Offline',
+        image: '/icons/initverse.jpg',
+        status: 'offline',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Kuzco',
+        username: 'Online',
+        image: '/icons/kuzco.png',
+        status: 'online',
+        followLink: 'https://github.com/winsnip/coub-bot'
+      },
+      {
+        name: 'Network 3',
+        username: 'Offline',
+        image: '/icons/network3.jpg',
+        status: 'offline',
         followLink: 'https://github.com/winsnip/coub-bot'
       },
     ] : [
       {
-        name: 'Test',
-        username: 'Offline',
-        image: '/assets/imgproyek/coub.jpg',
-        status: 'offline',
+        name: 'Nodepay S3',
+        username: 'Online',
+        image: '/icons/nodepay.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Pipe Network',
+        username: 'Online',
+        image: '/icons/pipe.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Gradient Network',
+        username: 'Online',
+        image:'/icons/gradient.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Teneo Protocol',
+        username: 'Online',
+        image: '/icons/teneo.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Blockmesh',
+        username: 'Online',
+        image: '/icons/blockmesh.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Dawn',
+        username: 'Online',
+        image: '/icons/dawn.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Gaea',
+        username: 'Online',
+        image: '/icons/gaea.png',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Oasis AI',
+        username: 'Online',
+        image: '/icons/oasis.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Open Loop',
+        username: 'Online',
+        image: '/icons/openloop.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Toggle AI',
+        username: 'Online',
+        image: '/icons/toggle.png',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Kaisar Network',
+        username: 'Online',
+        image: '/icons/kaisar.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Kleo Network',
+        username: 'Online',
+        image: '/icons/kleo.png',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Functor Network',
+        username: 'Online',
+        image: '/icons/functor.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Rivalz',
+        username: 'Online',
+        image: '/icons/rivalz.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Alpha Network',
+        username: 'Online',
+        image: '/icons/alpha.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'MyGate Network',
+        username: 'Online',
+        image: '/icons/mygate.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Multiple Network',
+        username: 'Online',
+        image: '/icons/mtp.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'DeSpeed',
+        username: 'Online',
+        image: '/icons/despeed.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'Open Ledger',
+        username: 'Online',
+        image: '/icons/openledger.jpg',
+        status: 'online',
+        followLink: 'https://winsnip.xyz'
+      },
+      {
+        name: 'DePINed',
+        username: 'Online',
+        image: '/icons/depined.jpg',
+        status: 'online',
         followLink: 'https://winsnip.xyz'
       },
     ];
@@ -73,7 +262,7 @@ function NetworkSection() {
           </div>
         </div>
         <a href={network.followLink} target="_blank" rel="noopener noreferrer">
-          <button className="follow-button">Service</button>
+          <button className="follow-button">Read</button>
         </a>
       </div>
     ));
@@ -87,13 +276,13 @@ function NetworkSection() {
           className={activeTab === 'Script' ? 'active' : ''}
           onClick={() => handleTabClick('Script')}
         >
-          Script
+          Node
         </button>
         <button
           className={activeTab === 'Script Web' ? 'active' : ''}
           onClick={() => handleTabClick('Script Web')}
         >
-          Script Web
+          DePIN
         </button>
       </div>
       <div className={`network-cards ${fadeClass}`}>

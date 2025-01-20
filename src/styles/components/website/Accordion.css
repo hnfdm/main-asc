@@ -4,6 +4,7 @@
 /* Apply font family to the entire FAQ section */
 .faq-container {
   font-family: 'Moderustic', sans-serif;
+  text-align: justify;
 }
 
 /* Styling for the FAQ header */

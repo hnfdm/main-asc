@@ -2,15 +2,15 @@ import React from 'react';
 import '@styles/components/website/Services.css';
 
 const mainnetProjects = [
-  { name: 'Planq', logo: '/assets/imgproyek/symphony.jpg', link: 'https://example.com/planq' },
+  { name: 'Planq', logo: '/icons/planq.jpg', link: 'https://example.com/planq' },
   // Add more mainnet projects here...
 ];
 
 const testnetProjects = [
-  { name: 'Symphony', logo: '/assets/imgproyek/symphony.jpg', link: '/services/testnet/symphony' },
-  { name: 'Dill', logo: '/assets/imgproyek/dill.jpg', link: '/services/testnet/dill' },
-  { name: 'Fiamma', logo: '/assets/imgproyek/fiamma.png', link: 'services/testnet/fiamma' },
-  { name: 'Nillon', logo: '/assets/imgproyek/nillon.png', link: 'services/testnet/nillon' },
+  { name: 'Symphony', logo: '/icons/symphony.jpg', link: '/services/testnet/symphony' },
+  { name: 'Dill', logo: '/icons/dill.jpg', link: '/services/testnet/dill' },
+  { name: 'Fiamma', logo: '/icons/fiamma.jpg', link: 'services/testnet/fiamma' },
+  { name: 'Nillion', logo: '/icons/nillion.jpg', link: 'services/testnet/nillon' },
   // Add more testnet projects here...
 ];
 

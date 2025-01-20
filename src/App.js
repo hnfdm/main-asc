@@ -9,6 +9,7 @@ import FAQ from './components/website/FAQ'; // Sesuaikan jalur jika diperlukan
 const Header = React.lazy(() => import('./components/website/Header'));
 const FeatureSection = React.lazy(() => import('./components/website/FeatureSection'));
 const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
+const BlogSection = React.lazy(() => import('./components/website/BlogSection'));
 const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
 const Services = React.lazy(() => import('./components/website/Services'));
 
@@ -40,6 +41,7 @@ function App() {
                 <Header />
                 <JalanMenu />
                 <FeatureSection />
+                <BlogSection />
                 <NetworkSection />
                 <FAQ />
               </>

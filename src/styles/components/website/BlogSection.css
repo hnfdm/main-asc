@@ -1,0 +1,126 @@
+.blog-section {
+    text-align: left;
+    padding: 10px 20px;
+    font-family: 'Moderustic', sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+  
+h2 {
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+  
+.blog-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+  
+.blog-tabs button {
+    background-color: transparent;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
+  
+.blog-tabs button.active {
+    color: #ffffff;
+    font-weight: 700;
+}
+  
+.blog-cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+  
+.blog-card {
+    display: flex;
+    align-items: center;
+    background-color: #1a1a1a;
+    border-radius: 8px;
+    padding: 15px;
+    margin-bottom: 15px;
+    transition: transform 0.3s ease;
+}
+  
+.blog-avatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 15px;
+}
+  
+.blog-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: auto;
+}
+  
+.blog-info h4 {
+    color: white;
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+}
+  
+.blog-status {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-size: 14px;
+}
+  
+.status-indicator {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+  
+.status-indicator.online {
+    background-color: #78ec7c; /* Green for online */
+    animation: blink-green 1s infinite; /* Green blinking for online */
+}
+  
+.status-indicator.offline {
+    background-color: #f44336; /* Red for offline */
+    animation: blink-red 1s infinite; /* Red blinking for offline */
+}
+  
+@keyframes blink-green {
+    50% {
+      opacity: 0.5; /* Blinks to 50% opacity */
+    }
+}
+  
+@keyframes blink-red {
+    50% {
+      opacity: 0.5; /* Blinks to 50% opacity */
+    }
+}
+  
+.follow-button {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+  
+.follow-button:hover {
+    background-color: #52575c;
+}
+  
+.blog-card:hover {
+    transform: translateY(-5px);
+}
+  

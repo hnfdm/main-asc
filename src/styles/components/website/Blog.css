@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
+
+body {
+  font-family: 'Moderustic', sans-serif;
+}
+
+.blog-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.blog-container h2 {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ffffff;
+  margin-bottom: 40px;
+}
+
+.blog-container p {
+  font-size: 1rem;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+
+.blog-section h3 {
+  font-size: xrem;
+  font-weight: bold;
+  color: #ffffff;
+  margin-bottom: 20px;
+  margin-left: 20px; /* Shift the title to the left */
+}
+
+.blog-grid {
+  display: grid;
+  /*flex-direction: column;*/
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+}
+
+.blog-item-link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.blog-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #ffffff;
+  padding: 10px 20px;
+  border-radius: 8px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.blog-content {
+    display: flex; /* Membuat logo dan nama sejajar */
+    align-items: center;
+    gap: 10px; /* Jarak antara logo dan teks */
+}
+
+.blog-item:hover {
+  background-color: #e0e0e0;
+  transform: translateY(-5px);
+}
+
+.blog-logo {
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+}
+
+.blog-item span {
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.blog-date {
+    font-size: 1rem; /* Ukuran font untuk tanggal */
+    color: #000000; /* Warna abu-abu untuk kontras */
+    white-space: nowrap; /* Mencegah tanggal terpotong */
+}
+
+@media (max-width: 768px) {
+    .blog-item {
+      flex-direction: column; /* Ubah menjadi kolom */
+      align-items: flex-start; /* Elemen rata ke kiri */
+    }
+  
+    .blog-date {
+      margin-top: 10px; /* Jarak di bawah nama */
+    }
+}

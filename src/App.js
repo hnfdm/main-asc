@@ -12,6 +12,7 @@ const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
 const BlogSection = React.lazy(() => import('./components/website/BlogSection'));
 const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
 const Services = React.lazy(() => import('./components/website/Services'));
+const Blog = React.lazy(() => import('./components/website/Blog'));
 
 const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
@@ -20,6 +21,8 @@ const NillonMenu = React.lazy(() => import('./components/node/nillon/NillonMenu'
 const TernMenu = React.lazy(() => import('./components/node/t3rn/TernMenu'));
 const AutoMenu = React.lazy(() => import('./components/node/autonomys/AutoMenu'));
 const ElixirMenu = React.lazy(() => import('./components/node/elixir/ElixirMenu'));
+
+const MangoMenu = React.lazy(() => import('./components/blog/mangonetwork/MangoMenu'));
 
 function App() {
   return (
@@ -36,6 +39,10 @@ function App() {
             <Route path="/services/testnet/t3rn/*" element={<TernMenu />} />
             <Route path="/services/testnet/autonomys/*" element={<AutoMenu />} />
             <Route path="/services/testnet/elixir/*" element={<ElixirMenu />} />
+
+            <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/mangonetwork/*" element={<MangoMenu />} />
+
             <Route path="/" element={
               <>
                 <Header />

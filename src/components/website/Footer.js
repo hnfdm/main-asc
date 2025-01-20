@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaTwitter, FaTelegramPlane, FaYoutube, FaEnvelope } from 'react-icons/fa';
+import { FaTelegramPlane, FaYoutube, FaEnvelope } from 'react-icons/fa';
+import { FaXTwitter, FaGithub } from "react-icons/fa6";
 import '@styles/components/website/Footer.css';
 
 function Footer() {
@@ -11,13 +12,16 @@ function Footer() {
           <p>© 2025 ASC All rights reserved</p>
           <div className="footer-social">
             <a href="https://x.com/Autosultan_team" target="_blank" rel="noopener noreferrer">
-              <FaTwitter size={23} color="white" />
-            </a>
+              <FaXTwitter size={18} color="white" />
+            </a>  
             <a href="https://t.me/airdropasc" target="_blank" rel="noopener noreferrer">
-              <FaTelegramPlane size={24} color="white" />
+              <FaTelegramPlane size={18} color="white" />
             </a>
             <a href="https://www.youtube.com/@ZamzaSalim" target="_blank" rel="noopener noreferrer">
-              <FaYoutube size={24} color="white" />
+              <FaYoutube size={18} color="white" />
+            </a>
+            <a href="https://github.com/zamzasalim" target="_blank" rel="noopener noreferrer">
+              <FaGithub size={18} color="white" />
             </a>
           </div>
         </div>
@@ -25,9 +29,9 @@ function Footer() {
           <div className="footer-column">
             <h4>Service</h4>
             <ul>
-              <li><a href="https://explorer/">Order Bot</a></li>
-              <li><a href="#rpc">Bug Hunter Assistance</a></li>
-              <li><a href="https://explorer/">Contact Support</a></li>
+              <li><a href="/">Ads</a></li>
+              <li><a href="/">Bug Hunter Assistance</a></li>
+              <li><a href="/">Contact Support</a></li>
             </ul>
           </div>
           <div className="footer-column">

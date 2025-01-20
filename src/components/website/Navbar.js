@@ -19,10 +19,11 @@ const Navbar = () => {
         <button className="close-btn" onClick={toggleNavbar}>
           &times;
         </button>
-        <a href="#network">Network</a>
+        {/*<a href="#network">Network</a>*/}
         <a href="/blog">Blog</a>
-        <a href="/services/">Node</a>
-        <a href="https://explorer/">Order Bot</a>
+        <a href="/node">Node</a>
+        <a href="/services/">Services</a>
+        <a href="/">Partnership</a>
         <a href="https://t.me/zamza_salim">Contact</a>
       </div>
       <div className="navbar-toggle" onClick={toggleNavbar}>

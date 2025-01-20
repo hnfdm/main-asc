@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './NetworkSection.css';
+import '@styles/components/website/NetworkSection.css';
 
 function NetworkSection() {
   const [activeTab, setActiveTab] = useState('Script');

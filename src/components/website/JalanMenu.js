@@ -1,5 +1,5 @@
 import React from 'react';
-import './JalanMenu.css';  // Make sure this path is correct
+import '@styles/components/website/JalanMenu.css';  // Make sure this path is correct
 
 const logos = [
   { src: '/assets/logojalan/Celestia.svg', alt: 'Celestia', url: 'https://www.celestia.org/' },

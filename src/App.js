@@ -1,16 +1,17 @@
 import React, { Suspense } from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
-import './App.css';
-import Navbar from './components/website/Navbar/Navbar';
-import Footer from './components/website/Footer/Footer';
-import FAQ from './components/website/Accordion/FAQ'; // Sesuaikan jalur jika diperlukan
+import '@styles/App.css';
+import Navbar from './components/website/Navbar';
+import Footer from './components/website/Footer';
+import FAQ from './components/website/FAQ'; // Sesuaikan jalur jika diperlukan
 
 // Lazy load components
-const Header = React.lazy(() => import('./components/website/Header/Header'));
-const FeatureSection = React.lazy(() => import('./components/website/Fitur/FeatureSection'));
-const JalanMenu = React.lazy(() => import('./components/website/Berjalan/JalanMenu'));
-const NetworkSection = React.lazy(() => import('./components/website/Network/NetworkSection'));
-const Services = React.lazy(() => import('./components/website/Services/Services'));
+const Header = React.lazy(() => import('./components/website/Header'));
+const FeatureSection = React.lazy(() => import('./components/website/FeatureSection'));
+const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
+const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
+const Services = React.lazy(() => import('./components/website/Services'));
+
 const TabMenu = React.lazy(() => import('./components/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/dill/DillMenu'));
 const FiammaMenu = React.lazy(() => import('./components/fiamma/FiammaMenu'));

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './Navbar.css';
+import '@styles/components/website/Navbar.css';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -12,7 +12,7 @@ const Navbar = () => {
     <nav className="navbar">
       <div className="navbar-logo">
         <a href="/">
-          <img src="/logo2.png" alt="Brand Logo" className="logo-image" />
+          <img src="/logo/logo2.png" alt="Brand Logo" className="logo-image" />
         </a>
       </div>
       <div className={`navbar-links ${isOpen ? 'open' : ''}`}>

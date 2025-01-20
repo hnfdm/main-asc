@@ -1,5 +1,5 @@
 import React from 'react';
-import './Services.css';
+import '@styles/components/website/Services.css';
 
 const mainnetProjects = [
   { name: 'Planq', logo: '/assets/imgproyek/symphony.jpg', link: 'https://example.com/planq' },

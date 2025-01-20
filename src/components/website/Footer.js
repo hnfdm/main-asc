@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaTwitter, FaTelegramPlane, FaYoutube, FaEnvelope } from 'react-icons/fa';
-import './Footer.css';
+import '@styles/components/website/Footer.css';
 
 function Footer() {
   return (
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-logo">
-          <img src="/asc.png" alt="Logo" />
+          <img src='/logo/asc.png' alt="Logo" />
           <p>© 2025 ASC All rights reserved</p>
           <div className="footer-social">
             <a href="https://x.com/Autosultan_team" target="_blank" rel="noopener noreferrer">

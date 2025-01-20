@@ -1,5 +1,5 @@
 import React from 'react';
-import './Partnership.css';
+import '@styles/components/website/Partnership.css';
 
 function Partnership() {
   const partners = [

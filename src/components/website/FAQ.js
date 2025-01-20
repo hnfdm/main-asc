@@ -1,6 +1,6 @@
 import React from 'react';
-import Accordion from './Accordion'; // Importing from the same directory
-import './Accordion.css'; // Import the CSS file
+import Accordion from '@components/website/Accordion'; // Importing from the same directory
+import '@styles/components/website/Accordion.css'; // Import the CSS file
 
 const FAQ = () => {
   return (

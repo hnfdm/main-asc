@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiRefreshCcw } from 'react-icons/fi';
-import NetworkModal from '../../NetworkModal';
+import L1Modal from '@components/blog/L1Modal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {
@@ -20,7 +20,7 @@ const StatusBox = () => {
       </div>
 
       {/* Modal */}
-      <NetworkModal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
+      <L1Modal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
     </div>
   );
 };

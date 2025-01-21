@@ -12,7 +12,7 @@ const MangoMenu = () => {
   const tabsContainerRef = useRef(null);
 
   const tabs = [
-    { name: 'Overview', icon: '🔎', path: '/' }, 
+    { name: 'Overview', icon: '🔎', path: '' }, 
     { name: 'Read', icon: '📖', path: 'read' },
   ];
 
@@ -20,22 +20,6 @@ const MangoMenu = () => {
     const currentPath = location.pathname.split('/').pop();
     setActiveTab(currentPath === '' || currentPath === 'mangonetwork' ? 'overview' : currentPath);
   }, [location]);
-
-  /*useEffect(() => {
-    const matchOverview = matchPath("/blog/mangonetwork", location.pathname);
-    const matchRead = matchPath("/blog/mangonetwork/read", location.pathname);
-    if (matchOverview) {
-      setActiveTab('overview');
-    } else if (matchRead) {
-      setActiveTab('read');
-    }
-  }, [location]);*/
-
-  /*useEffect(() => {
-    const currentPath = location.pathname.replace(/\/$/, '').split('/').pop();
-    console.log("Normalized Path:", currentPath); // Debugging
-    setActiveTab(currentPath === '' || currentPath === 'mangonetwork' ? 'overview' : currentPath);
-  }, [location]);*/
   
   const handleTabClick = (tab) => {
     const targetPath = tab.path ? `/${tab.path}` : ''; 

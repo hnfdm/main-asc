@@ -3,15 +3,15 @@ import Modal from 'react-modal';
 
 const NetworkModal = ({ isOpen, onRequestClose }) => {
   const mainnetProjects = [
-    { name: 'Symphony', image: '/assets/imgproyek/symphony.jpg', link: 'https://bangpateng.xyz/services/testnet/symphony' },
+    { name: 'Symphony', image: '/assets/imgproyek/coub.jpg', link: 'https://bangpateng.xyz/services/testnet/symphony' },
     // Add more projects here
   ];
   
   const testnetProjects = [
-    { name: 'Symphony', image: '/assets/imgproyek/symphony.jpg', link: 'https://bangpateng.xyz/services/testnet/symphony' },
-    { name: 'Dill', image: '/assets/imgproyek/dill.jpg', link: 'https://bangpateng.xyz/services/testnet/dill' },
-    { name: 'Fiamma', image: '/assets/imgproyek/fiamma.png', link: 'https://bangpateng.xyz/services/testnet/fiamma' },
-    { name: 't3rn', image: '/assets/imgproyek/tern.jpg', link: 'https://bangpateng.xyz/services/testnet/t3rn' },
+    { name: 'Symphony', image: '/assets/imgproyek/coub.jpg', link: 'https://bangpateng.xyz/services/testnet/symphony' },
+    { name: 'Dill', image: '/assets/imgproyek/coub.jpg', link: 'https://bangpateng.xyz/services/testnet/dill' },
+    { name: 'Fiamma', image: '/assets/imgproyek/coub.jpg', link: 'https://bangpateng.xyz/services/testnet/fiamma' },
+    { name: 't3rn', image: '/assets/imgproyek/coub.jpg', link: 'https://bangpateng.xyz/services/testnet/t3rn' },
     
     // Add more projects here
   ];

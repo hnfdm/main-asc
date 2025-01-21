@@ -164,7 +164,7 @@ Jangan lupa untuk kembali ke dashboard utama dan submit setiap quest yang telah 
 `;
 
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto' }}> {/* Limit the width */}
+    <div style={{ maxWidth: '1000px', margin: '0 auto', color: 'white'}}> {/* Limit the width */}
       <ReactMarkdown 
         remarkPlugins={[remarkGfm]}
         components={{

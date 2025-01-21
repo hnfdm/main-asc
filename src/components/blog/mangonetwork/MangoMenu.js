@@ -3,7 +3,7 @@ import { useNavigate, useLocation } from 'react-router-dom';
 import StatusBox from './StatusBox'; // Import the RpcStatusBox component
 import '@styles/blog/Menu.css';
 import Overview from './Overview';
-import Blog from './Blog';
+import Read from './Read';
 
 const MangoMenu = () => {
   const navigate = useNavigate();
@@ -12,7 +12,7 @@ const MangoMenu = () => {
   const tabsContainerRef = useRef(null);
 
   const tabs = [
-    { name: 'Overview', icon: '🔎', path: '' }, 
+    { name: 'Overview', icon: '🔎', path: '/' }, 
     { name: 'Read', icon: '📖', path: 'read' },
   ];
 
@@ -21,10 +21,26 @@ const MangoMenu = () => {
     setActiveTab(currentPath === '' || currentPath === 'mangonetwork' ? 'overview' : currentPath);
   }, [location]);
 
+  /*useEffect(() => {
+    const matchOverview = matchPath("/blog/mangonetwork", location.pathname);
+    const matchRead = matchPath("/blog/mangonetwork/read", location.pathname);
+    if (matchOverview) {
+      setActiveTab('overview');
+    } else if (matchRead) {
+      setActiveTab('read');
+    }
+  }, [location]);*/
+
+  /*useEffect(() => {
+    const currentPath = location.pathname.replace(/\/$/, '').split('/').pop();
+    console.log("Normalized Path:", currentPath); // Debugging
+    setActiveTab(currentPath === '' || currentPath === 'mangonetwork' ? 'overview' : currentPath);
+  }, [location]);*/
+  
   const handleTabClick = (tab) => {
     const targetPath = tab.path ? `/${tab.path}` : ''; 
     setActiveTab(tab.name.toLowerCase());
-    navigate(`/blog/mangonetwork${targetPath}`, { replace: true });
+    navigate(`/blog/mangonetwork${targetPath}`);
   };
 
   return (
@@ -50,7 +66,7 @@ const MangoMenu = () => {
       {/* Tab Content Section */}
       <div className="tab-content">
         {activeTab === 'overview' && <Overview />}
-        {activeTab === 'read' && <Blog />}
+        {activeTab === 'read' && <Read />}
       </div>
     </div>
   );

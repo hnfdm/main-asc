@@ -14,13 +14,15 @@ body {
   font-size: 24px;
   font-weight: 700;
   color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .blog-container p {
   font-size: 1rem;
   color: #ffffff;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
+  text-align: center;
 }
 
 .blog-section h3 {
@@ -28,7 +30,7 @@ body {
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 20px;
-  margin-left: 20px; /* Shift the title to the left */
+  margin-left: 25px; /* Shift the title to the left */
 }
 
 .blog-grid {

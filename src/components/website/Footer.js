@@ -13,15 +13,18 @@ function Footer() {
           <div className="footer-social">
             <a href="https://x.com/Autosultan_team" target="_blank" rel="noopener noreferrer">
               <FaXTwitter size={20} color="white" />
-            </a>  
-            <a href="https://t.me/airdropasc" target="_blank" rel="noopener noreferrer">
-              <FaTelegramPlane size={20} color="white" />
             </a>
             <a href="https://www.youtube.com/@ZamzaSalim" target="_blank" rel="noopener noreferrer">
               <FaYoutube size={20} color="white" />
             </a>
             <a href="https://github.com/zamzasalim" target="_blank" rel="noopener noreferrer">
               <FaGithub size={20} color="white" />
+            </a>
+            <a href="https://t.me/airdropasc" target="_blank" rel="noopener noreferrer">
+              <FaTelegramPlane size={20} color="white" />
+            </a>
+            <a href="https://t.me/baelcalls" target="_blank" rel="noopener noreferrer">
+              <FaTelegramPlane size={20} color="white" />
             </a>
           </div>
         </div>

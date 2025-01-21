@@ -13,7 +13,7 @@ const MangoMenu = () => {
 
   const tabs = [
     { name: 'Overview', icon: '🔎', path: '' }, 
-    { name: 'Blog', icon: '📖', path: 'blog' },
+    { name: 'Read', icon: '📖', path: 'read' },
   ];
 
   useEffect(() => {
@@ -50,7 +50,7 @@ const MangoMenu = () => {
       {/* Tab Content Section */}
       <div className="tab-content">
         {activeTab === 'overview' && <Overview />}
-        {activeTab === 'blog' && <Blog />}
+        {activeTab === 'read' && <Blog />}
       </div>
     </div>
   );

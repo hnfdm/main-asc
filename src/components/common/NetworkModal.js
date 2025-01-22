@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
+import '@styles/common/NetworkModal.css';
 
 const NetworkModal = ({ isOpen, onRequestClose }) => {
   const mainnetProjects = [

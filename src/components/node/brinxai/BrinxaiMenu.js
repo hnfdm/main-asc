@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useRef } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import RpcStatusBox from './RpcStatusBox'; // Import the RpcStatusBox component
-import '@styles/node/brinxai/TabMenu.css';
+import '@styles/node/NodeMenu.css';
 import Overview from './Overview';
 import Installation from './Installation';
 import Upgrade from './Upgrade';

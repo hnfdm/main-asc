@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiRefreshCcw } from 'react-icons/fi';
-import L1Modal from '@components/blog/L1Modal';
+import L1Modal from '@components/common/L1Modal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {

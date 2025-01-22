@@ -13,10 +13,6 @@ const Overview = () => {
         BrinxAI is an advanced AI project that aims to revolutionize data analysis and decision-making through cutting-edge artificial intelligence AI Technology. The platform leverages sophisticated machine learning algorithms and neural networks to provide actionable insights from complex data sets. BrinxAI specializes in offering predictive analytics, natural language processing, and automated decision support, tailored to meet the needs of various industries, including finance, healthcare, and logistics. By integrating seamlessly with existing systems.
       </p>
 
-      <p style={{ fontSize: '16px', color: 'white', textAlign: 'justify'}}>
-        BrinxAI enables businesses to harness the power of AI without requiring extensive Technical Analysis expertise. Its user-friendly interface and scalable architecture make it accessible to both small enterprises and large corporations. Additionally, BrinxAI emphasizes data security and privacy, ensuring that sensitive information is protected through robust encryption and compliance with industry standards. The project’s mission is to empower organizations with intelligent solutions that drive efficiency, innovation, and strategic Market Growth.
-      </p>
-
       {/* Social Media Icons */}
       <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', margin: '20px 0' }}>
         <a href="https://brinxai.com/" target="_blank" rel="noopener noreferrer" style={{ margin: '0 10px', color: 'white' }}>

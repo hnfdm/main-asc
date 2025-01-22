@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { FiRefreshCcw } from 'react-icons/fi';
-import NetworkModal from '@components/node/RunningModal';
-import '@styles/node/brinxai/RpcStatusBox.css'; // 
+import NetworkModal from '@components/common/RunningModal';
+import '@styles/node/RpcStatusBox.css'; // 
 
 const RpcStatusBox = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);

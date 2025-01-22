@@ -109,7 +109,7 @@ const runningProjects = [
     { name: 'Gaianet AI', logo: '/node/gaianet.png', link: 'https://t.me/airdropasc/64503' },
 
     { name: 'Symphony', logo: '/node/symphony.png', link: '/node/symphony' },
-    { name: 'Dill', logo: '/node/dill.png', link: 'node/dill' },
+    { name: 'Dill', logo: '/node/dill.png', link: '/node/dill' },
 ];
 
 const depinProjects = [

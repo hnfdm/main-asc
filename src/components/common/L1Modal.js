@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-import '@styles/blog/StatusBox.css';
+import '@styles/common/BlogModal.css';
 
 const L1Modal = ({ isOpen, onRequestClose }) => {
   const l1 = [

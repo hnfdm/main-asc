@@ -1,6 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
-import '@styles/node/RunningModal.css';
+import '@styles/common/RunningModal.css';
 
 const RunningModal = ({ isOpen, onRequestClose }) => {
   const running = [

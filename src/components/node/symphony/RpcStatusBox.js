@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { FiRefreshCcw } from 'react-icons/fi';
-import NetworkModal from '../../NetworkModal';
+import NetworkModal from '../../common/NetworkModal';
 import '@styles/node/symphony/RpcStatusBox.css'; // 
 
 const RpcStatusBox = () => {

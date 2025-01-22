@@ -23,91 +23,98 @@ function NetworkSection() {
         username: 'Online',
         image: '/icons/nesa.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/moonbix'
+        followLink: 'https://t.me/airdropasc/61971'
       },
       {
         name: 'Rivalz',
         username: 'Online',
         image: '/icons/rivalz.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/BybitCoinsweeper'
+        followLink: 'https://t.me/airdropasc/64503'
       },
       {
         name: 'Brinx AI',
         username: 'Online',
         image: '/icons/brinxai.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/Hemi-Miner'
+        followLink: 'https://t.me/airdropasc/63734'
       },
       {
         name: 'Hemi Network',
         username: 'Online',
         image: '/icons/hemi.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/Dawn-Validator'
+        followLink: 'https://t.me/airdropasc/69821'
       },
       {
         name: 'Spheron Network',
         username: 'Online',
         image: '/icons/spheron.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/64988'
       },
       {
         name: 'Cysic',
         username: 'Online',
         image: '/icons/cysic.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/68229'
       },
       {
         name: 'Multiple Network',
         username: 'Online',
         image: '/icons/mtp.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/69767'
       },
       {
         name: 'Titan Network',
         username: 'Online',
         image: '/icons/titan.jpg',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/66032'
       },
       {
         name: 'Covalent',
         username: 'Online',
         image: '/icons/covalent.png',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/68779'
       },
       {
         name: 'Cyberfly',
         username: 'Offline',
         image: '/icons/cyberfly.jpg',
         status: 'offline',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/69421'
       },
       {
         name: 'Init Verse',
         username: 'Offline',
         image: '/icons/initverse.jpg',
         status: 'offline',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/69467'
       },
       {
         name: 'Kuzco',
         username: 'Online',
         image: '/icons/kuzco.png',
         status: 'online',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/66689'
       },
       {
         name: 'Network 3',
         username: 'Offline',
         image: '/icons/network3.jpg',
         status: 'offline',
-        followLink: 'https://github.com/winsnip/coub-bot'
+        followLink: 'https://t.me/airdropasc/70249'
+      },
+      {
+        name: 'Gaianet AI',
+        username: 'Online',
+        image: '/icons/gaianet.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/70798'
       },
     ] : [
       {

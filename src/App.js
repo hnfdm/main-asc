@@ -23,8 +23,6 @@ const AutoMenu = React.lazy(() => import('./components/node/autonomys/AutoMenu')
 const ElixirMenu = React.lazy(() => import('./components/node/elixir/ElixirMenu'));
 
 const MangoMenu = React.lazy(() => import('./components/blog/mangonetwork/MangoMenu'));
-//const Overview = React.lazy(() => import('./components/blog/mangonetwork/Overview'));
-//const Read = React.lazy(() => import('./components/blog/mangonetwork/Read'));
 
 function App() {
   return (
@@ -43,10 +41,7 @@ function App() {
             <Route path="/services/testnet/elixir/*" element={<ElixirMenu />} />
 
             <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/mangonetwork/*" element={<MangoMenu />}>
-              {/*<Route index element={<Overview />} /> {/* Default route (overview) */}
-              {/*<Route path="read" element={<Read />} /> {/* Route for 'read' */}
-            </Route>
+            <Route path="/blog/mangonetwork/*" element={<MangoMenu />}/>
 
             <Route path="/" element={
               <>

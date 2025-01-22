@@ -161,10 +161,12 @@ Request faucet yang di awal tadi bisa request ETH, BNB dan juga MANGO, btw di di
 
 Jangan lupa untuk kembali ke dashboard utama dan submit setiap quest yang telah di kerjakan 
 
+Source: [X Post](https://x.com/Autosultan_team/status/1875788734274400726)
+
 `;
 
   return (
-    <div style={{ maxWidth: '1000px', margin: '0 auto', color: 'white'}}> {/* Limit the width */}
+    <div style={{ maxWidth: '1000px', margin: '0 auto', color: 'white', textAlign: 'justify'}}> {/* Limit the width */}
       <ReactMarkdown 
         remarkPlugins={[remarkGfm]}
         components={{
@@ -179,7 +181,7 @@ Jangan lupa untuk kembali ke dashboard utama dan submit setiap quest yang telah 
             <img
               {...props}
               alt={props.alt || "Image"} // Menyediakan alt default jika tidak ada
-              style={{ maxWidth: "40%", height: "auto" }}
+              style={{ maxWidth: "75%", height: "auto" , margin : "5px 0"}} // Styling gambar
             />
             </div>
           ),
@@ -201,7 +203,7 @@ Jangan lupa untuk kembali ke dashboard utama dan submit setiap quest yang telah 
           }
         }}
       >
-        {markdownBeforeForm}
+      {markdownBeforeForm}
       </ReactMarkdown>
     </div>
   );

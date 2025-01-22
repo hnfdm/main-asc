@@ -1,5 +1,6 @@
 import React from 'react';
 import Modal from 'react-modal';
+import '@styles/blog/StatusBox.css';
 
 const L1Modal = ({ isOpen, onRequestClose }) => {
   const l1 = [
@@ -15,15 +16,15 @@ const L1Modal = ({ isOpen, onRequestClose }) => {
       isOpen={isOpen}
       onRequestClose={onRequestClose}
       contentLabel="L1 Modal"
-      className="network-modal"
-      overlayClassName="network-modal-overlay"
+      className="blog-modal"
+      overlayClassName="blog-modal-overlay"
     >
-      <h2 className="network-title">Layer 1</h2>
-      <div className="network-grid">
+      <h2 className="blog-title">Layer 1</h2>
+      <div className="blog-grid">
         {l1.map((project) => (
-          <a href={project.link} key={project.name} className="network-item">
+          <a href={project.link} key={project.name} className="blog-item">
             <span>{project.name}</span>
-            <img src={project.image} alt={project.name} className="network-image" />
+            <img src={project.image} alt={project.name} className="blog-image" />
           </a>
         ))}
       </div>

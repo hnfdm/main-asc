@@ -19,6 +19,7 @@ const Node = React.lazy(() => import('./components/website/Node'));
 const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
 
+const BrinxaiMenu = React.lazy(() => import('./components/node/brinxai/BrinxaiMenu'));
 
 const MangoMenu = React.lazy(() => import('./components/blog/mangonetwork/MangoMenu'));
 
@@ -37,6 +38,7 @@ function App() {
             <Route path="/blog/mangonetwork/*" element={<MangoMenu />}/>
 
             <Route path="/node" element={<Node />} />
+            <Route path="/node/brinxai/*" element={<BrinxaiMenu />} />
 
             <Route path="/" element={
               <>

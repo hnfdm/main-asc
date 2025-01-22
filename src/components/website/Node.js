@@ -97,7 +97,7 @@ const doneProjects = [
 const runningProjects = [
     { name: 'Nesa', logo: '/node/nesa.png', link: 'https://t.me/airdropasc/61971' },
     { name: 'Rivalz', logo: '/node/rivalz.png', link: 'https://t.me/airdropasc/64503' },
-    { name: 'Brinx AI', logo: '/node/brinxai.png', link: 'https://t.me/airdropasc/63734' },
+    { name: 'Brinx AI', logo: '/node/brinxai.png', link: '/node/brinxai' },
     { name: 'Hemi Network', logo: '/node/hemi.png', link: 'https://t.me/airdropasc/69821' },
     { name: 'Spheron Network', logo: '/node/spheron.png', link: 'https://t.me/airdropasc/64988' },
     { name: 'Cysic', logo: '/node/cysic.png', link: 'https://t.me/airdropasc/61971' },

@@ -4,7 +4,7 @@ import { FaGlobe, FaTwitter, FaTelegram, FaGithub, FaDiscord } from 'react-icons
 const Overview = () => {
   
   return (
-    <div style={{ maxWidth: '1200px', margin: '0 auto', backgroundColor: '#0b0b0b'}}> {/* Limit the width */}
+    <div style={{ maxWidth: '1000px', margin: '0 auto', backgroundColor: '#0b0b0b'}}> {/* Limit the width */}
       <img 
         src="/blog/mango.png" 
         alt="Mango logo" 

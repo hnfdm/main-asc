@@ -37,7 +37,7 @@ function NetworkSection() {
         username: 'Online',
         image: '/node/brinxai.png',
         status: 'online',
-        followLink: 'https://t.me/airdropasc/63734'
+        followLink: '/node/brinxai'
       },
       {
         name: 'Hemi Network',

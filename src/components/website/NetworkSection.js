@@ -122,140 +122,140 @@ function NetworkSection() {
         username: 'Online',
         image: '/icons/nodepay.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/67213'
       },
       {
         name: 'Pipe Network',
         username: 'Online',
         image: '/icons/pipe.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/66699'
       },
       {
         name: 'Gradient Network',
         username: 'Online',
         image:'/icons/gradient.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/62693'
       },
       {
         name: 'Teneo Protocol',
         username: 'Online',
         image: '/icons/teneo.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/63125'
       },
       {
         name: 'Blockmesh',
         username: 'Online',
         image: '/icons/blockmesh.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/63605'
       },
       {
         name: 'Dawn',
         username: 'Online',
         image: '/icons/dawn.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/61388'
       },
       {
         name: 'Gaea',
         username: 'Online',
         image: '/icons/gaea.png',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/66803'
       },
       {
         name: 'Oasis AI',
         username: 'Online',
         image: '/icons/oasis.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/65644'
       },
       {
         name: 'Open Loop',
         username: 'Online',
         image: '/icons/openloop.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/67605'
       },
       {
         name: 'Toggle AI',
         username: 'Online',
         image: '/icons/toggle.png',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/65058'
       },
       {
         name: 'Kaisar Network',
         username: 'Online',
         image: '/icons/kaisar.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/67166'
       },
       {
         name: 'Kleo Network',
         username: 'Online',
         image: '/icons/kleo.png',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/66408'
       },
       {
         name: 'Functor Network',
         username: 'Online',
         image: '/icons/functor.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/61596'
       },
       {
         name: 'Rivalz',
         username: 'Online',
         image: '/icons/rivalz.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/60461'
       },
       {
         name: 'Alpha Network',
         username: 'Online',
         image: '/icons/alpha.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/64785'
       },
       {
         name: 'MyGate Network',
         username: 'Online',
         image: '/icons/mygate.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/69838'
       },
       {
         name: 'Multiple Network',
         username: 'Online',
         image: '/icons/mtp.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/69946'
       },
       {
         name: 'DeSpeed',
         username: 'Online',
         image: '/icons/despeed.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/69969'
       },
       {
         name: 'Open Ledger',
         username: 'Online',
         image: '/icons/openledger.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/69358'
       },
       {
         name: 'DePINed',
         username: 'Online',
         image: '/icons/depined.jpg',
         status: 'online',
-        followLink: 'https://winsnip.xyz'
+        followLink: 'https://t.me/airdropasc/70405'
       },
     ];
   

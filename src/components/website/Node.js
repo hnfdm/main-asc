@@ -95,9 +95,6 @@ const doneProjects = [
 ];
 
 const runningProjects = [
-    { name: 'Symphony', logo: '/node/symphony.png', link: '/services/testnet/symphony' },
-    { name: 'Fiamma', logo: '/node/fiamma.png', link: 'services/testnet/fiamma' },
-
     { name: 'Nesa', logo: '/node/nesa.png', link: 'https://t.me/airdropasc/61971' },
     { name: 'Rivalz', logo: '/node/rivalz.png', link: 'https://t.me/airdropasc/64503' },
     { name: 'Brinx AI', logo: '/node/brinxai.png', link: 'https://t.me/airdropasc/63734' },
@@ -110,6 +107,9 @@ const runningProjects = [
     { name: 'Cyberfly', logo: '/node/cyberfly.png', link: 'https://t.me/airdropasc/64988' },
     { name: 'Kuzco', logo: '/node/kuzco.png', link: 'https://t.me/airdropasc/61971' },
     { name: 'Gaianet AI', logo: '/node/gaianet.png', link: 'https://t.me/airdropasc/64503' },
+
+    { name: 'Symphony', logo: '/node/symphony.png', link: '/services/testnet/symphony' },
+    { name: 'Dill', logo: '/node/dill.png', link: 'services/testnet/dill' },
 ];
 
 const depinProjects = [

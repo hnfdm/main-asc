@@ -30,7 +30,7 @@ const DillMenu = () => {
   const handleTabClick = (tab) => {
     const targetPath = tab.path ? `/${tab.path}` : '';
     setActiveTab(tab.name.toLowerCase());
-    navigate(`/services/testnet/dill${targetPath}`, { replace: true });
+    navigate(`/node/dill${targetPath}`, { replace: true });
   };
 
   return (

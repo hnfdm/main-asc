@@ -30,7 +30,7 @@ const TabMenu = () => {
   const handleTabClick = (tab) => {
     const targetPath = tab.path ? `/${tab.path}` : ''; 
     setActiveTab(tab.name.toLowerCase());
-    navigate(`/services/testnet/symphony${targetPath}`, { replace: true });
+    navigate(`/node/symphony${targetPath}`, { replace: true });
   };
 
   return (

@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '@styles/components/website/NetworkSection.css';
+import '@styles/website/NetworkSection.css';
 import { FaBookOpen } from "react-icons/fa";
 
 function NetworkSection() {

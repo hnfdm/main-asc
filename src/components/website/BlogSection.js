@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import '@styles/components/website/BlogSection.css';
+import '@styles/website/BlogSection.css';
 import { FaBookReader } from "react-icons/fa";
 
 function BlogSection() {

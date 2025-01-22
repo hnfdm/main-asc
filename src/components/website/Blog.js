@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/components/website/Blog.css';
+import '@styles/website/Blog.css';
 
 const l1 = [
     { name: 'Mango Network', logo: '/blog/mango.png', date: "2025-01-05", link: '/blog/mangonetwork/' },

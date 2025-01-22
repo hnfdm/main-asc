@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/components/website/ResourceSection.css';
+import '@styles/website/ResourceSection.css';
 
 function ResourceSection() {
   return (

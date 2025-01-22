@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/components/website/FeatureSection.css';
+import '@styles/website/FeatureSection.css';
 
 function FeatureSection() {
   return (

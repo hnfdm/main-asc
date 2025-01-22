@@ -1,7 +1,7 @@
 import React from 'react';
 import { FaTelegramPlane, FaYoutube, FaEnvelope } from 'react-icons/fa';
 import { FaXTwitter, FaGithub } from "react-icons/fa6";
-import '@styles/components/website/Footer.css';
+import '@styles/website/Footer.css';
 
 function Footer() {
   return (

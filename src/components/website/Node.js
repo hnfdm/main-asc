@@ -1,5 +1,5 @@
 import React from 'react';
-import '@styles/components/website/Node.css';
+import '@styles/website/Node.css';
 
 const doneProjects = [
     { name: 'Init Verse', logo: '/node/ini.png', link: 'https://inichain.com/' },

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '@styles/App.css';
 import Navbar from './components/website/Navbar';
 import Footer from './components/website/Footer';
-import FAQ from './components/website/FAQ'; // Sesuaikan jalur jika diperlukan
+import FAQ from './components/website/FAQ'; // Sesuaikan jalur jika diperlukan  
 
 // Lazy load components
 const Header = React.lazy(() => import('./components/website/Header'));
@@ -13,6 +13,7 @@ const BlogSection = React.lazy(() => import('./components/website/BlogSection'))
 const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
 const Services = React.lazy(() => import('./components/website/Services'));
 const Blog = React.lazy(() => import('./components/website/Blog'));
+const ResourceSection = React.lazy(() => import('./components/website/ResourceSection'));
 
 const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
@@ -47,6 +48,7 @@ function App() {
               <>
                 <Header />
                 <JalanMenu />
+                <ResourceSection/>
                 <FeatureSection />
                 <BlogSection />
                 <NetworkSection />

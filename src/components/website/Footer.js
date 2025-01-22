@@ -32,9 +32,9 @@ function Footer() {
           <div className="footer-column">
             <h4>Service</h4>
             <ul>
-              <li><a href="/">Community Builders</a></li>
               <li><a href="/">Ambassador</a></li>
               <li><a href="/">Advertise</a></li>
+              <li><a href="/">Tutorials</a></li>
             </ul>
           </div>
           <div className="footer-column">

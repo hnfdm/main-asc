@@ -11,7 +11,7 @@ const FAQ = () => {
         <p>AirdropASC is the leading crypto community, established in 2017, dedicated to empowering members with free cryptocurrency opportunities every day. We carefully select and share the best and most legitimate airdrops, including testnets, nodes, bots, and retroactive rewards. Guided by the principle "from the Community, for the Community", we provide daily updates and expert tips & tricks to make airdrops easier and more rewarding for you. Discover why we’re the #1 platform for growing your crypto assets and exploring the limitless potential of the crypto world. Join us today!</p>
       </Accordion>
 
-      <Accordion title="2. What kind of bot scripts are available?">
+      {/*<Accordion title="2. What kind of bot scripts are available?">
         <p>We offer various bot scripts tailored for airdrop participation, including scripts for automating tasks like wallet submissions, social media interactions, and more. We also provide scripts for other blockchain-related automation.</p>
       </Accordion>
 
@@ -45,7 +45,7 @@ const FAQ = () => {
 
       <Accordion title="10. Can I request a tutorial on a specific bot or blockchain tool?">
         <p>Absolutely! We encourage our users to suggest topics they’d like to see tutorials on. Feel free to contact us with your suggestions, and we’ll do our best to create a guide for you.</p>
-      </Accordion>
+      </Accordion>*/}
     </div>
   );
 };

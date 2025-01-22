@@ -21,239 +21,232 @@ function NetworkSection() {
       {
         name: 'Nesa',
         username: 'Online',
-        image: '/icons/nesa.jpg',
+        image: '/node/nesa.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/61971'
       },
       {
         name: 'Rivalz',
         username: 'Online',
-        image: '/icons/rivalz.jpg',
+        image: '/node/rivalz.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/64503'
       },
       {
         name: 'Brinx AI',
         username: 'Online',
-        image: '/icons/brinxai.jpg',
+        image: '/node/brinxai.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/63734'
       },
       {
         name: 'Hemi Network',
         username: 'Online',
-        image: '/icons/hemi.jpg',
+        image: '/node/hemi.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69821'
       },
       {
         name: 'Spheron Network',
         username: 'Online',
-        image: '/icons/spheron.jpg',
+        image: '/node/spheron.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/64988'
       },
       {
         name: 'Cysic',
         username: 'Online',
-        image: '/icons/cysic.jpg',
+        image: '/node/cysic.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/68229'
       },
       {
         name: 'Multiple Network',
         username: 'Online',
-        image: '/icons/mtp.jpg',
+        image: '/node/multiple.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69767'
       },
       {
         name: 'Titan Network',
         username: 'Online',
-        image: '/icons/titan.jpg',
+        image: '/node/titan.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/66032'
       },
       {
         name: 'Covalent',
         username: 'Online',
-        image: '/icons/covalent.png',
+        image: '/node/covalent.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/68779'
       },
       {
         name: 'Cyberfly',
         username: 'Offline',
-        image: '/icons/cyberfly.jpg',
+        image: '/node/cyberfly.png',
         status: 'offline',
         followLink: 'https://t.me/airdropasc/69421'
       },
       {
-        name: 'Init Verse',
-        username: 'Offline',
-        image: '/icons/initverse.jpg',
-        status: 'offline',
-        followLink: 'https://t.me/airdropasc/69467'
-      },
-      {
         name: 'Kuzco',
         username: 'Online',
-        image: '/icons/kuzco.png',
+        image: '/node/kuzco.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/66689'
       },
       {
-        name: 'Network 3',
-        username: 'Offline',
-        image: '/icons/network3.jpg',
-        status: 'offline',
-        followLink: 'https://t.me/airdropasc/70249'
-      },
-      {
         name: 'Gaianet AI',
         username: 'Online',
-        image: '/icons/gaianet.jpg',
+        image: '/node/gaianet.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/70798'
       },
     ] : [
       {
-        name: 'Nodepay S3',
+        name: 'Grass',
         username: 'Online',
-        image: '/icons/nodepay.jpg',
+        image: '/depin/grass.png',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/67213'
+      },
+      {
+        name: 'Nodepay',
+        username: 'Online',
+        image: '/depin/nodepay.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/67213'
       },
       {
         name: 'Pipe Network',
         username: 'Online',
-        image: '/icons/pipe.jpg',
+        image: '/depin/pipe.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/66699'
       },
       {
         name: 'Gradient Network',
         username: 'Online',
-        image:'/icons/gradient.jpg',
+        image:'/depin/gradient.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/62693'
       },
       {
         name: 'Teneo Protocol',
         username: 'Online',
-        image: '/icons/teneo.jpg',
+        image: '/depin/teneo.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/63125'
       },
       {
         name: 'Blockmesh',
         username: 'Online',
-        image: '/icons/blockmesh.jpg',
+        image: '/depin/blockmesh.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/63605'
       },
       {
         name: 'Dawn',
         username: 'Online',
-        image: '/icons/dawn.jpg',
+        image: '/depin/dawn.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/61388'
       },
       {
         name: 'Gaea',
         username: 'Online',
-        image: '/icons/gaea.png',
+        image: '/depin/gaea.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/66803'
       },
       {
         name: 'Oasis AI',
         username: 'Online',
-        image: '/icons/oasis.jpg',
+        image: '/depin/oasis.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/65644'
       },
       {
         name: 'Open Loop',
         username: 'Online',
-        image: '/icons/openloop.jpg',
+        image: '/depin/openloop.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/67605'
       },
       {
         name: 'Toggle AI',
         username: 'Online',
-        image: '/icons/toggle.png',
+        image: '/depin/toggle.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/65058'
       },
       {
         name: 'Kaisar Network',
         username: 'Online',
-        image: '/icons/kaisar.jpg',
+        image: '/depin/kaisar.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/67166'
       },
       {
         name: 'Kleo Network',
         username: 'Online',
-        image: '/icons/kleo.png',
+        image: '/depin/kleo.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/66408'
       },
       {
         name: 'Functor Network',
         username: 'Online',
-        image: '/icons/functor.jpg',
+        image: '/depin/functor.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/61596'
       },
       {
         name: 'Rivalz',
         username: 'Online',
-        image: '/icons/rivalz.jpg',
+        image: '/depin/rivalz.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/60461'
       },
       {
         name: 'Alpha Network',
         username: 'Online',
-        image: '/icons/alpha.jpg',
+        image: '/depin/alpha.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/64785'
       },
       {
         name: 'MyGate Network',
         username: 'Online',
-        image: '/icons/mygate.jpg',
+        image: '/depin/mygate.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69838'
       },
       {
         name: 'Multiple Network',
         username: 'Online',
-        image: '/icons/mtp.jpg',
+        image: '/depin/mtp.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69946'
       },
       {
         name: 'DeSpeed',
         username: 'Online',
-        image: '/icons/despeed.jpg',
+        image: '/depin/despeed.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69969'
       },
       {
         name: 'Open Ledger',
         username: 'Online',
-        image: '/icons/openledger.jpg',
+        image: '/depin/openledger.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/69358'
       },
       {
         name: 'DePINed',
         username: 'Online',
-        image: '/icons/depined.jpg',
+        image: '/depin/depined.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/70405'
       },

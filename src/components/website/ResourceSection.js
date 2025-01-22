@@ -8,7 +8,7 @@ function ResourceSection() {
       <div className="resource-grid">
         <div className="resource-item">
           <img src="/icons/youtube.png" alt="Icon" class="resource-icon"/>
-          <h3>~100k</h3>
+          <h3>~90k</h3>
           <p class ="resource-desc">YouTube Subscribers</p>
         </div>
         <div className="resource-item">

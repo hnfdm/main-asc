@@ -19,7 +19,7 @@ const doneProjects = [
     { name: 'Fintopio', logo: '/node/asc.png', link: '/' },
     { name: 'Rainbow Protocol', logo: '/node/asc.png', link: '/' },
     { name: '0G Labs', logo: '/node/asc.png', link: '/' },
-    { name: 'Nillion', logo: '/node/asc.png', link: '/' },
+    { name: 'Nillion', logo: '/node/nillion.png', link: '/' },
     { name: 'Story', logo: '/node/asc.png', link: '/' },
     { name: 'Nesa', logo: '/node/asc.png', link: '/' },
     { name: 'Rivalz', logo: '/node/asc.png', link: '/' },

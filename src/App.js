@@ -14,6 +14,7 @@ const NetworkSection = React.lazy(() => import('./components/website/NetworkSect
 const Blog = React.lazy(() => import('./components/website/Blog'));
 const ResourceSection = React.lazy(() => import('./components/website/ResourceSection'));
 const Node = React.lazy(() => import('./components/website/Node'));
+const Partnership = React.lazy(() => import('./components/website/Partnership'));
 
 const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
@@ -35,6 +36,8 @@ function App() {
             <Route path="/node/symphony/*" element={<TabMenu />} />
             <Route path="/node/dill/*" element={<DillMenu />} />  
             <Route path="/node/brinxai/*" element={<BrinxaiMenu />} />
+
+            <Route path="/partnership" element={<Partnership />} />
 
             <Route path="/" element={
               <>

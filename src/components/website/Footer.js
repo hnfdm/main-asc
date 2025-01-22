@@ -42,6 +42,7 @@ function Footer() {
             <ul>
               <li><a href="/">About Us</a></li>
               <li><a href="https://t.me/zamza_salim">Contact</a></li>
+              <li><a href="/">Teams</a></li>
             </ul>
           </div>
           <div className="footer-column">

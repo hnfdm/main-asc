@@ -2,6 +2,7 @@ import React from 'react';
 import '@styles/website/Partnership.css';
 
 const logos = [
+  { src: '/partnership/Binance.png', alt: 'Binance', url: 'https://www.binance.com/' },
   { src: '/rlogo/Celestia.svg', alt: 'Celestia', url: 'https://www.celestia.org/' },
   { src: '/rlogo/dYdX.svg', alt: 'dYdX', url: 'https://link-to-site2.com' },
   { src: '/rlogo/Regen.svg', alt: 'Regen', url: 'https://www.regen.network/' },
@@ -11,6 +12,22 @@ const logos = [
   { src: '/rlogo/Sentinel.svg', alt: 'Sentinel', url: 'https://sentinel.co/' },
   { src: '/rlogo/Persistence.svg', alt: 'Persistence', url: 'https://persistence.one/' },
 ];
+
+/*const logos2 = [
+  
+];
+
+const logos3 = [
+  
+];
+
+const logos4 = [
+  
+];
+
+const logos5 = [
+  
+]; */
 
 const Partnership = () => {
   return (

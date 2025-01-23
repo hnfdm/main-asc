@@ -121,7 +121,7 @@ const Partnership = () => {
 
       <div className="partnership-container">
       {/* Button Contact Us */}
-        <a href="/contact" className="contact-button">
+        <a href="https://mail.google.com/mail/?view=cm&to=contact@airdropasc.com" className="contact-button" target="_blank" rel="noopener noreferrer">
           Contact Us
         </a>
     </div>

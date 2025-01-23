@@ -70,3 +70,36 @@ body {
   font-size: 15px;
   font-weight: 500;
 }
+
+@media (max-width: 768px) {
+  .node-container h2 {
+    font-size: 20px; /* Reduce font size for headings */
+  }
+
+  .node-container p {
+    font-size: 0.9rem; /* Reduce font size for paragraphs */
+  }
+
+  .chain-section h3 {
+    font-size: 1.5rem; /* Adjust font size for subheadings */
+    margin-left: 10px; /* Reduce left margin */
+  }
+
+  .chain-grid {
+    grid-template-columns: repeat(2, 1fr); /* Change to 2 columns on smaller screens */
+    gap: 10px; /* Reduce gap between items */
+  }
+
+  .chain-item {
+    padding: 8px; /* Reduce padding inside chain items */
+  }
+
+  .chain-item span {
+    font-size: 14px; /* Reduce font size for item text */
+  }
+
+  .chain-logo {
+    width: 25px; /* Reduce logo size */
+    height: 25px; /* Reduce logo size */
+  }
+}

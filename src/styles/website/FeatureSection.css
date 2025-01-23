@@ -70,13 +70,37 @@
   gap: 20px; /* Jarak antar kolom */
 }
 
-@media (max-width: 768px) {
+/*@media (max-width: 768px) {
   .feature-section {
     flex-direction: column;
     gap: 30px;
   }
 
   .feature-item::before {
-    display: none; /* Hilangkan panah di perangkat kecil */
+    display: none; /* Hilangkan panah di perangkat kecil 
+  }
+}*/
+
+@media (max-width: 768px) {
+  .feature-section {
+    flex-direction: column; /* Stack items vertically */
+    gap: 20px; /* Adjust gap for smaller screens */
+    padding: 0 10px; /* Reduce padding */
+  }
+
+  .feature-item {
+    padding: 15px; /* Reduce padding inside feature items */
+  }
+
+  .feature-item h3 {
+    font-size: 20px; /* Reduce font size for headings */
+  }
+
+  .feature-content p {
+    font-size: 16px; /* Reduce font size for paragraphs */
+  }
+
+  .feature-item::before {
+    display: none; /* Hide the arrow on smaller devices */
   }
 }

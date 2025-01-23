@@ -91,3 +91,25 @@
   background-color: #0b0b0b; /* Warna hitam saat hover */
   color: #ffffff; /* Warna putih untuk teks saat hover */
 }
+
+@media (max-width: 768px) {
+  .partnership-slider {
+    padding: 5px 0; /* Reduce padding for smaller screens */
+  }
+
+  .partnership-item img {
+    width: 60px; /* Reduce image size for smaller screens */
+    height: 60px; /* Maintain aspect ratio */
+  }
+
+  .partnership-title {
+    font-size: 18px; /* Reduce font size for the title */
+    padding-top: 10px; /* Adjust padding */
+    padding-bottom: 10px; /* Adjust padding */
+  }
+
+  .contact-button {
+    padding: 8px 16px; /* Reduce padding for the button */
+    font-size: 14px; /* Reduce font size for the button */
+  }
+}

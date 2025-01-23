@@ -2,14 +2,22 @@ import React from 'react';
 import '@styles/website/JalanMenu.css';  // Make sure this path is correct
 
 const logos = [
-  { src: '/rlogo/Celestia.svg', alt: 'Celestia', url: 'https://www.celestia.org/' },
+  /*{ src: '/rlogo/Celestia.svg', alt: 'Celestia', url: 'https://www.celestia.org/' },
   { src: '/rlogo/dYdX.svg', alt: 'dYdX', url: 'https://link-to-site2.com' },
   { src: '/rlogo/Regen.svg', alt: 'Regen', url: 'https://www.regen.network/' },
   { src: '/rlogo/Stargaze.svg', alt: 'Stargaze', url: 'https://stargaze.zone/' },
   { src: '/rlogo/Stride.svg', alt: 'Stride', url: 'https://www.stride.zone/' },
   { src: '/rlogo/Noble.svg', alt: 'Noble', url: 'https://link-to-site6.com' },
   { src: '/rlogo/Sentinel.svg', alt: 'Sentinel', url: 'https://sentinel.co/' },
-  { src: '/rlogo/Persistence.svg', alt: 'Persistence', url: 'https://persistence.one/' },
+  { src: '/rlogo/Persistence.svg', alt: 'Persistence', url: 'https://persistence.one/' },*/
+
+  { src: '/rlogo/Bencat.png', alt: 'Bencat', url: 'https://x.com/Bencatcoin' },
+  { src: '/rlogo/InitVerse.png', alt: 'InitVerse', url: 'https://www.initverse.org/' },
+  { src: '/rlogo/RandAO.png', alt: 'RandAO', url: 'https://randao.permagate.io/' },
+  { src: '/rlogo/Rise.png', alt: 'RiseChain', url: 'https://www.riselabs.xyz/' },
+  { src: '/rlogo/SaharaAI.png', alt: 'SaharaAI', url: 'https://saharalabs.ai/' },
+  { src: '/rlogo/Multiple.png', alt: 'MultipleNetwork', url: 'https://multiple.fi/' },
+  { src: '/rlogo/Mango.png', alt: 'MangoNetwork', url: 'https://mangonet.io/' },
 ];
 
 const LogoSlider = () => {

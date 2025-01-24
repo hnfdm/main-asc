@@ -70,37 +70,45 @@
   gap: 20px; /* Jarak antar kolom */
 }
 
-/*@media (max-width: 768px) {
-  .feature-section {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .feature-item::before {
-    display: none; /* Hilangkan panah di perangkat kecil 
-  }
-}*/
-
 @media (max-width: 768px) {
   .feature-section {
-    flex-direction: column; /* Stack items vertically */
-    gap: 20px; /* Adjust gap for smaller screens */
-    padding: 0 10px; /* Reduce padding */
+    flex-direction: column;
+    gap: 20px;
+    padding: 0 10px;
   }
 
   .feature-item {
-    padding: 15px; /* Reduce padding inside feature items */
+    padding: 15px;
   }
 
   .feature-item h3 {
-    font-size: 20px; /* Reduce font size for headings */
+    font-size: 20px;
   }
 
   .feature-content p {
-    font-size: 16px; /* Reduce font size for paragraphs */
+    font-size: 16px;
   }
 
   .feature-item::before {
-    display: none; /* Hide the arrow on smaller devices */
+    display: none;
+  }
+}
+
+@media (max-width: 480px) {
+  .feature-section {
+    padding: 0 5px;
+    gap: 10px;
+  }
+
+  .feature-item {
+    padding: 10px;
+  }
+
+  .feature-item h3 {
+    font-size: 18px;
+  }
+
+  .feature-content p {
+    font-size: 14px;
   }
 }

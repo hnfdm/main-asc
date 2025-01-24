@@ -34,7 +34,7 @@ const logos3 = [ /*circle*/
   { src: '/partnership/Tokocrypto.png', alt: 'Tokocrypto', url: 'https://www.tokocrypto.com/' },
   { src: '/partnership/PolkaStarter.png', alt: 'PolkaStarter', url: 'https://www.polkastarter.com/' },
   { src: '/partnership/DAOS.png', alt: 'DaoStarter', url: 'https://daostarter.pro/' },
-  { src: '/partnership/Roseon.webp', alt: 'Roseon', url: 'https://www.roseon.world/' },
+  { src: '/partnership/Roseon.png', alt: 'Roseon', url: 'https://www.roseon.world/' },
   { src: '/partnership/GameStarter.png', alt: 'GameStarter', url: 'https://www.gamestarter.com/' },
   { src: '/partnership/Paragen.png', alt: 'Paragen', url: 'https://www.paragen.io/' },
   { src: '/partnership/VCGamers.png', alt: 'VCGamers', url: 'https://vcgamers.com/' },
@@ -64,7 +64,7 @@ const logos5 = [
   { src: '/partnership/RandAO.png', alt: 'RandAO', url: 'https://randao.permagate.io/' },
   { src: '/partnership/RiseChain.png', alt: 'RiseChain', url: 'https://www.riselabs.xyz/' },
   { src: '/partnership/SaharaAI.png', alt: 'SaharaAI', url: 'https://saharalabs.ai/' },
-  { src: '/partnership/MultipleNetwork.webp', alt: 'MultipleNetwork', url: 'https://multiple.fi/' },
+  { src: '/partnership/Multiple.png', alt: 'MultipleNetwork', url: 'https://multiple.fi/' },
   { src: '/partnership/MangoNetwork.png', alt: 'MangoNetwork', url: 'https://mangonet.io/' },
 ]; 
 

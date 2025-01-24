@@ -30,7 +30,7 @@ const logos2 = [
 const logos3 = [ /*circle*/
   { src: '/partnership/Bityard.png', alt: 'Bityard', url: 'https://www.bydfi.com/' },
   { src: '/partnership/Tokenomy.png', alt: 'Tokenomy', url: 'https://www.tokenomy.com/' },
-  { src: '/partnership/Indodax.png', alt: 'Indodax', url: 'https://www.indodax.com/' },
+  { src: '/partnership/Indodax1.png', alt: 'Indodax', url: 'https://www.indodax.com/' },
   { src: '/partnership/Tokocrypto.png', alt: 'Tokocrypto', url: 'https://www.tokocrypto.com/' },
   { src: '/partnership/PolkaStarter.png', alt: 'PolkaStarter', url: 'https://www.polkastarter.com/' },
   { src: '/partnership/DAOS.png', alt: 'DaoStarter', url: 'https://daostarter.pro/' },
@@ -56,7 +56,7 @@ const logos4 = [
 
 const logos5 = [
   { src: '/partnership/Evos.png', alt: 'Evos', url: 'https://www.evos.gg' },
-  { src: '/partnership/Creo.png', alt: 'Creo Engine', url: 'https://creoengine.com/' },
+  { src: '/partnership/Creo1.png', alt: 'Creo Engine', url: 'https://creoengine.com/' },
   { src: '/partnership/Wizardia.png', alt: 'Wizardia', url: 'https://wizardia.io/' },
 
   { src: '/partnership/Bencat.png', alt: 'Bencat', url: 'https://x.com/Bencatcoin' },

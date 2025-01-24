@@ -100,7 +100,7 @@ function NetworkSection() {
         username: 'Online',
         image: '/node/gaianet.png',
         status: 'online',
-        followLink: 'https://t.me/airdropasc/70798'
+        followLink: '/node/gaianet'
       },
     ] : [
       {

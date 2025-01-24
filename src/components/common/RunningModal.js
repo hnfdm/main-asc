@@ -15,7 +15,7 @@ const RunningModal = ({ isOpen, onRequestClose }) => {
     { name: 'Covalent', logo: '/node/covalent.png', link: 'https://t.me/airdropasc/69821' },
     { name: 'Cyberfly', logo: '/node/cyberfly.png', link: 'https://t.me/airdropasc/64988' },
     { name: 'Kuzco', logo: '/node/kuzco.png', link: 'https://t.me/airdropasc/61971' },
-    { name: 'Gaianet AI', logo: '/node/gaianet.png', link: 'https://t.me/airdropasc/64503' },
+    { name: 'Gaianet AI', logo: '/node/gaianet.png', link: '/node/gaianet' },
 
     { name: 'Symphony', logo: '/node/symphony.png', link: '/node/symphony' },
     { name: 'Dill', logo: '/node/dill.png', link: '/node/dill' },

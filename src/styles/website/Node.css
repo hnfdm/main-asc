@@ -64,6 +64,8 @@ body {
   width: 30px;
   height: 30px;
   margin-right: 10px;
+  border-radius: 50%; /* Membuat gambar menjadi lingkaran */
+  object-fit: cover; /* Memastikan gambar sesuai dengan ukuran lingkaran */
 }
 
 .chain-item span {

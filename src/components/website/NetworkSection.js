@@ -27,9 +27,9 @@ function NetworkSection() {
       },
       {
         name: 'Rivalz',
-        username: 'Online',
+        username: 'Offline',
         image: '/node/rivalz.png',
-        status: 'online',
+        status: 'offline',
         followLink: 'https://t.me/airdropasc/64503'
       },
       {

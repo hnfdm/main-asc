@@ -42,7 +42,6 @@ function Footer() {
             <ul>
               <li><a href="/">About Us</a></li>
               <li><a href="https://mail.google.com/mail/?view=cm&to=contact@airdropasc.com" target="_blank" rel="noopener noreferrer">Contact</a></li>
-              <li><a href="/">Teams</a></li>
             </ul>
           </div>
           <div className="footer-column">

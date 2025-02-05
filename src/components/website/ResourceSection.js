@@ -7,34 +7,34 @@ function ResourceSection() {
       <h2 className="resource-title">Why Choose Us?</h2>
       <div className="resource-grid">
         <div className="resource-item">
-          <img src="/icons/youtube.png" alt="Icon" class="resource-icon"/>
-          <h3>~90k</h3>
-          <p class ="resource-desc">YouTube Subscribers</p>
+          <img src="/icons/youtube-c.png" alt="Icon" class="resource-icon"/>
+          <h3>90k+</h3>
+          <p class ="resource-desc">Subscribers</p>
         </div>
         <div className="resource-item">
-          <img src="/icons/x.png" alt="Icon" class="resource-icon"/>
-          <h3>~30k</h3>
-          <p class ="resource-desc">X Followers</p>
+          <img src="/icons/x-c.png" alt="Icon" class="resource-icon"/>
+          <h3>32k+</h3>
+          <p class ="resource-desc">Followers</p>
         </div>
         <div className="resource-item">
-          <img src="/icons/telegram.png" alt="Icon" class="resource-icon"/>
-          <h3>~60k</h3>
-          <p class ="resource-desc">Community Members</p>
+          <img src="/icons/telegram-c.png" alt="Icon" class="resource-icon"/>
+          <h3>80k+</h3>
+          <p class ="resource-desc">Members</p>
         </div>
         <div className="resource-item">
-          <img src="/icons/collaboration.png" alt="Icon" class="resource-icon"/>
-          <h3>100++</h3>
+          <img src="/icons/kol.png" alt="Icon" class="resource-icon"/>
+          <h3>8%</h3>
+          <p class ="resource-desc">Engagement Rate</p>
+        </div>
+        <div className="resource-item">
+          <img src="/icons/c-c.png" alt="Icon" class="resource-icon"/>
+          <h3>100+</h3>
           <p class ="resource-desc">Collaboration</p>
         </div>
         <div className="resource-item">
-          <img src="/icons/tangan.png" alt="Icon" class="resource-icon"/>
-          <h3>Test</h3>
-          <p class ="resource-desc">xxxxx</p>
-        </div>
-        <div className="resource-item">
-          <img src="/icons/tangan.png" alt="Icon" class="resource-icon"/>
-          <h3>Test</h3>
-          <p class ="resource-desc">xxxxx</p>
+          <img src="/icons/event.png" alt="Icon" class="resource-icon"/>
+          <h3>10+</h3>
+          <p class ="resource-desc">Offline Event</p>
         </div>
       </div> 
     </section>

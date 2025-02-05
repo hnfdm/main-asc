@@ -21,6 +21,9 @@ const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
 const BrinxaiMenu = React.lazy(() => import('./components/node/brinxai/BrinxaiMenu'));
 const GaianetMenu = React.lazy(() => import('./components/node/gaianet/GaianetMenu'));
 
+const PayFiMenu = React.lazy(() => import('./components/blog/payfi/PayFiMenu'));
+const ISLMMenu = React.lazy(() => import('./components/blog/islm/ISLMMenu'));
+const MevXMenu = React.lazy(() => import('./components/blog/mevx/MevXMenu'));
 const MangoMenu = React.lazy(() => import('./components/blog/mangonetwork/MangoMenu'));
 
 function App() {
@@ -31,6 +34,9 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/blog" element={<Blog />} />
+            <Route path="/blog/payfi/*" element={<PayFiMenu />}/>
+            <Route path="/blog/islm/*" element={<ISLMMenu />}/>
+            <Route path="/blog/mevx/*" element={<MevXMenu />}/>
             <Route path="/blog/mangonetwork/*" element={<MangoMenu />}/>
 
             <Route path="/node" element={<Node />} />

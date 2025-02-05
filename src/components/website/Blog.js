@@ -2,6 +2,7 @@ import React from 'react';
 import '@styles/website/Blog.css';
 
 const l1 = [
+    { name: 'Fogo Chain', logo: '/blog/fogo.png', date: "2025-01-27", link: 'https://x.com/Autosultan_team/status/1883913244257165382' },
     { name: 'Mango Network', logo: '/blog/mango.png', date: "2025-01-05", link: '/blog/mangonetwork/' },
     { name: 'Init Verse', logo: '/blog/ini.png',  date: "2024-12-23", link: 'https://x.com/Autosultan_team/status/1870936953929298255' },
     { name: 'Somnia Network', logo: '/blog/somnia.png',  date: "2024-12-20", link: 'https://x.com/Autosultan_team/status/1869793522699927666' },
@@ -16,8 +17,9 @@ const l2 = [
 ];
 
 const defi = [
-    { name: 'Islamic Coin', logo: '/blog/islm.png', date: "2024-12-12", link: 'https://x.com/Autosultan_team/status/1879920513470103755' },
-    { name: 'MEVX', logo: '/blog/mevx.png', date: "2024-12-12", link: 'https://x.com/Autosultan_team/status/1874981170141958490' },
+    { name: 'PayFi by Bitget Wallet', logo: '/blog/payfi.png', date: "2025-02-03", link: '/blog/payfi/' },
+    { name: 'Islamic Coin by HAQQ', logo: '/blog/islm.png', date: "2024-12-12", link: '/blog/islm/' },
+    { name: 'MevX', logo: '/blog/mevx.png', date: "2024-12-12", link: '/blog/mevx/' },
 ];
 
 const socialfi = [
@@ -29,6 +31,13 @@ const infrastructure = [
     { name: 'ar.io Network', logo: '/blog/ario.png', date: "2025-01-06", link: 'https://x.com/Autosultan_team/status/1875950696165728413' },
     { name: 'Octo Wallet', logo: '/blog/octo.png', date: "2024-12-23", link: 'https://x.com/Autosultan_team/status/1871171171598926197' },
     { name: 'GoPlus', logo: '/blog/goplus.png', date: "2024-12-21", link: 'https://x.com/Autosultan_team/status/1870472840560156706' },
+];
+
+const ai = [
+    { name: 'DATA Framework by CARV', logo: '/blog/carv.png', date: "2025-01-31", link: 'https://x.com/Autosultan_team/status/1885289161550361071' },
+    { name: 'Sahara AI', logo: '/blog/sahara.png', date: "2025-01-30", link: 'https://x.com/Autosultan_team/status/1884715385640865915' },
+    { name: 'Gaianet AI', logo: '/blog/gaianet.png', date: "2025-01-28", link: 'https://x.com/Autosultan_team/status/1883930962855411836' },
+    { name: 'Privasea', logo: '/blog/privasea.png', date: "2025-01-26", link: 'https://x.com/Autosultan_team/status/1883468609751769292' },
 ];
 
 const depin = [
@@ -127,6 +136,23 @@ const Blog = () => {
                 <h3>Infrastructure</h3>
                 <div className="blog-grid">
                 {infrastructure.map((project, i) => (
+                    <a key={i} href={project.link} className="blog-item-link">
+                        <div className="blog-item">
+                            <div className="blog-content">
+                                <img src={project.logo} alt={project.name} className="blog-logo" />
+                                <span>{project.name}</span>
+                            </div>
+                            <span className="blog-date">{project.date}</span>
+                        </div>
+                    </a>
+                    ))}
+                </div>
+            </div>
+            
+            <div className="blog-section">
+                <h3>AI</h3>
+                <div className="blog-grid">
+                {ai.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
                             <div className="blog-content">

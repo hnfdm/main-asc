@@ -19,52 +19,52 @@ function BlogSection() {
   const renderCards = () => {
     const blogs = activeTab === 'Script' ? [
       {
-        name: 'Islamic Coin (ISLM)',
-        desc: 'Gateway to enter and benefit from web3 and crypto the halal way. Native token of HAQQ Network.',
-        image: '/blog/islm.png',
-        followLink: 'https://x.com/Autosultan_team/status/1879920513470103755'
+        name: 'Payment Finance',
+        desc: 'PayFi bridges the gap between digital assets & our everyday lives.',
+        image: '/blog/payfi.png',
+        followLink: '/blog/payfi/'
       },
       {
-        name: 'Halo Social (HLO)',
-        desc: 'A social monetization platform for the AI era. Earn passive rewards from posts, transactions, and engagements.',
-        image: '/blog/halo.png',
-        followLink: 'https://x.com/Autosultan_team/status/1879634678564651310'
+        name: 'DATA Framework (CARV)',
+        desc: 'Building an AI chain ecosystem to enable data sovereignty at scale. ',
+        image: '/blog/carv.png',
+        followLink: 'https://x.com/Autosultan_team/status/1885289161550361071'
       },
       {
-        name: 'Lens Protocol (LENS)',
-        desc: 'The fastest, lowest-cost Ethereum network powering social and finance.',
-        image: '/blog/lens.png',
+        name: 'Sahara AI',
+        desc: 'Create & Monetize AI, collaboratively with verifiable on-chain provenance.',
+        image: '/blog/sahara.png',
         followLink: 'https://x.com/Autosultan_team/status/1878484026492866924'
       },
       {
-        name: 'Mega ETH (METH)',
-        desc: 'MegaETH is the first real-time blockchain.',
-        image: '/blog/meth.png',
-        followLink: 'https://x.com/Autosultan_team/status/1877291659488276898'
+        name: 'Gaianet AI',
+        desc: 'Decentralizing AI Inferencing. Building a distributed and incentivized GenAI Agent Network.',
+        image: '/blog/gaianet.png',
+        followLink: 'https://x.com/Autosultan_team/status/1883930962855411836'
       },
       {
-        name: 'ar.io Network (ARIO)',
-        desc: 'The first domain on AO, but isnot just an simple domain.',
-        image: '/blog/ario.png',
-        followLink: 'https://x.com/Autosultan_team/status/1875950696165728413'
+        name: 'Fogo Chain',
+        desc: 'Defying physics to achieve real-time experiences at scale. SVM Layer 1',
+        image: '/blog/fogo.png',
+        followLink: 'https://x.com/Autosultan_team/status/1883913244257165382'
       },
       {
-        name: 'Mango Network (MGO)',
-        desc: 'Multi-VM Omni-Chain Infra Network. Integrates the core advantages of OPStack & MoveVM',
-        image: '/blog/mgo.png',
-        followLink: '/blog/mangonetwork/'
+        name: 'Privasea',
+        desc: 'Confidential AI network enabled by FHEML',
+        image: '/blog/privasea.png',
+        followLink: 'https://x.com/Autosultan_team/status/1883468609751769292'
       },
     ] : [
       {
-        name: 'Islamic Coin (ISLM)',
-        desc: 'Token with sharia narrative',
-        image: '/blog/islm.png',
+        name: 'Coming Soon',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        image: '/blog/soon.png',
         followLink: '/'
       },
       {
-        name: 'Islamic Coin (ISLM)',
-        desc: 'Token with sharia narrative',
-        image: '/blog/islm.png',
+        name: 'Coming Soon',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        image: '/blog/soon.png',
         followLink: '/'
       },
     ];

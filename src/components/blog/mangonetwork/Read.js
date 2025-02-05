@@ -3,7 +3,7 @@ import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
 import { CopyBlock, dracula } from 'react-code-blocks'; // Pastikan menggunakan react-code-blocks
 
-const Overview = () => {
+const Read = () => {
 
   const markdownBeforeForm = `
 ### Manggo Network 101: 40 hari menuju TGE !?! 
@@ -209,4 +209,4 @@ Source: [X Post](https://x.com/Autosultan_team/status/1875788734274400726)
   );
 };
 
-export default Overview;
+export default Read;

@@ -22,7 +22,7 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
 }
 
 .rpc-status-content .project-name {
@@ -31,6 +31,7 @@
     margin-right: 10px;
     flex-grow: 1;
     color: white; /* Menambahkan warna putih */
+    text-align: center;
 }
 
 .rpc-status-content .refresh-icon {
@@ -41,6 +42,16 @@
 
 .rpc-status-content .refresh-icon:hover {
     transform: rotate(90deg);
+}
+
+.rpc-status-content .back-icon {
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    color: white; /* Menambahkan warna putih */
+}
+
+.rpc-status-content .back-icon:hover {
+    transform: rotate(180deg);
 }
 
 .rpc-status-content .chain-info,

@@ -2,18 +2,18 @@ import React from 'react';
 import '@styles/website/Blog.css';
 
 const l1 = [
-    { name: 'Fogo Chain', logo: '/blog/fogo.png', date: "2025-01-27", link: 'https://x.com/Autosultan_team/status/1883913244257165382' },
+    { name: 'Fogo Chain', logo: '/blog/fogo.png', date: "2025-01-27", link: '/blog/fogochain/' },
     { name: 'Mango Network', logo: '/blog/mango.png', date: "2025-01-05", link: '/blog/mangonetwork/' },
-    { name: 'Init Verse', logo: '/blog/ini.png',  date: "2024-12-23", link: 'https://x.com/Autosultan_team/status/1870936953929298255' },
-    { name: 'Somnia Network', logo: '/blog/somnia.png',  date: "2024-12-20", link: 'https://x.com/Autosultan_team/status/1869793522699927666' },
-    { name: 'Hyperliquid', logo: '/blog/hype.png', date: "2024-12-18", link: 'https://x.com/Autosultan_team/status/1869071465402016099' },
-    { name: 'Arweave - AO', logo: '/blog/ao.png',  date: "2024-12-12", link: 'https://x.com/Autosultan_team/status/1867231906116649031' },
+    { name: 'Init Verse', logo: '/blog/ini.png',  date: "2024-12-23", link: '/blog/initverse/' },
+    { name: 'Somnia Network', logo: '/blog/somnia.png',  date: "2024-12-20", link: '/blog/somnia/' },
+    { name: 'Hyperliquid', logo: '/blog/hype.png', date: "2024-12-18", link: '/blog/hyperliquid/' },
+    { name: 'Arweave - AO', logo: '/blog/ao.png',  date: "2024-12-12", link: '/blog/arweaveao/' },
 ];
 
 const l2 = [
-  { name: 'Mega ETH', logo: '/blog/meth.png', date: "2025-01-09", link: 'https://x.com/Autosultan_team/status/1877291659488276898' },
-  { name: 'Rise Chain', logo: '/blog/rise.png', date: "2024-12-30", link: 'https://x.com/Autosultan_team/status/1873456488674730232' },
-  { name: 'Uni Chain', logo: '/blog/unichain.png', date: "2024-12-27", link: 'https://x.com/Autosultan_team/status/1872667907773345939' },
+  { name: 'Mega ETH', logo: '/blog/meth.png', date: "2025-01-09", link: '/blog/megaeth/' },
+  { name: 'Rise Chain', logo: '/blog/rise.png', date: "2024-12-30", link: '/blog/risechain/' },
+  { name: 'Uni Chain', logo: '/blog/unichain.png', date: "2024-12-27", link: '/blog/unichain/' },
 ];
 
 const defi = [

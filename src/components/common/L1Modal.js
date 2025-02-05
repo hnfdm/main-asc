@@ -4,11 +4,12 @@ import '@styles/common/BlogModal.css';
 
 const L1Modal = ({ isOpen, onRequestClose }) => {
   const l1 = [
+    { name: 'Fogo Chain', image: '/blog/fogo.png', link: '/blog/fogochain/' },
     { name: 'Mango Network', image: '/blog/mango.png', link: '/blog/mangonetwork/' },
-    { name: 'Init Verse', image: '/blog/ini.png', link: 'https://x.com/Autosultan_team/status/1870936953929298255' },
-    { name: 'Somnia Network', image: '/blog/somnia.png', link: 'https://x.com/Autosultan_team/status/1869793522699927666' },
-    { name: 'Hyperliquid', image: '/blog/hype.png', link: 'https://x.com/Autosultan_team/status/1869071465402016099' },
-    { name: 'Arweave - AO', image: '/blog/ao.png', link: 'https://x.com/Autosultan_team/status/1867231906116649031' },
+    { name: 'Init Verse', image: '/blog/ini.png', link: '/blog/initverse/' },
+    { name: 'Somnia Network', image: '/blog/somnia.png', link: '/blog/somnia/' },
+    { name: 'Hyperliquid', image: '/blog/hype.png', link: '/blog/hyperliquid/' },
+    { name: 'Arweave - AO', image: '/blog/ao.png', link: '/blog/arweaveao/' },
   ];
 
   return (

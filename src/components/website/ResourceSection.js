@@ -23,8 +23,8 @@ function ResourceSection() {
         </div>
         <div className="resource-item">
           <img src="/icons/kol.png" alt="Icon" class="resource-icon"/>
-          <h3>8%</h3>
-          <p class ="resource-desc">Engagement Rate</p>
+          <h3>-</h3>
+          <p class ="resource-desc">KOL</p>
         </div>
         <div className="resource-item">
           <img src="/icons/c-c.png" alt="Icon" class="resource-icon"/>

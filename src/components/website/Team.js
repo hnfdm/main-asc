@@ -189,7 +189,7 @@ const Team = () => {
         <FounderComponent img={img11} name="Zamza Salim" position="Founder" />
       </SingleContainer>
       <Container>
-        <MemberComponent img={img2} name="Agan" position="Leader ASC" />
+        <MemberComponent img={img2} name="Agan" position="Leader Airdrop ASC" />
         <MemberComponent img={img3} name="Aldi" position="Airdrop Team & General" />
         <MemberComponent img={img7} name="Remover" position="Airdrop Team & Bot Dev" />
         <MemberComponent img={img10} name="Yuli" position="Research Team & Marketing" />

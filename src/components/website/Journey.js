@@ -234,13 +234,13 @@ const Journey = () => {
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="2019 - First Collaboration with IoTeX"
+            title="2019 - First Collaboration"
             subtext="Airdrop ASC partnered with IoTeX in 2019 for its first major collaboration. This partnership focused on promoting IoTeX's innovative blockchain solutions through educational campaigns and community events."
           />
           <RoadMapItem
             addToRef={addToRefs}
             title="2020 - Twitter Expansion"
-            subtext="In 2020, Airdrop ASC expanded its social media presence to Twitter, engaging with a global audience to provide real-time updates, market insights, and collaborative opportunities in the crypto space."
+            subtext="Airdrop ASC expanded its social media presence to Twitter in 2020, engaging with a global audience to provide real-time updates, market insights, and collaborative opportunities in the crypto space."
           />
           <RoadMapItem
             addToRef={addToRefs}
@@ -249,8 +249,8 @@ const Journey = () => {
           />
           <RoadMapItem
             addToRef={addToRefs}
-            title="2024 - VIP Invitation"
-            subtext="In 2024, Airdrop ASC was honored with a VIP invitation to collaborate with the Indonesian Ministry of Labor with Sir Immanuel Ebenezer. This opportunity highlighted the community's influence and expertise in blockchain education and innovation."
+            title="2025 - VIP Invitation"
+            subtext="Airdrop ASC was honored with a VIP invitation to collaborate with the Indonesian Ministry of Labor with Sir Immanuel Ebenezer in 2025. This opportunity highlighted the community's influence and expertise in blockchain education and innovation."
           />
         </Items>
       </Container>

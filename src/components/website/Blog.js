@@ -23,29 +23,29 @@ const defi = [
 ];
 
 const socialfi = [
-    { name: 'Halo Social', logo: '/blog/halo.png', date: "2025-01-16", link: 'https://x.com/Autosultan_team/status/1879634678564651310' },
-    { name: 'Lens Protocol', logo: '/blog/lens.png', date: "2024-12-22", link: 'https://x.com/Autosultan_team/status/1870554405843665285' },
+    { name: 'Halo Social', logo: '/blog/halo.png', date: "2025-01-16", link: '/blog/halo/' },
+    { name: 'Lens Protocol', logo: '/blog/lens.png', date: "2024-12-22", link: '/blog/lens/' },
 ];
 
 const infrastructure = [
-    { name: 'ar.io Network', logo: '/blog/ario.png', date: "2025-01-06", link: 'https://x.com/Autosultan_team/status/1875950696165728413' },
-    { name: 'Octo Wallet', logo: '/blog/octo.png', date: "2024-12-23", link: 'https://x.com/Autosultan_team/status/1871171171598926197' },
-    { name: 'GoPlus', logo: '/blog/goplus.png', date: "2024-12-21", link: 'https://x.com/Autosultan_team/status/1870472840560156706' },
+    { name: 'ar.io Network', logo: '/blog/ario.png', date: "2025-01-06", link: '/blog/ario' },
+    { name: 'Octo Wallet', logo: '/blog/octo.png', date: "2024-12-23", link: '/blog/okto' },
+    { name: 'GoPlus', logo: '/blog/goplus.png', date: "2024-12-21", link: '/blog/goplus' },
 ];
 
 const ai = [
-    { name: 'DATA Framework by CARV', logo: '/blog/carv.png', date: "2025-01-31", link: 'https://x.com/Autosultan_team/status/1885289161550361071' },
-    { name: 'Sahara AI', logo: '/blog/sahara.png', date: "2025-01-30", link: 'https://x.com/Autosultan_team/status/1884715385640865915' },
-    { name: 'Gaianet AI', logo: '/blog/gaianet.png', date: "2025-01-28", link: 'https://x.com/Autosultan_team/status/1883930962855411836' },
-    { name: 'Privasea', logo: '/blog/privasea.png', date: "2025-01-26", link: 'https://x.com/Autosultan_team/status/1883468609751769292' },
+    { name: 'DATA Framework by CARV', logo: '/blog/carv.png', date: "2025-01-31", link: '/blog/carv' },
+    { name: 'Sahara AI', logo: '/blog/sahara.png', date: "2025-01-30", link: '/blog/sahara' },
+    { name: 'Gaianet AI', logo: '/blog/gaianet.png', date: "2025-01-28", link: '/blog/gaianet' },
+    { name: 'Privasea', logo: '/blog/privasea.png', date: "2025-01-26", link: '/blog/privasea' },
 ];
 
 const depin = [
-    { name: 'DePIN', logo: '/blog/depin.png', date: "2025-01-01", link: 'https://x.com/Autosultan_team/status/1874494512451715095' },
+    { name: 'DePIN', logo: '/blog/depin.png', date: "2025-01-01", link: ' /blog/depin' },
 ];
 
 const education = [
-    { name: 'Learn: Airdrop', logo: '/blog/asc.png', date: "2024-12-16", link: 'https://x.com/Autosultan_team/status/1846508068559065362' },
+    { name: 'Learn: Airdrop', logo: '/blog/asc.png', date: "2024-12-16", link: ' /blog/airdrop' },
 ];
 
 

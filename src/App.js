@@ -3,9 +3,8 @@ import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import '@styles/App.css';
 import Navbar from './components/website/Navbar';
 import Footer from './components/website/Footer';
-import FAQ from './components/website/FAQ'; // Sesuaikan jalur jika diperlukan  
+import FAQ from './components/website/FAQ';  
 
-// Lazy load components
 const Header = React.lazy(() => import('./components/website/Header'));
 const FeatureSection = React.lazy(() => import('./components/website/FeatureSection'));
 const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
@@ -36,6 +35,21 @@ const PayFiMenu = React.lazy(() => import('./components/blog/payfi/PayFiMenu'));
 const ISLMMenu = React.lazy(() => import('./components/blog/islm/ISLMMenu'));
 const MevXMenu = React.lazy(() => import('./components/blog/mevx/MevXMenu'));
 
+const HaloMenu = React.lazy(() => import('./components/blog/halo/HaloMenu'));
+const LensMenu = React.lazy(() => import('./components/blog/lens/LensMenu'));
+
+const ARIOMenu = React.lazy(() => import('./components/blog/ario/ARIOMenu'));
+const OktoMenu = React.lazy(() => import('./components/blog/okto/OktoMenu'));
+const GoPlusMenu = React.lazy(() => import('./components/blog/goplus/GoPlusMenu'));
+
+const CARVMenu = React.lazy(() => import('./components/blog/carv/CARVMenu'));
+const SaharaMenu = React.lazy(() => import('./components/blog/sahara/SaharaMenu'));
+const GaianetBlog = React.lazy(() => import('./components/blog/gaianet/Menu'));
+const PrivaseaMenu = React.lazy(() => import('./components/blog/privasea/PrivaseaMenu'));
+
+const DepinMenu = React.lazy(() => import('./components/blog/depin/DepinMenu'));
+const AirdropMenu = React.lazy(() => import('./components/blog/airdrop/AirdropMenu'));
+
 function App() {
   return (
     <Router>
@@ -59,6 +73,21 @@ function App() {
             <Route path="/blog/payfi/*" element={<PayFiMenu />}/>
             <Route path="/blog/islm/*" element={<ISLMMenu />}/>
             <Route path="/blog/mevx/*" element={<MevXMenu />}/>
+
+            <Route path="/blog/halo/*" element={<HaloMenu />}/>
+            <Route path="/blog/lens/*" element={<LensMenu />}/>
+            
+            <Route path="/blog/ario/*" element={<ARIOMenu />}/>
+            <Route path="/blog/okto/*" element={<OktoMenu />}/>
+            <Route path="/blog/goplus/*" element={<GoPlusMenu />}/>
+            
+            <Route path="/blog/carv/*" element={<CARVMenu />}/>
+            <Route path="/blog/sahara/*" element={<SaharaMenu />}/>
+            <Route path="/blog/gaianet/*" element={<GaianetBlog />}/>
+            <Route path="/blog/privasea/*" element={<PrivaseaMenu />}/>
+
+            <Route path="/blog/depin/*" element={<DepinMenu />}/>
+            <Route path="/blog/airdrop/*" element={<AirdropMenu />}/>
 
             <Route path="/node" element={<Node />} />
             <Route path="/node/symphony/*" element={<TabMenu />} />

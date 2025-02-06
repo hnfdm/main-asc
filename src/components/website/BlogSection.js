@@ -22,50 +22,50 @@ function BlogSection() {
         name: 'Payment Finance',
         desc: 'PayFi bridges the gap between digital assets & our everyday lives.',
         image: '/blog/payfi.png',
-        followLink: '/blog/payfi/'
+        Link: '/blog/payfi/'
       },
       {
         name: 'DATA Framework (CARV)',
         desc: 'Building an AI chain ecosystem to enable data sovereignty at scale. ',
         image: '/blog/carv.png',
-        followLink: 'https://x.com/Autosultan_team/status/1885289161550361071'
+        Link: '/blog/carv/'
       },
       {
         name: 'Sahara AI',
         desc: 'Create & Monetize AI, collaboratively with verifiable on-chain provenance.',
         image: '/blog/sahara.png',
-        followLink: 'https://x.com/Autosultan_team/status/1878484026492866924'
+        Link: 'https://x.com/Autosultan_team/status/1878484026492866924'
       },
       {
         name: 'Gaianet AI',
         desc: 'Decentralizing AI Inferencing. Building a distributed and incentivized GenAI Agent Network.',
         image: '/blog/gaianet.png',
-        followLink: 'https://x.com/Autosultan_team/status/1883930962855411836'
+        Link: 'https://x.com/Autosultan_team/status/1883930962855411836'
       },
       {
         name: 'Fogo Chain',
         desc: 'Defying physics to achieve real-time experiences at scale. SVM Layer 1',
         image: '/blog/fogo.png',
-        followLink: 'https://x.com/Autosultan_team/status/1883913244257165382'
+        Link: '/blog/fogochain/'
       },
       {
         name: 'Privasea',
         desc: 'Confidential AI network enabled by FHEML',
         image: '/blog/privasea.png',
-        followLink: 'https://x.com/Autosultan_team/status/1883468609751769292'
+        Link: 'https://x.com/Autosultan_team/status/1883468609751769292'
       },
     ] : [
       {
         name: 'Coming Soon',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         image: '/blog/soon.png',
-        followLink: '/'
+        Link: '/'
       },
       {
         name: 'Coming Soon',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
         image: '/blog/soon.png',
-        followLink: '/'
+        Link: '/'
       },
     ];
   
@@ -78,7 +78,7 @@ function BlogSection() {
             <span>{blog.desc}</span>
           </div>
         </div>
-        <a href={blog.followLink} target="_blank" rel="noopener noreferrer">
+        <a href={blog.Link} >
           <button className="read-button">
           <FaBookReader size={15}/>
           </button>

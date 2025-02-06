@@ -4,9 +4,9 @@ import '@styles/common/BlogModal.css';
 
 const InfrastructureModal = ({ isOpen, onRequestClose }) => {
   const infrastructure = [
-    { name: 'ar.io Network', image: '/blog/ario.png', date: "2025-01-06", link: '/blog/arionetwork/' },
-    { name: 'Octo Wallet', image: '/blog/octo.png', date: "2024-12-23", link: '/blog/octowallet/' },
-    { name: 'GoPlus', image: '/blog/goplus.png', date: "2024-12-21", link: '/blog/goplus/' },
+    { name: 'ar.io Network', image: '/blog/ario.png', date: "2025-01-06", link: '/blog/ario' },
+    { name: 'Octo Wallet', image: '/blog/octo.png', date: "2024-12-23", link: '/blog/okto' },
+    { name: 'GoPlus', image: '/blog/goplus.png', date: "2024-12-21", link: '/blog/goplus' },
   ];
 
   return (

@@ -22,37 +22,37 @@ function BlogSection() {
         name: 'Payment Finance',
         desc: 'PayFi bridges the gap between digital assets & our everyday lives.',
         image: '/blog/payfi.png',
-        Link: '/blog/payfi/'
+        Link: '/blog/payfi'
       },
       {
         name: 'DATA Framework (CARV)',
         desc: 'Building an AI chain ecosystem to enable data sovereignty at scale. ',
         image: '/blog/carv.png',
-        Link: '/blog/carv/'
+        Link: '/blog/carv'
       },
       {
         name: 'Sahara AI',
         desc: 'Create & Monetize AI, collaboratively with verifiable on-chain provenance.',
         image: '/blog/sahara.png',
-        Link: 'https://x.com/Autosultan_team/status/1878484026492866924'
+        Link: '/blog/sahara'
       },
       {
         name: 'Gaianet AI',
         desc: 'Decentralizing AI Inferencing. Building a distributed and incentivized GenAI Agent Network.',
         image: '/blog/gaianet.png',
-        Link: 'https://x.com/Autosultan_team/status/1883930962855411836'
+        Link: '/blog/gaianet'
       },
       {
         name: 'Fogo Chain',
         desc: 'Defying physics to achieve real-time experiences at scale. SVM Layer 1',
         image: '/blog/fogo.png',
-        Link: '/blog/fogochain/'
+        Link: '/blog/fogochain'
       },
       {
         name: 'Privasea',
         desc: 'Confidential AI network enabled by FHEML',
         image: '/blog/privasea.png',
-        Link: 'https://x.com/Autosultan_team/status/1883468609751769292'
+        Link: '/blog/privasea'
       },
     ] : [
       {

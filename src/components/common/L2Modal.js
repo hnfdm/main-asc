@@ -4,9 +4,9 @@ import '@styles/common/BlogModal.css';
 
 const L2Modal = ({ isOpen, onRequestClose }) => {
   const l2 = [
-    { name: 'Mega ETH', image: '/blog/meth.png', link: '/blog/megaeth/' },
-    { name: 'Rise Chain', image: '/blog/rise.png', link: '/blog/risechain/' },
-    { name: 'Uni Chain', image: '/blog/unichain.png', link: '/blog/unichain/' },
+    { name: 'Mega ETH', image: '/blog/meth.png', link: '/blog/megaeth' },
+    { name: 'Rise Chain', image: '/blog/rise.png', link: '/blog/risechain' },
+    { name: 'Uni Chain', image: '/blog/unichain.png', link: '/blog/unichain' },
   ];
 
   return (

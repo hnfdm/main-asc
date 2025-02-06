@@ -4,7 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const EducationModal = ({ isOpen, onRequestClose }) => {
   const education = [
-    { name: 'Learn: Airdrop', image: '/blog/asc.png', link: '/blog/airdrop/' },
+    { name: 'Learn: Airdrop', image: '/blog/asc.png', link: '/blog/airdrop' },
   ];
 
   return (

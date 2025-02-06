@@ -4,7 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const DePINModal = ({ isOpen, onRequestClose }) => {
   const depin = [
-    { name: 'DePIN', image: '/blog/depin.png', link: '/blog/depin/' },
+    { name: 'DePIN', image: '/blog/depin.png', link: '/blog/depin' },
   ];
 
   return (

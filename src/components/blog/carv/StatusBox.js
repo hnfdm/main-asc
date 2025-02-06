@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { FiRefreshCcw, FiArrowLeftCircle } from 'react-icons/fi';
-import AIModal from '@components/common/AIModal';
+import GameFiModal from '@components/common/GameFiModal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {
@@ -27,7 +27,7 @@ const StatusBox = () => {
       </div>
 
       {/* Modal */}
-      <AIModal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
+      <GameFiModal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
     </div>
   );
 };

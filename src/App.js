@@ -20,35 +20,35 @@ const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
 const BrinxaiMenu = React.lazy(() => import('./components/node/brinxai/BrinxaiMenu'));
 const GaianetMenu = React.lazy(() => import('./components/node/gaianet/GaianetMenu'));
 
-const MangoMenu = React.lazy(() => import('./components/blog/mangonetwork/MangoMenu'));
-const InitVerseMenu = React.lazy(() => import('./components/blog/initverse/InitVerseMenu'));
-const HyperliquidMenu = React.lazy(() => import('./components/blog/hyperliquid/HyperliquidMenu'));
-const FogoChainMenu = React.lazy(() => import('./components/blog/fogochain/FogoChainMenu'));
-const ArweaveAOMenu = React.lazy(() => import('./components/blog/arweaveao/ArweaveAOMenu'));
-const SomniaMenu = React.lazy(() => import('./components/blog/somnia/SomniaMenu'));
+const MangoBlog = React.lazy(() => import('./components/blog/mangonetwork/Menu'));
+const InitVerseBlog = React.lazy(() => import('./components/blog/initverse/Menu'));
+const HyperliquidBlog = React.lazy(() => import('./components/blog/hyperliquid/Menu'));
+const FogoChainBlog = React.lazy(() => import('./components/blog/fogochain/Menu'));
+const ArweaveAOBlog = React.lazy(() => import('./components/blog/arweaveao/Menu'));
+const SomniaBlog = React.lazy(() => import('./components/blog/somnia/Menu'));
 
-const MegaETHMenu = React.lazy(() => import('./components/blog/megaeth/MegaETHMenu'));
-const RiseChainMenu = React.lazy(() => import('./components/blog/risechain/RiseChainMenu'));
-const UniChainMenu = React.lazy(() => import('./components/blog/unichain/UniChainMenu'));
+const MegaETHBlog = React.lazy(() => import('./components/blog/megaeth/Menu'));
+const RiseChainBlog = React.lazy(() => import('./components/blog/risechain/Menu'));
+const UniChainBlog = React.lazy(() => import('./components/blog/unichain/Menu'));
 
-const PayFiMenu = React.lazy(() => import('./components/blog/payfi/PayFiMenu'));
-const ISLMMenu = React.lazy(() => import('./components/blog/islm/ISLMMenu'));
-const MevXMenu = React.lazy(() => import('./components/blog/mevx/MevXMenu'));
+const PayFiBlog = React.lazy(() => import('./components/blog/payfi/Menu'));
+const ISLMBlog = React.lazy(() => import('./components/blog/islm/Menu'));
+const MevXBlog = React.lazy(() => import('./components/blog/mevx/Menu'));
 
-const HaloMenu = React.lazy(() => import('./components/blog/halo/HaloMenu'));
-const LensMenu = React.lazy(() => import('./components/blog/lens/LensMenu'));
+const HaloBlog = React.lazy(() => import('./components/blog/halo/Menu'));
+const LensBlog = React.lazy(() => import('./components/blog/lens/Menu'));
 
-const ARIOMenu = React.lazy(() => import('./components/blog/ario/ARIOMenu'));
-const OktoMenu = React.lazy(() => import('./components/blog/okto/OktoMenu'));
-const GoPlusMenu = React.lazy(() => import('./components/blog/goplus/GoPlusMenu'));
+const ARIOBlog = React.lazy(() => import('./components/blog/ario/Menu'));
+const OktoBlog = React.lazy(() => import('./components/blog/okto/Menu'));
+const GoPlusBlog = React.lazy(() => import('./components/blog/goplus/Menu'));
 
-const CARVMenu = React.lazy(() => import('./components/blog/carv/CARVMenu'));
-const SaharaMenu = React.lazy(() => import('./components/blog/sahara/SaharaMenu'));
+const CARVBlog = React.lazy(() => import('./components/blog/carv/Menu'));
+const SaharaBlog = React.lazy(() => import('./components/blog/sahara/Menu'));
 const GaianetBlog = React.lazy(() => import('./components/blog/gaianet/Menu'));
-const PrivaseaMenu = React.lazy(() => import('./components/blog/privasea/PrivaseaMenu'));
+const PrivaseaBlog = React.lazy(() => import('./components/blog/privasea/Menu'));
 
-const DepinMenu = React.lazy(() => import('./components/blog/depin/DepinMenu'));
-const AirdropMenu = React.lazy(() => import('./components/blog/airdrop/AirdropMenu'));
+const DepinBlog = React.lazy(() => import('./components/blog/depin/Menu'));
+const AirdropBlog = React.lazy(() => import('./components/blog/airdrop/Menu'));
 
 function App() {
   return (
@@ -59,35 +59,35 @@ function App() {
           <Routes>
             <Route path="/blog" element={<Blog />} />
             
-            <Route path="/blog/mangonetwork/*" element={<MangoMenu />}/>
-            <Route path="/blog/initverse/*" element={<InitVerseMenu />}/>
-            <Route path="/blog/hyperliquid/*" element={<HyperliquidMenu />}/>
-            <Route path="/blog/fogochain/*" element={<FogoChainMenu />}/>
-            <Route path="/blog/arweaveao/*" element={<ArweaveAOMenu />}/>
-            <Route path="/blog/somnia/*" element={<SomniaMenu />}/>
+            <Route path="/blog/mangonetwork/*" element={<MangoBlog />}/>
+            <Route path="/blog/initverse/*" element={<InitVerseBlog />}/>
+            <Route path="/blog/hyperliquid/*" element={<HyperliquidBlog />}/>
+            <Route path="/blog/fogochain/*" element={<FogoChainBlog />}/>
+            <Route path="/blog/arweaveao/*" element={<ArweaveAOBlog />}/>
+            <Route path="/blog/somnia/*" element={<SomniaBlog />}/>
 
-            <Route path="/blog/megaeth/*" element={<MegaETHMenu />}/>
-            <Route path="/blog/risechain/*" element={<RiseChainMenu />}/>
-            <Route path="/blog/unichain/*" element={<UniChainMenu />}/>
+            <Route path="/blog/megaeth/*" element={<MegaETHBlog />}/>
+            <Route path="/blog/risechain/*" element={<RiseChainBlog />}/>
+            <Route path="/blog/unichain/*" element={<UniChainBlog />}/>
 
-            <Route path="/blog/payfi/*" element={<PayFiMenu />}/>
-            <Route path="/blog/islm/*" element={<ISLMMenu />}/>
-            <Route path="/blog/mevx/*" element={<MevXMenu />}/>
+            <Route path="/blog/payfi/*" element={<PayFiBlog />}/>
+            <Route path="/blog/islm/*" element={<ISLMBlog />}/>
+            <Route path="/blog/mevx/*" element={<MevXBlog />}/>
 
-            <Route path="/blog/halo/*" element={<HaloMenu />}/>
-            <Route path="/blog/lens/*" element={<LensMenu />}/>
+            <Route path="/blog/halo/*" element={<HaloBlog />}/>
+            <Route path="/blog/lens/*" element={<LensBlog />}/>
             
-            <Route path="/blog/ario/*" element={<ARIOMenu />}/>
-            <Route path="/blog/okto/*" element={<OktoMenu />}/>
-            <Route path="/blog/goplus/*" element={<GoPlusMenu />}/>
+            <Route path="/blog/ario/*" element={<ARIOBlog />}/>
+            <Route path="/blog/okto/*" element={<OktoBlog />}/>
+            <Route path="/blog/goplus/*" element={<GoPlusBlog />}/>
             
-            <Route path="/blog/carv/*" element={<CARVMenu />}/>
-            <Route path="/blog/sahara/*" element={<SaharaMenu />}/>
+            <Route path="/blog/carv/*" element={<CARVBlog />}/>
+            <Route path="/blog/sahara/*" element={<SaharaBlog />}/>
             <Route path="/blog/gaianet/*" element={<GaianetBlog />}/>
-            <Route path="/blog/privasea/*" element={<PrivaseaMenu />}/>
+            <Route path="/blog/privasea/*" element={<PrivaseaBlog />}/>
 
-            <Route path="/blog/depin/*" element={<DepinMenu />}/>
-            <Route path="/blog/airdrop/*" element={<AirdropMenu />}/>
+            <Route path="/blog/depin/*" element={<DepinBlog />}/>
+            <Route path="/blog/airdrop/*" element={<AirdropBlog />}/>
 
             <Route path="/node" element={<Node />} />
             <Route path="/node/symphony/*" element={<TabMenu />} />

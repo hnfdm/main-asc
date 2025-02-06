@@ -4,7 +4,6 @@ import '@styles/common/BlogModal.css';
 
 const AIModal = ({ isOpen, onRequestClose }) => {
   const ai = [
-    { name: 'DATA Framework by CARV', image: '/blog/carv.png', link: '/blog/carv' },
     { name: 'Sahara AI', image: '/blog/sahara.png', link: '/blog/sahara' },
     { name: 'Gaianet AI', image: '/blog/gaianet.png', link: '/blog/gaianet' },
     { name: 'Privasea', image: '/blog/privasea.png', link: '/blog/privasea' },

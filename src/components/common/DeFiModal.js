@@ -4,9 +4,9 @@ import '@styles/common/BlogModal.css';
 
 const DeFiModal = ({ isOpen, onRequestClose }) => {
   const defi = [
-    { name: 'PayFi', image: '/blog/payfi.png', link: '/blog/payfi/' },
-    { name: 'Islamic Coin', image: '/blog/islm.png', link: '/blog/islm/' },
-    { name: 'MevX', image: '/blog/mevx.png', link: '/blog/mevx/' },
+    { name: 'PayFi', image: '/blog/payfi.png', link: '/blog/payfi' },
+    { name: 'Islamic Coin', image: '/blog/islm.png', link: '/blog/islm' },
+    { name: 'MevX', image: '/blog/mevx.png', link: '/blog/mevx' },
   ];
 
   return (

@@ -2,10 +2,9 @@ import React from 'react';
 import Modal from 'react-modal';
 import '@styles/common/BlogModal.css';
 
-const SocialFiModal = ({ isOpen, onRequestClose }) => {
-  const socialfi = [
-    { name: 'Halo Social', image: '/blog/halo.png', date: "2025-01-16", link: '/blog/halo' },
-    { name: 'Lens Protocol', image: '/blog/lens.png', date: "2024-12-22", link: '/blog/lens' },
+const GameFiModal = ({ isOpen, onRequestClose }) => {
+  const ai = [
+    { name: 'DATA Framework by CARV', image: '/blog/carv.png', link: '/blog/carv' },
   ];
 
   return (
@@ -16,9 +15,9 @@ const SocialFiModal = ({ isOpen, onRequestClose }) => {
       className="blog-modal"
       overlayClassName="blog-modal-overlay"
     >
-      <h2 className="blog-title">Layer 2</h2>
+      <h2 className="blog-title">AI</h2>
       <div className="blog-grid">
-        {socialfi.map((project) => (
+        {ai.map((project) => (
           <a href={project.link} key={project.name} className="blog-item">
             <span>{project.name}</span>
             <img src={project.image} alt={project.name} className="blog-image" />
@@ -31,4 +30,4 @@ const SocialFiModal = ({ isOpen, onRequestClose }) => {
   );
 };
 
-export default SocialFiModal;
+export default GameFiModal;

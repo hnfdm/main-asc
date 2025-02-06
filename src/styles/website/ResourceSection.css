@@ -92,21 +92,6 @@
     font-family: 'Moderustic', sans-serif;
 }
 
-/*@media (max-width: 768px) {
-  .resource-section {
-    flex-direction: column;
-    gap: 30px;
-  }
-
-  .resource-item::before {
-    display: none; /* Hilangkan panah di perangkat kecil 
-  }
-
-  .resource-item {
-    text-align: left; /* Ubah ke kiri jika diperlukan 
-  }
-}*/
-
 @media (max-width: 768px) {
   .resource-section {
     flex-direction: column; /* Stack items vertically */
@@ -115,7 +100,7 @@
   }
 
   .resource-item {
-    text-align: left; /* Align text to the left */
+    text-align: center; /* Align text to the left */
     padding: 15px; /* Reduce padding inside resource items */
   }
 

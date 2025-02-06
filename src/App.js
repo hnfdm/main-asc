@@ -10,10 +10,13 @@ const FeatureSection = React.lazy(() => import('./components/website/FeatureSect
 const JalanMenu = React.lazy(() => import('./components/website/JalanMenu'));
 const BlogSection = React.lazy(() => import('./components/website/BlogSection'));
 const NetworkSection = React.lazy(() => import('./components/website/NetworkSection'));
-const Blog = React.lazy(() => import('./components/website/Blog'));
 const ResourceSection = React.lazy(() => import('./components/website/ResourceSection'));
+
+const Blog = React.lazy(() => import('./components/website/Blog'));
 const Node = React.lazy(() => import('./components/website/Node'));
 const Partnership = React.lazy(() => import('./components/website/Partnership'));
+const Journey = React.lazy(() => import('./components/website/Journey'));
+const Team = React.lazy(() => import('./components/website/Team'));
 
 const TabMenu = React.lazy(() => import('./components/node/symphony/TabMenu'));
 const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
@@ -90,13 +93,20 @@ function App() {
             <Route path="/blog/airdrop/*" element={<AirdropBlog />}/>
 
             <Route path="/node" element={<Node />} />
+
             <Route path="/node/symphony/*" element={<TabMenu />} />
             <Route path="/node/dill/*" element={<DillMenu />} />  
             <Route path="/node/brinxai/*" element={<BrinxaiMenu />} />
             <Route path="/node/gaianet/*" element={<GaianetMenu />} />
             
             <Route path="/partnership" element={<Partnership />} />
-
+            <Route path="/about" element={
+              <>
+                <Journey />
+                <Team />
+              </>
+            } />
+            
             <Route path="/" element={
               <>
                 <Header />

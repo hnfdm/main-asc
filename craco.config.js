@@ -6,6 +6,7 @@ module.exports = {
         '@': path.resolve(__dirname, 'src'), // Alias untuk folder 'src'
         '@components' : path.resolve(__dirname, 'src/components'), // Alias untuk folder 'src/components'
         '@styles' : path.resolve(__dirname, 'src/styles'), // Alias untuk folder 'src/styles'
+        '@utils' : path.resolve(__dirname, 'src/utils'),
       },
       configure: (webpackConfig) => {
         webpackConfig.module.rules.push({

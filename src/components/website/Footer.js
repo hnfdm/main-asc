@@ -40,7 +40,7 @@ function Footer() {
           <div className="footer-column">
             <h4>Company</h4>
             <ul>
-              <li><a href="/">About Us</a></li>
+              <li><a href="/about">About Us</a></li>
               <li><a href="https://mail.google.com/mail/?view=cm&to=contact@airdropasc.com" target="_blank" rel="noopener noreferrer">Contact</a></li>
             </ul>
           </div>

@@ -92,5 +92,6 @@ body {
   
     .blog-date {
       margin-top: 10px; /* Jarak di bawah nama */
+      font-size: 10px;
     }
 }

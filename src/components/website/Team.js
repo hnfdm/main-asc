@@ -1,27 +1,203 @@
-import React from 'react';
-import '@styles/website/Team.css';
+import React from 'react'
+import styled from 'styled-components';
 
-function Team() {
-  const teamMembers = [
-    { name: 'Winnode', position: 'Software Engineering', image: '/assets/tim/win.jpg' },
-    { name: 'Bang Pateng', position: 'Manager Community', image: '/assets/tim/pateng.jpg' },
-    { name: 'MDP', position: 'Community Support', image: '/assets/tim/mdp.jpg' },
-  ];
+//const img1 = '/team/bighead.svg';
+const img2 = '/team/bighead-1.svg';
+const img3 = '/team/bighead-2.svg';
+//const img4 = '/team/bighead-3.svg';
+const img5 = '/team/bighead-4.svg';
+const img6 = '/team/bighead-5.svg';
+const img7 = '/team/bighead-6.svg';
+//const img8 = '/team/bighead-7.svg';
+//const img9 = '/team/bighead-8.svg';
+const img10 = '/team/bighead-9.svg';
+const img11 = '/team/bighead-10.svg';
 
-  return (
-    <section className="team-section">
-      <h2>Team</h2>
-      <div className="team-members">
-        {teamMembers.map((member, index) => (
-          <div className="team-member" key={index}>
-            <img src={member.image} alt={member.name} />
-            <h4>{member.name}</h4>
-            <p>{member.position}</p>
-          </div>
-        ))}
-      </div>
-    </section>
-  );
+const Section = styled.section`
+min-height: 100vh;
+width: 100vw;
+background-color: ${props => props.theme.body};
+position: relative;
+overflow: hidden;
+`
+const Title = styled.h1`
+  font-family: 'Moderustic', sans-serif;
+  font-size: 24px;
+  text-transform: none;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 1rem auto;
+  width: fit-content;
+
+  @media (max-width: 40em){
+    font-size: ${(props) => props.theme.fontxl};
+
+}
+`;
+
+const Container = styled.div`
+width: 75%;
+margin: 2rem auto;
+
+display: flex;
+justify-content: space-between;
+align-items: center;
+flex-wrap: wrap;
+
+@media (max-width: 64em){
+width: 80%;
+}
+@media (max-width: 48em){
+width: 90%;
+justify-content: center;
+}
+`
+const SingleContainer = styled.div`
+width: 75%;
+margin: 2rem auto;
+
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+
+@media (max-width: 64em){
+width: 80%;
+}
+@media (max-width: 48em){
+width: 90%;
+justify-content: center;
+}
+`
+
+const Item = styled.div`
+width: calc(20rem - 4vw);
+padding: 1rem 0;
+color: white;
+margin: 2rem 1rem;
+position: relative;
+z-index:5;
+
+backdrop-filter: blur(4px);
+
+border: 2px solid ${props => props.theme.text};
+border-radius: 20px;
+
+&:hover{
+  img{
+    transform: translateY(-2rem) scale(1.2);
+  }
 }
 
-export default Team;
+@media (max-width: 30em){
+width: 70vw;
+}
+
+`
+
+const ImageContainer = styled.div`
+width: 80%;
+margin: 0 auto;
+background-color:white;
+border: 1px solid ${props => props.theme.text};
+padding: 1rem;
+
+border-radius: 20px;
+cursor: pointer;
+
+img{
+  width: 100%;
+  height: auto;
+transition: all 0.3s ease;
+
+}
+`
+
+const ImageSingleContainer = styled.div`
+width: 80%;
+margin: 0 auto;
+background-color:white;
+border: 1px solid ${props => props.theme.text};
+padding: 1rem;
+
+border-radius: 20px;
+cursor: pointer;
+
+img{
+  width: 100%;
+  height: auto;
+transition: all 0.3s ease;
+
+}
+`
+
+const Name = styled.h2`
+font-family: 'Moderustic', sans-serif;
+font-size: 24px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: none;
+color: ${props => props.theme.text};
+margin-top: 1rem;
+`
+
+const Position = styled.h2`
+font-family: 'Moderustic', sans-serif;
+font-size: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-transform: none;
+color: ${props => `rgba(${props.theme.textRgba},0.9)`};
+font-weight:400;
+`
+
+const MemberComponent = ({img, name=" ",position=" "}) => {
+  return(
+    <Item>
+      <ImageContainer>
+        <img width={500} height={400}  src={img} alt={name} />
+      </ImageContainer>
+      <Name>{name}</Name>
+      <Position>{position}</Position>
+    </Item>
+  )
+}
+
+const FounderComponent = ({img, name=" ",position=" "}) => {
+  return(
+    <Item>
+      <ImageSingleContainer>
+        <img width={500} height={400}  src={img} alt={name} />
+      </ImageSingleContainer>
+      <Name>{name}</Name>
+      <Position>{position}</Position>
+    </Item>
+  )
+}
+
+
+const Team = () => {
+  return (
+    <Section id="team">
+    
+      <Title>Team</Title>
+      <SingleContainer>
+        <FounderComponent img={img11} name="Zamza Salim" position="Founder" />
+      </SingleContainer>
+      <Container>
+        <MemberComponent img={img2} name="Agan" position="Leader ASC" />
+        <MemberComponent img={img3} name="Aldi" position="Airdrop Team & General" />
+        <MemberComponent img={img7} name="Remover" position="Airdrop Team & Bot Dev" />
+        <MemberComponent img={img10} name="Yuli" position="Research Team & Marketing" />
+        <MemberComponent img={img6} name="Hanip" position="Research Team & Web Dev" />
+        <MemberComponent img={img5} name="Chiga" position="Editor" />
+      </Container>
+    </Section>
+  )
+}
+
+export default Team

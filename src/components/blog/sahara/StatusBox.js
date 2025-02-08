@@ -1,22 +1,18 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom';
 import { FiRefreshCcw, FiArrowLeftCircle } from 'react-icons/fi';
 import AIModal from '@components/common/AIModal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {
   const [modalIsOpen, setModalIsOpen] = useState(false);
-  const navigate = useNavigate();
 
   return (
     <div className="rpc-status-box">
       <div className="rpc-status-content">
         <div className="project-info">
-          <FiArrowLeftCircle
-            size={23}
-            className="back-icon"
-            onClick={() => navigate("/blog")}
-          />
+          <a href="/blog/" className="back-link">
+            <FiArrowLeftCircle size={23} className="back-icon" />
+          </a>
           <span className="project-name">Sahara AI</span>
           <FiRefreshCcw
             size={20}

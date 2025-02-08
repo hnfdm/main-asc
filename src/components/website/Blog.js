@@ -1,66 +1,69 @@
 import React from 'react';
-import '@styles/website/Blog.css';
+import '@styles/website/BlogNew.css';
 
 const l1 = [
-    { name: 'Fogo Chain', logo: '/blog/fogo.png', date: "2025-01-27", link: '/blog/fogochain' },
-    { name: 'Mango Network', logo: '/blog/mango.png', date: "2025-01-05", link: '/blog/mangonetwork' },
-    { name: 'Init Verse', logo: '/blog/ini.png',  date: "2024-12-23", link: '/blog/initverse' },
-    { name: 'Somnia Network', logo: '/blog/somnia.png',  date: "2024-12-20", link: '/blog/somnia' },
-    { name: 'Hyperliquid', logo: '/blog/hype.png', date: "2024-12-18", link: '/blog/hyperliquid' },
-    { name: 'Arweave - AO', logo: '/blog/ao.png',  date: "2024-12-12", link: '/blog/arweaveao' },
+    { name: 'Fogo 101: The Next Big Thing on Solana', logo: 'https://pbs.twimg.com/media/GiUARapa8AALr2V.jpg', date: "2025-01-27", link: '/blog/fogochain' },
+    { name: 'Manggo 101: 40 Hari menuju TGE', logo: 'https://pbs.twimg.com/media/Gggi2esb0AA6l6K.jpg', date: "2025-01-05", link: '/blog/mangonetwork' },
+    { name: 'Init Verse 101: 80% menuju TGE (Q1 25)', logo: 'https://pbs.twimg.com/media/GfbnDVfbMAAVb27.jpg',  date: "2024-12-23", link: '/blog/initverse' },
+    { name: 'Somnia 101: The Next Vana? Jangan Skip', logo: 'https://pbs.twimg.com/media/GfLWLkCaQAALgKA.jpg',  date: "2024-12-20", link: '/blog/somnia' },
+    { name: 'Hyperliquid 101 "A Hot Newcomer"', logo: 'https://blog.pintu.co.id/wp-content/uploads/2024/12/hyperliquid-crypto.jpg', date: "2024-12-18", link: '/blog/hyperliquid' },
+    { name: 'Arweave/AO: The Next Solana for Airdrop Hunter.', logo: 'https://pbs.twimg.com/media/Gem8htaaoAAGtTo.jpg',  date: "2024-12-12", link: '/blog/arweaveao' },
 ];
 
 const l2 = [
-  { name: 'Mega ETH', logo: '/blog/meth.png', date: "2025-01-09", link: '/blog/megaeth' },
-  { name: 'Rise Chain', logo: '/blog/rise.png', date: "2024-12-30", link: '/blog/risechain' },
-  { name: 'Uni Chain', logo: '/blog/unichain.png', date: "2024-12-27", link: '/blog/unichain' },
+  { name: 'MegaETH 101: The Next OP/ARB for Airdrop Hunter', logo: 'https://pbs.twimg.com/media/Gg14tmqaMAMcipu.jpg', date: "2025-01-09", link: '/blog/megaeth' },
+  { name: 'Rise Chain 101: First Pioneer for Gigagas Era', logo: 'https://pbs.twimg.com/media/Gf_afDwboAAa05d.jpg', date: "2024-12-30", link: '/blog/risechain' },
+  { name: 'Uni Chain 101: Potential Airdrop?', logo: 'https://pbs.twimg.com/media/Gf0LKrgakAATqEh.jpg', date: "2024-12-27", link: '/blog/unichain' },
 ];
 
 const defi = [
-    { name: 'PayFi by Bitget Wallet', logo: '/blog/payfi.png', date: "2025-02-03", link: '/blog/payfi' },
-    { name: 'Islamic Coin by HAQQ', logo: '/blog/islm.png', date: "2024-12-12", link: '/blog/islm' },
-    { name: 'MevX', logo: '/blog/mevx.png', date: "2024-12-12", link: '/blog/mevx' },
+    { name: 'Bitget Wallet Card 101: PayFi', logo: 'https://pbs.twimg.com/media/Gi36sN_acAANbOD.jpg', date: "2025-02-03", link: '/blog/payfi' },
+    { name: 'Octo Wallet 101: The Next Phantom?', logo: 'https://pbs.twimg.com/media/Gfe7Tz4awAA2C9X.jpg', date: "2024-12-23", link: '/blog/okto' },
+    { name: 'Islamic Coin 101: Token with Sharia Narrative', logo: 'https://pbs.twimg.com/media/GhbQrQWacAAsK2o.jpg', date: "2024-12-12", link: '/blog/islm' },
+    { name: 'MevX 101: Coin Meme Tools that Make A Fortune!', logo: 'https://pbs.twimg.com/media/GgVCdQSaMAATBa_.jpg', date: "2024-12-12", link: '/blog/mevx' },
 ];
 
 const socialfi = [
-    { name: 'Halo Social', logo: '/blog/halo.png', date: "2025-01-16", link: '/blog/halo' },
-    { name: 'Lens Protocol', logo: '/blog/lens.png', date: "2024-12-22", link: '/blog/lens' },
+    { name: 'Halo Social 101: Previously get 10M IDR, Next Airdrop?', logo: 'https://pbs.twimg.com/media/GhXMCNYbMAAbL-g.jpg', date: "2025-01-16", link: '/blog/halo' },
+    { name: 'Lens Protocol 101: Mainnet Q1 2025?', logo: 'https://pbs.twimg.com/media/GhG2WHkakAA80jv.jpg', date: "2024-12-22", link: '/blog/lens' },
 ];
 
 const infrastructure = [
-    { name: 'ar.io Network', logo: '/blog/ario.png', date: "2025-01-06", link: '/blog/ario' },
-    { name: 'Octo Wallet', logo: '/blog/octo.png', date: "2024-12-23", link: '/blog/okto' },
-    { name: 'GoPlus', logo: '/blog/goplus.png', date: "2024-12-21", link: '/blog/goplus' },
+    { name: 'Analog 101: Ongoing to TGE?', logo: 'https://pbs.twimg.com/media/GjDvQDAa8AA2mEu.jpg', date: "2025-02-06", link: '/blog/anlog' },
+    { name: 'ar.io 101: The first domain, but not just an simple domain.', logo: 'https://pbs.twimg.com/media/GgivPOhbQAAyqRa.jpg', date: "2025-01-06", link: '/blog/ario' },
+    { name: 'GoPlus 101: The First On-chain Security on WEB3', logo: 'https://pbs.twimg.com/media/GfVBbryaYAA75B3.jpg', date: "2024-12-21", link: '/blog/goplus' },
 ];
 
 const ai = [
-    { name: 'Sahara AI', logo: '/blog/sahara.png', date: "2025-01-30", link: '/blog/sahara' },
-    { name: 'Gaianet AI', logo: '/blog/gaianet.png', date: "2025-01-28", link: '/blog/gaianet' },
-    { name: 'Privasea', logo: '/blog/privasea.png', date: "2025-01-26", link: '/blog/privasea' },
+    { name: 'Sahara AI 101: Massive Baned Threat & Airdrops?', logo: 'https://pbs.twimg.com/media/GifZPo6bYAU3vN5.jpg', date: "2025-01-30", link: '/blog/sahara' },
+    { name: 'Gaianet AI 101: Potential Node Airdrop?', logo: 'https://pbs.twimg.com/media/GiUOfV7aYAEqjXc.jpg', date: "2025-01-28", link: '/blog/gaianet' },
+    { name: 'Privasea AI 101: Potential Node Airdrop?', logo: 'https://pbs.twimg.com/media/GiNrxy5b0AAKlFk.jpg', date: "2025-01-26", link: '/blog/privasea' },
 ];
 
 const gamefi = [
-    { name: 'DATA Framework by CARV', logo: '/blog/carv.png', date: "2025-01-31", link: '/blog/carv' },
+    { name: 'KGeN 101: Confirmed Airdrop?', logo: 'https://pbs.twimg.com/media/GjIQBV8bIAEDKO9.jpg', date: "2025-02-07", link: '/blog/kgen' },
+    { name: 'CARV 101: D.A.T.A Framework Revolution', logo: 'https://pbs.twimg.com/media/GinkOgUacAAxQO_.jpg', date: "2025-01-31", link: '/blog/carv' },
 ];
 
 const depin = [
-    { name: 'DePIN', logo: '/blog/depin.png', date: "2025-01-01", link: '/blog/depin' },
+    { name: 'DePIN Tutorial 101: Just using an Smartphone?', logo: 'https://pbs.twimg.com/media/GgODRzAboAAZ-bB.jpg', date: "2025-01-01", link: '/blog/depin' },
 ];
 
 const education = [
-    { name: 'Learn: Airdrop', logo: '/blog/asc.png', date: "2024-12-16", link: '/blog/airdrop' },
+    { name: 'Learn Airdrop 101: How to be The King of Airdrop', logo: 'https://pbs.twimg.com/media/GaAc_XEbEAAyGfI.jpg', date: "2024-12-16", link: '/blog/airdrop' },
 ];
 
+function formatDate(dateString) {
+    const months = ["Jan", "Feb", "Mar", "Apr", "Mei", "Jun", "Jul", "Agu", "Sep", "Okt", "Nov", "Des"];
+    const date = new Date(dateString); // Parse the date string
+    const day = date.getDate(); // Get the day of the month
+    const month = months[date.getMonth()]; // Get the abbreviated month name
+    const year = date.getFullYear(); // Get the full year
+    return `${month} ${day}, ${year}`;
+}
 
 const Blog = () => {
-    /*const formatDate = (dateStr) => {
-        const dateObj = new Date(dateStr);
-        return new Intl.DateTimeFormat("en-US", {
-          month: "long",
-          day: "numeric",
-          year: "numeric",
-        }).format(dateObj);
-    };*/
+
     return (
         <div className="blog-container">
             <h2>Blog</h2>
@@ -72,12 +75,13 @@ const Blog = () => {
                     {l1.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            {/*<span className="blog-date">{formatDate(project.date)}</span>*/}
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -90,11 +94,13 @@ const Blog = () => {
                     {l2.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -107,11 +113,13 @@ const Blog = () => {
                     {defi.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -124,11 +132,13 @@ const Blog = () => {
                     {socialfi.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -141,11 +151,13 @@ const Blog = () => {
                 {infrastructure.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -158,11 +170,13 @@ const Blog = () => {
                 {ai.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -175,11 +189,13 @@ const Blog = () => {
                 {gamefi.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -192,11 +208,13 @@ const Blog = () => {
                 {depin.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}
@@ -209,11 +227,13 @@ const Blog = () => {
                 {education.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
-                            <div className="blog-content">
+                            <div className="blog-image">
                                 <img src={project.logo} alt={project.name} className="blog-logo" />
-                                <span>{project.name}</span>
                             </div>
-                            <span className="blog-date">{project.date}</span>
+                            <div className="blog-content">
+                                <span className="blog-date">{formatDate(project.date)}</span>
+                                <span className="blog-title">{project.name}</span>    
+                            </div>
                         </div>
                     </a>
                     ))}

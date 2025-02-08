@@ -41,11 +41,14 @@ const MevXBlog = React.lazy(() => import('./components/blog/mevx/Menu'));
 const HaloBlog = React.lazy(() => import('./components/blog/halo/Menu'));
 const LensBlog = React.lazy(() => import('./components/blog/lens/Menu'));
 
+const AnlogBlog = React.lazy(() => import('./components/blog/anlog/Menu'));
 const ARIOBlog = React.lazy(() => import('./components/blog/ario/Menu'));
 const OktoBlog = React.lazy(() => import('./components/blog/okto/Menu'));
 const GoPlusBlog = React.lazy(() => import('./components/blog/goplus/Menu'));
 
+const KGeNBlog = React.lazy(() => import('./components/blog/kgen/Menu'));
 const CARVBlog = React.lazy(() => import('./components/blog/carv/Menu'));
+
 const SaharaBlog = React.lazy(() => import('./components/blog/sahara/Menu'));
 const GaianetBlog = React.lazy(() => import('./components/blog/gaianet/Menu'));
 const PrivaseaBlog = React.lazy(() => import('./components/blog/privasea/Menu'));
@@ -80,11 +83,14 @@ function App() {
             <Route path="/blog/halo/*" element={<HaloBlog />}/>
             <Route path="/blog/lens/*" element={<LensBlog />}/>
             
+            <Route path="/blog/anlog/*" element={<AnlogBlog />}/>
             <Route path="/blog/ario/*" element={<ARIOBlog />}/>
             <Route path="/blog/okto/*" element={<OktoBlog />}/>
             <Route path="/blog/goplus/*" element={<GoPlusBlog />}/>
             
+            <Route path="/blog/kgen/*" element={<KGeNBlog />}/>
             <Route path="/blog/carv/*" element={<CARVBlog />}/>
+
             <Route path="/blog/sahara/*" element={<SaharaBlog />}/>
             <Route path="/blog/gaianet/*" element={<GaianetBlog />}/>
             <Route path="/blog/privasea/*" element={<PrivaseaBlog />}/>

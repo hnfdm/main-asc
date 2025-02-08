@@ -4,6 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const GameFiModal = ({ isOpen, onRequestClose }) => {
   const ai = [
+    { name: 'KGen IO', image: '/blog/kgen.png', link: '/blog/kgen' },
     { name: 'DATA Framework by CARV', image: '/blog/carv.png', link: '/blog/carv' },
   ];
 

@@ -5,6 +5,7 @@ import '@styles/common/BlogModal.css';
 const DeFiModal = ({ isOpen, onRequestClose }) => {
   const defi = [
     { name: 'PayFi', image: '/blog/payfi.png', link: '/blog/payfi' },
+    { name: 'Octo Wallet', image: '/blog/octo.png', date: "2024-12-23", link: '/blog/okto' },
     { name: 'Islamic Coin', image: '/blog/islm.png', link: '/blog/islm' },
     { name: 'MevX', image: '/blog/mevx.png', link: '/blog/mevx' },
   ];

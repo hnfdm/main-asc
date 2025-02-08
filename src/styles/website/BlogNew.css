@@ -107,14 +107,50 @@ body {
     margin-top: 5px;
 }
 
-@media (max-width: 768px) {
-    .blog-item {
-      flex-direction: column; /* Ubah menjadi kolom */
-      align-items: flex-start; /* Elemen rata ke kiri */
-    }
-  
-    .blog-date {
-      margin-top: 10px; /* Jarak di bawah nama */
-      font-size: 10px;
-    }
+/* MEDIA QUERIES */
+
+/* Untuk Tablet (screen lebar hingga 1024px) */
+@media (max-width: 1024px) {
+  .blog-grid {
+    grid-template-columns: 1fr 1fr; /* Mengubah grid menjadi dua kolom untuk tablet */
+  }
+  .blog-item {
+    padding: 15px 10px; /* Sedikit menambah padding pada item */
+  }
+  .blog-title {
+    font-size: 17px !important; /* Mengurangi ukuran font judul untuk tablet */
+  }
+  .blog-date {
+    font-size: 15px !important; /* Mengurangi ukuran font tanggal untuk tablet */
+  }
+  .blog-logo {
+    width: 220px; /* Mengurangi lebar gambar untuk tablet */
+    height: 120px; /* Mengurangi tinggi gambar untuk tablet */
+  }
+}
+
+/* Untuk Mobile (screen lebar hingga 600px) */
+@media (max-width: 600px) {
+  .blog-container {
+    padding: 10px; /* Mengurangi padding untuk mobile */
+  }
+  .blog-grid {
+    grid-template-columns: 1fr; /* Mengubah grid menjadi satu kolom untuk mobile */
+  }
+  .blog-item {
+    flex-direction: column; /* Mengubah item menjadi kolom */
+    align-items: flex-start;
+    padding: 10px 10px; /* Mengurangi padding pada item */
+  }
+  .blog-title {
+    font-size: 15px !important; /* Mengurangi ukuran font judul untuk mobile */
+  }
+  .blog-date {
+    font-size: 12px !important; /* Mengurangi ukuran font tanggal untuk mobile */
+  }
+  .blog-logo {
+    width: 100%; /* Membuat gambar memenuhi lebar untuk mobile */
+    height: auto; /* Mengatur tinggi gambar agar tetap proporsional */
+    margin-bottom: 10px; /* Memberikan margin di bawah gambar */
+  }
 }

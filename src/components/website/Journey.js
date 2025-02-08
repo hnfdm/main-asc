@@ -25,7 +25,7 @@ const Title = styled.h1`
   width: fit-content;
 
   @media (max-width: 40em) {
-    font-size: 24pxf;
+    font-size: 24px;
   }
 `;
 const Container = styled.div`
@@ -142,7 +142,7 @@ const SubTitle = styled.span`
   text-align: center;
 
   @media (max-width: 40em) {
-    font-size: 20px;
+    font-size: 12px;
     font-weight: 600;
   }
 `;
@@ -157,7 +157,7 @@ const Text = styled.span`
   font-weight: 400;
   margin: 0.5rem 0;
   @media (max-width: 40em) {
-    font-size: 15px;
+    font-size: 9px;
   }
 `;
 

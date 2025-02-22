@@ -11,13 +11,14 @@ const logos = [
   { src: '/rlogo/Sentinel.svg', alt: 'Sentinel', url: 'https://sentinel.co/' },
   { src: '/rlogo/Persistence.svg', alt: 'Persistence', url: 'https://persistence.one/' },*/
 
+  { src: '/rlogo/Wizardia.png', alt: 'Wizardia', url: 'https://wizardia.io/' },
+  { src: '/rlogo/Sui.png', alt: 'Sui', url: 'https://sui.io/' },
   { src: '/rlogo/Bencat.png', alt: 'Bencat', url: 'https://x.com/Bencatcoin' },
   { src: '/rlogo/InitVerse.png', alt: 'InitVerse', url: 'https://www.initverse.org/' },
   { src: '/rlogo/RandAO.png', alt: 'RandAO', url: 'https://randao.permagate.io/' },
-  { src: '/rlogo/Rise.png', alt: 'RiseChain', url: 'https://www.riselabs.xyz/' },
-  { src: '/rlogo/SaharaAI.png', alt: 'SaharaAI', url: 'https://saharalabs.ai/' },
-  { src: '/rlogo/Multiple.png', alt: 'MultipleNetwork', url: 'https://multiple.fi/' },
   { src: '/rlogo/Mango.png', alt: 'MangoNetwork', url: 'https://mangonet.io/' },
+  { src: '/rlogo/BitgetWallet.png', alt: 'Bitget Wallet', url: 'https://web3.bitget.com/id' },
+  { src: '/rlogo/CoinEx.png', alt: 'Coinnex', url: 'https://www.coinex.com/id/' },
 ];
 
 const LogoSlider = () => {

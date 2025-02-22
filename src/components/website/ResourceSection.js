@@ -13,17 +13,17 @@ function ResourceSection() {
         </div>
         <div className="resource-item">
           <img src="/icons/x-c.png" alt="Icon" class="resource-icon"/>
-          <h3>32k+</h3>
+          <h3>37k+</h3>
           <p class ="resource-desc">Followers</p>
         </div>
         <div className="resource-item">
           <img src="/icons/telegram-c.png" alt="Icon" class="resource-icon"/>
-          <h3>80k+</h3>
+          <h3>85k+</h3>
           <p class ="resource-desc">Members</p>
         </div>
         <div className="resource-item">
           <img src="/icons/kol.png" alt="Icon" class="resource-icon"/>
-          <h3>-</h3>
+          <h3>999+</h3>
           <p class ="resource-desc">KOL</p>
         </div>
         <div className="resource-item">

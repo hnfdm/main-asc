@@ -8,8 +8,8 @@ const img3 = '/team/bighead-2.svg';
 const img5 = '/team/bighead-4.svg';
 const img6 = '/team/bighead-5.svg';
 const img7 = '/team/bighead-6.svg';
-//const img8 = '/team/bighead-7.svg';
-//const img9 = '/team/bighead-8.svg';
+const img8 = '/team/bighead-7.svg';
+const img9 = '/team/bighead-8.svg';
 const img10 = '/team/bighead-9.svg';
 const img11 = '/team/bighead-10.svg';
 
@@ -189,12 +189,14 @@ const Team = () => {
         <FounderComponent img={img11} name="Zamza Salim" position="Founder" />
       </SingleContainer>
       <Container>
-        <MemberComponent img={img2} name="Agan" position="Leader Airdrop ASC" />
-        <MemberComponent img={img3} name="Aldi" position="Airdrop Team & General" />
-        <MemberComponent img={img7} name="Remover" position="Airdrop Team & Bot Dev" />
-        <MemberComponent img={img10} name="Yuli" position="Research Team & Marketing" />
-        <MemberComponent img={img6} name="Hanip" position="Research Team & Web Dev" />
+        <MemberComponent img={img2} name="Agan" position="Leader" />
+        <MemberComponent img={img3} name="Aldi" position="Airdrop Team" />
+        <MemberComponent img={img7} name="Remover" position="Airdrop Team" />
+        <MemberComponent img={img8} name="Javier" position="Airdrop Team" />
+        <MemberComponent img={img9} name="Ultraman" position="Super Admin" />
         <MemberComponent img={img5} name="Chiga" position="Editor" />
+        <MemberComponent img={img10} name="Yuli" position="Research Team" />
+        <MemberComponent img={img6} name="Hanip" position="Research Team" />
       </Container>
     </Section>
   )

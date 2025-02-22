@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Moderustic:wght@400;800&display=swap');
 
 .header {
-  padding: 30px 20px; /* Reduced padding */
+  padding: 30px 20px;
   font-family: 'Moderustic', sans-serif;
+  position: relative;
 }
 
 .header-content {
@@ -11,62 +12,127 @@
   align-items: center;
   max-width: 1200px;
   margin: 0 auto;
+  flex-direction: column-reverse;
+  text-align: center;
 }
 
 .header-text {
-  max-width: 50%;
-  margin-bottom: 0; /* Remove bottom margin to close gap */
+  max-width: 100%;
+  margin-bottom: 0;
 }
 
 .header-text h1 {
-  font-size: 45px;
+  font-size: 39px;
   font-weight: 700;
-  margin-bottom: 10px; /* Reduced margin */
+  margin-bottom: 0;
   color: #ffffff;
 }
 
 .header-text p {
-  font-size: 18px;
+  font-size: 15px;
   font-weight: 400;
   color: #ffffff;
-  margin-bottom: 0; /* Remove bottom margin */
+  margin-bottom: 0;
 }
 
-.header-image img {
-  width: 250px; /* Set width to 250px */
-  height: 250px; /* Set height to 250px */
-  object-fit: contain; /* Optional: Ensure the image fits within the dimensions without distortion */
+.header-image {
+  position: relative;
+  z-index: 1;
 }
 
-@media (max-width: 768px) {
-  .header-content {
-    flex-direction: column-reverse; /* Ganti urutan menjadi gambar di atas, teks di bawah */
-    text-align: center;
-  }
-
-  .header-text {
-    max-width: 100%;
-    margin-top: 10px; /* Reduced top margin */
-  }
-
-  .header-image {
-    margin-bottom: 10px; /* Reduced bottom margin */
-    width: 100%; /* Ensure the image fills the screen width */
-  }
+/* Mascot wrapper for floating */
+.mascot-wrapper {
+  position: relative;
+  animation: float 3s ease-in-out infinite;
+  z-index: 2;
 }
 
+.mascot-wrapper img {
+  width: 300px;
+  height: 300px;
+  object-fit: contain;
+}
+
+/* Rotating Circles around the mascot */
+.rotating-circles {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 300px;
+  height: 300px;
+  animation: rotate 20s linear infinite;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+/* Circles that rotate around the mascot */
+.circle {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.circle img {
+  width: 40px;
+  height: 40px;
+  animation: counterRotate 20s linear infinite; /* Counter-rotate to stay upright */
+}
+
+/* Float animation for mascot */
 @keyframes float {
   0% {
     transform: translateY(0);
   }
   50% {
-    transform: translateY(-10px); /* Elemen naik 10px */
+    transform: translateY(-10px);
   }
   100% {
-    transform: translateY(0); /* Kembali ke posisi awal */
+    transform: translateY(0);
   }
 }
 
-.header-image img {
-  animation: float 3s ease-in-out infinite; /* Durasi 2 detik, efek berulang */
+/* Rotation for circles */
+@keyframes rotate {
+  0% {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  100% {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+/* Counter-rotation to keep icons facing the same direction */
+@keyframes counterRotate {
+  0% {
+    transform: rotate(0deg); /* Match mascot facing right */
+  }
+  100% {
+    transform: rotate(-360deg); /* Counteract 360deg rotation from 90deg */
+  }
+}
+
+@media (max-width: 768px) {
+  .header-content {
+    flex-direction: column-reverse;
+    text-align: center;
+  }
+
+  .header-text {
+    max-width: 100%;
+    margin-top: 10px;
+  }
+
+  .header-image {
+    margin-bottom: 10px;
+    width: 100%;
+  }
 }

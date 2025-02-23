@@ -30,7 +30,8 @@ body {
   font-weight: bold;
   color: #ffffff;
   margin-bottom: 20px;
-  margin-left: 25px; /* Shift the title to the left */
+  /*margin-left: 25px; /* Shift the title to the left */
+  text-align: center;
 }
 
 .blog-grid {

@@ -2,8 +2,8 @@ import React from 'react';
 import '@styles/website/Node.css';
 
 const doneProjects = [
+    { name: 'Cyberfly', logo: '/node/cyberfly.png', link: 'https://cyberfly.io/' },
     { name: 'Rivalz', logo: '/node/rivalz.png', link: 'https://rivalz.ai/' },
-    { name: 'Init Verse', logo: '/node/ini.png', link: 'https://inichain.com/' },
     { name: 'Network 3', logo: '/node/n3.png', link: 'https://network3.ai/' },
     { name: 'Volara', logo: '/node/volara.png', link: 'https://volara.xyz/' },
     { name: 'Mira', logo: '/node/mira.jpg', link: 'https://mira.network/' },
@@ -89,17 +89,22 @@ const runningProjects = [
     { name: 'Multiple Network', logo: '/node/multiple.png', link: 'https://t.me/airdropasc/64503' },
     { name: 'Titan Network', logo: '/node/titan.png', link: 'https://t.me/airdropasc/63734' },
     { name: 'Covalent', logo: '/node/covalent.png', link: 'https://t.me/airdropasc/69821' },
-    { name: 'Cyberfly', logo: '/node/cyberfly.png', link: 'https://t.me/airdropasc/64988' },
     { name: 'Kuzco', logo: '/node/kuzco.png', link: 'https://t.me/airdropasc/61971' },
     { name: 'Gaianet AI', logo: '/node/gaianet.png', link: '/node/gaianet' },
 
-    { name: 'Symphony', logo: '/node/symphony.png', link: '/node/symphony' },
-    { name: 'Dill', logo: '/node/dill.png', link: '/node/dill' },
+    { name: 'Privasea', logo: '/node/privasea.jpg', link: 'https://t.me/airdropasc/71060' },
+    { name: 'Zk Verify', logo: '/node/zkverify.jpg', link: 'https://t.me/airdropasc/71401' },
+    { name: 'Pipe Network', logo: '/node/pipe.jpg', link: 'https://t.me/airdropasc/72069' },
+    { name: 'Init Verse', logo: '/node/ini.png', link: 'https://t.me/airdropasc/71269' },
+    { name: '0G Labs', logo: '/node/0glabs.jpg', link: 'https://t.me/airdropasc/72267' },
+
+    //{ name: 'Symphony', logo: '/node/symphony.png', link: '/node/symphony' },
+    //{ name: 'Dill', logo: '/node/dill.png', link: '/node/dill' },
 ];
 
-const depinProjects = [
+/*const depinProjects = [
     { name: 'Nodepay', logo: '/depin/nodepay.png', link: 'https://nodepay.io/' },
-];
+];*/
 
 const Node = () => {
   return (
@@ -111,20 +116,6 @@ const Node = () => {
             <h3>Running Node</h3>
             <div className="chain-grid">
                 {runningProjects.map((project, i) => (
-                <a key={i} href={project.link} className="chain-item-link">
-                    <div className="chain-item">
-                        <img src={project.logo} alt={project.name} className="chain-logo" />
-                        <span>{project.name}</span>
-                    </div>
-                </a>
-                ))}
-            </div>
-        </div>
-
-        <div className="chain-section">
-            <h3>DePIN</h3>
-            <div className="chain-grid">
-                {depinProjects.map((project, i) => (
                 <a key={i} href={project.link} className="chain-item-link">
                     <div className="chain-item">
                         <img src={project.logo} alt={project.name} className="chain-logo" />

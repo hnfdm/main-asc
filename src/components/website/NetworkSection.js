@@ -26,13 +26,6 @@ function NetworkSection() {
         followLink: 'https://t.me/airdropasc/61971'
       },
       {
-        name: 'Rivalz',
-        username: 'Offline',
-        image: '/node/rivalz.png',
-        status: 'offline',
-        followLink: 'https://t.me/airdropasc/64503'
-      },
-      {
         name: 'Brinx AI',
         username: 'Online',
         image: '/node/brinxai.png',
@@ -82,13 +75,6 @@ function NetworkSection() {
         followLink: 'https://t.me/airdropasc/68779'
       },
       {
-        name: 'Cyberfly',
-        username: 'Offline',
-        image: '/node/cyberfly.png',
-        status: 'offline',
-        followLink: 'https://t.me/airdropasc/69421'
-      },
-      {
         name: 'Kuzco',
         username: 'Online',
         image: '/node/kuzco.png',
@@ -101,6 +87,41 @@ function NetworkSection() {
         image: '/node/gaianet.png',
         status: 'online',
         followLink: '/node/gaianet'
+      },
+      {
+        name: 'Privasea',
+        username: 'Online',
+        image: '/node/privasea.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71060'
+      },
+      {
+        name: 'Zk Verify',
+        username: 'Online',
+        image: '/node/zkverify.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71401'
+      },
+      {
+        name: 'Pipe Network',
+        username: 'Online',
+        image: '/node/pipe.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/72069'
+      },
+      {
+        name: 'InitVerse',
+        username: 'Online',
+        image: '/node/ini.png',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71269'
+      },
+      {
+        name: '0G Labs',
+        username: 'Online',
+        image: '/node/0glabs.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/72267'
       },
     ] : [
       {
@@ -116,13 +137,6 @@ function NetworkSection() {
         image: '/depin/nodepay.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/67213'
-      },
-      {
-        name: 'Pipe Network',
-        username: 'Online',
-        image: '/depin/pipe.png',
-        status: 'online',
-        followLink: 'https://t.me/airdropasc/66699'
       },
       {
         name: 'Gradient Network',
@@ -202,13 +216,6 @@ function NetworkSection() {
         followLink: 'https://t.me/airdropasc/61596'
       },
       {
-        name: 'Rivalz',
-        username: 'Online',
-        image: '/depin/rivalz.png',
-        status: 'online',
-        followLink: 'https://t.me/airdropasc/60461'
-      },
-      {
         name: 'Alpha Network',
         username: 'Online',
         image: '/depin/alpha.png',
@@ -249,6 +256,34 @@ function NetworkSection() {
         image: '/depin/depined.png',
         status: 'online',
         followLink: 'https://t.me/airdropasc/70405'
+      },
+      {
+        name: 'Naoris Protocol',
+        username: 'Online',
+        image: '/depin/naoris.webp',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71388'
+      },
+      {
+        name: 'NodeGo',
+        username: 'Online',
+        image: '/depin/nodego.png',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71902'
+      },
+      {
+        name: 'Voltix',
+        username: 'Online',
+        image: '/depin/voltix.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71997'
+      },
+      {
+        name: '3DOS Network',
+        username: 'Online',
+        image: '/depin/3dos.jpg',
+        status: 'online',
+        followLink: 'https://t.me/airdropasc/71873'
       },
     ];
   

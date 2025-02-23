@@ -2,6 +2,11 @@ import React from 'react';
 import '@styles/website/BlogNew.css';
 
 const l1 = [
+    { name: 'Anoma 101: Alpha Alert, Early Locking', logo: 'https://pbs.twimg.com/media/GkFQpi4bsAARpec.jpg', date: "2025-02-18", link: 'https://x.com/Autosultan_team/status/1891884397491614031' },
+    { name: 'Union 101: Last Change Before TGE', logo: 'https://pbs.twimg.com/media/Gj6UlwLbsAAAahh.jpg', date: "2025-02-16", link: 'https://x.com/Autosultan_team/status/1891114894939799952' },
+    { name: 'Tanssi Network 101: Mempercepat Adopsi Re-staking', logo: 'https://pbs.twimg.com/media/Gj1nSAbbMAARccS.jpg',  date: "2025-02-15", link: 'https://x.com/Autosultan_team/status/1890782489838240187' },
+    { name: 'Linera 101: The Real-Time Blockchain', logo: 'https://pbs.twimg.com/media/Gjw8osRacAERo7P.jpg',  date: "2025-02-15", link: 'https://x.com/Autosultan_team/status/1890455731859534041' },
+
     { name: 'Fogo 101: The Next Big Thing on Solana', logo: 'https://pbs.twimg.com/media/GiUARapa8AALr2V.jpg', date: "2025-01-27", link: '/blog/fogochain' },
     { name: 'Manggo 101: 40 Hari menuju TGE', logo: 'https://pbs.twimg.com/media/Gggi2esb0AA6l6K.jpg', date: "2025-01-05", link: '/blog/mangonetwork' },
     { name: 'Init Verse 101: 80% menuju TGE (Q1 25)', logo: 'https://pbs.twimg.com/media/GfbnDVfbMAAVb27.jpg',  date: "2024-12-23", link: '/blog/initverse' },
@@ -17,6 +22,9 @@ const l2 = [
 ];
 
 const defi = [
+    { name: 'Nodo 101: 400k users & $1.2M Volume?', logo: 'https://pbs.twimg.com/media/Gj2JQsqbYAABZUL.jpg', date: "2025-02-16", link: 'https://x.com/Autosultan_team/status/1890824661245600088' },
+    { name: 'USDT0 101: Your USDT, Anywhere', logo: 'https://pbs.twimg.com/media/GjvvQlcaYAAgEl7.jpg', date: "2025-02-14", link: 'https://x.com/Autosultan_team/status/1890368337621770608' },
+
     { name: 'Bitget Wallet Card 101: PayFi', logo: 'https://pbs.twimg.com/media/Gi36sN_acAANbOD.jpg', date: "2025-02-03", link: '/blog/payfi' },
     { name: 'Octo Wallet 101: The Next Phantom?', logo: 'https://pbs.twimg.com/media/Gfe7Tz4awAA2C9X.jpg', date: "2024-12-23", link: '/blog/okto' },
     { name: 'Islamic Coin 101: Token with Sharia Narrative', logo: 'https://pbs.twimg.com/media/GhbQrQWacAAsK2o.jpg', date: "2024-12-12", link: '/blog/islm' },
@@ -24,6 +32,9 @@ const defi = [
 ];
 
 const socialfi = [
+    { name: 'Permabrawl 101: Official Campaign by AO', logo: 'https://pbs.twimg.com/media/Gj2k3WtbEAAmWoD.jpg', date: "2025-02-16", link: 'https://x.com/Autosultan_team/status/1890848947377442933' },
+    { name: 'Kaito AI 101: Solusi untuk Fragmentasi Informasi di Crypto', logo: 'https://pbs.twimg.com/media/GjcIrtUbsAABbAe.jpg', date: "2025-02-10", link: 'https://x.com/Autosultan_team/status/1888989415994986895' },
+
     { name: 'Halo Social 101: Previously get 10M IDR, Next Airdrop?', logo: 'https://pbs.twimg.com/media/GhXMCNYbMAAbL-g.jpg', date: "2025-01-16", link: '/blog/halo' },
     { name: 'Lens Protocol 101: Mainnet Q1 2025?', logo: 'https://pbs.twimg.com/media/GhG2WHkakAA80jv.jpg', date: "2024-12-22", link: '/blog/lens' },
 ];

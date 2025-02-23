@@ -19,42 +19,48 @@ function BlogSection() {
   const renderCards = () => {
     const blogs = activeTab === 'Script' ? [
       {
-        name: 'Payment Finance',
-        desc: 'PayFi bridges the gap between digital assets & our everyday lives.',
-        image: '/blog/payfi.png',
-        Link: '/blog/payfi'
+        name: 'Anoma',
+        desc: 'Web3 OS. Build apps that work like magic, powered by intents.',
+        image: '/blog/anoma.jpg',
+        Link: 'https://x.com/Autosultan_team/status/1891884397491614031'
       },
       {
-        name: 'DATA Framework (CARV)',
-        desc: 'Building an AI chain ecosystem to enable data sovereignty at scale. ',
-        image: '/blog/carv.png',
-        Link: '/blog/carv'
+        name: 'Union',
+        desc: 'Hyper-efficient interoperability protocol. Union connects all blockchains and rollups, across any ecosystem.',
+        image: '/blog/union.png',
+        Link: 'https://x.com/Autosultan_team/status/1891114894939799952'
       },
       {
-        name: 'Sahara AI',
-        desc: 'Create & Monetize AI, collaboratively with verifiable on-chain provenance.',
-        image: '/blog/sahara.png',
-        Link: '/blog/sahara'
+        name: 'Permabrawl by AO',
+        desc: 'The PermaBrawl is battle between 4 project for reward pool 3.412 AO to share with their communities.',
+        image: '/blog/ao.png',
+        Link: 'https://x.com/Autosultan_team/status/1890848947377442933'
       },
       {
-        name: 'Gaianet AI',
-        desc: 'Decentralizing AI Inferencing. Building a distributed and incentivized GenAI Agent Network.',
-        image: '/blog/gaianet.png',
-        Link: '/blog/gaianet'
+        name: 'Nodo',
+        desc: 'AI Agent Swarm Coordination Layer on #SUI | Omni-chain futures trading ecosystem | 400k users | 1.2M - Trading Volume',
+        image: '/blog/nodo.jpg',
+        Link: 'https://x.com/Autosultan_team/status/1890824661245600088'
       },
       {
-        name: 'Fogo Chain',
-        desc: 'Defying physics to achieve real-time experiences at scale. SVM Layer 1',
-        image: '/blog/fogo.png',
-        Link: '/blog/fogochain'
+        name: 'Tanssi Network',
+        desc: 'Launch your @Symbioticfi network in minutes—not months.',
+        image: '/blog/tanssi.jpg',
+        Link: 'https://x.com/Autosultan_team/status/1890782489838240187'
       },
       {
-        name: 'Privasea',
-        desc: 'Confidential AI network enabled by FHEML',
-        image: '/blog/privasea.png',
-        Link: '/blog/privasea'
+        name: 'Linera',
+        desc: 'The Real-Time Blockchain - The first L1 blockchain infrastructure optimized for real-time applications. Founded by @ma2bd.',
+        image: '/blog/linera.jpg',
+        Link: 'https://x.com/Autosultan_team/status/1890455731859534041'
       },
     ] : [
+      {
+        name: 'Coming Soon',
+        desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+        image: '/blog/soon.png',
+        Link: '/'
+      },
       {
         name: 'Coming Soon',
         desc: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -101,7 +107,7 @@ function BlogSection() {
           className={activeTab === 'Script Web' ? 'active' : ''}
           onClick={() => handleTabClick('Script Web')}
         >
-          Soon
+          102
         </button>
       </div>
       <div className={`blog-cards ${fadeClass}`}>

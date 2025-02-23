@@ -8,29 +8,44 @@
 
 h2 {
   color: white;
-  font-size: 24px;
+  font-size: 20px;
   text-align: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
 }
 
 .network-tabs {
   display: flex;
   justify-content: center;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
+}
+
+.network-tabs.active {
+  border: 1px solid white; /* White border around the group when active */
 }
 
 .network-tabs button {
   background-color: transparent;
-  border: none;
-  padding: 10px 20px;
-  font-size: 16px;
+  border: 1px solid white; /* Add white outline */
+  padding: 10px 10px;
+  font-size: 15px;
   font-weight: 600;
   cursor: pointer;
+  color: white; /* Add color for the text */
+  border-radius: 5px; /* Optional: Round the edges */
+  transition: background-color 0.3s ease;
+  margin: 5px;
+}
+
+.network-tabs button:hover {
+  background-color: #52575c; /* Optional: Hover effect */
+  border-color: #ffffff; /* Optional: Keep white border on hover */
 }
 
 .network-tabs button.active {
-  color: #ffffff;
+  background-color: #ffffff; /* Green background when active */
+  color: #000;
   font-weight: 700;
+  border-color: #000; /* Ensure active button also has white border */
 }
 
 .network-cards {
@@ -66,7 +81,7 @@ h2 {
 .network-info h4 {
   color: white;
   margin: 0;
-  font-size: 16px;
+  font-size: 15px;
   font-weight: 400;
 }
 

@@ -36,7 +36,8 @@
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
-    justify-content: space-between; /* Untuk mengatur jarak antar elemen */
+    justify-content: space-between; /* Keeps spacing consistent */
+    width: 100%; /* Ensure the grid takes full width */
 }
 
 .blog-item {
@@ -51,8 +52,9 @@
     text-decoration: none;
     color: #000000;
     transition: background-color 0.3s ease, box-shadow 0.3s ease;
-    flex: 1 1 calc(50% - 10px); /* Membagi menjadi 3 kolom dengan jarak antar elemen */
-    box-sizing: border-box; /* Memastikan padding tidak menambah lebar total */
+    flex: 1 1 calc(50% - 20px); /* Adjusted for 2 columns with proper spacing */
+    box-sizing: border-box; /* Ensures padding/margin is included in width */
+    min-width: 0; /* Prevents flex items from overflowing */
 }
 
 .blog-item:hover {

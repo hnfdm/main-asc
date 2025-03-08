@@ -1,17 +1,16 @@
 import React from "react";
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { CopyBlock, dracula } from 'react-code-blocks';
+import { CopyBlock, dracula } from 'react-code-blocks'; // Pastikan menggunakan react-code-blocks
 
 const Read = () => {
-  const markdownBeforeForm = `
-  Test Embed using Mirror XYZ
-  `;
 
-  const siteBackgroundColor = '#000';
+  const markdownBeforeForm = `
+  Will be update ASAP
+`;
 
   return (
-    <div style={{ maxWidth: '1000px', margin: '0 auto', color: 'white', textAlign: 'justify' }}>
+    <div style={{ maxWidth: '1000px', margin: '0 auto', color: 'white', textAlign: 'justify'}}> {/* Limit the width */}
       <ReactMarkdown 
         remarkPlugins={[remarkGfm]}
         components={{
@@ -20,14 +19,14 @@ const Read = () => {
               display: "flex",
               justifyContent: "center",
               alignItems: "center",
-              gap: "10px",
-              flexWrap: "wrap",
+              gap: "10px", // Jarak antar gambar
+              flexWrap: "wrap", // Agar tetap responsif 
             }}>
-              <img
-                {...props}
-                alt={props.alt || "Image"}
-                style={{ maxWidth: "75%", height: "auto", margin: "5px 0" }}
-              />
+            <img
+              {...props}
+              alt={props.alt || "Image"} // Menyediakan alt default jika tidak ada
+              style={{ maxWidth: "75%", height: "auto" , margin : "5px 0"}} // Styling gambar
+            />
             </div>
           ),
           code({ node, inline, className, children, ...props }) {
@@ -48,22 +47,8 @@ const Read = () => {
           }
         }}
       >
-        {markdownBeforeForm}
+      {markdownBeforeForm}
       </ReactMarkdown>
-      <div style={{ marginTop: '20px', display: 'flex', justifyContent: 'center',backgroundColor: siteBackgroundColor }}>
-        <iframe
-          src="https://dev.mirror.xyz/bvwJel93C8R-g9Pbiy1uMteS5UBf5-dYExJ3fcprrDQ"
-          //src="https://x.com/Autosultan_team/status/1883913244257165382"
-          width="100%"
-          height="2500"
-          frameBorder="0"
-          title="Mirror Content"
-          style={{ 
-            maxWidth: '1200px',
-            borderRadius: '15px' // Border radius langsung pada iframe
-          }}
-        />
-      </div>
     </div>
   );
 };

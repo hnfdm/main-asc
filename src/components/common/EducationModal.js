@@ -4,7 +4,8 @@ import '@styles/common/BlogModal.css';
 
 const EducationModal = ({ isOpen, onRequestClose }) => {
   const education = [
-    { name: 'Learn: Airdrop', image: '/blog/asc.png', link: '/blog/airdrop' },
+    { name: 'DePIN', image: '/blog/depin.png', link: '/blog/depin' },
+    { name: 'Learn Airdrop', image: '/blog/asc.png', link: '/blog/airdrop' },
   ];
 
   return (
@@ -15,7 +16,7 @@ const EducationModal = ({ isOpen, onRequestClose }) => {
       className="blog-modal"
       overlayClassName="blog-modal-overlay"
     >
-      <h2 className="blog-title">Layer 2</h2>
+      <h2 className="blog-title">Education</h2>
       <div className="blog-grid">
         {education.map((project) => (
           <a href={project.link} key={project.name} className="blog-item">

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiRefreshCcw, FiArrowLeftCircle } from 'react-icons/fi';
-import DePINModal from '@components/common/DePINModal';
+import DePINModal from '@components/common/EducationModal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {

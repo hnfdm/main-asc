@@ -56,11 +56,8 @@ const gamefi = [
     { name: 'CARV 101: D.A.T.A Framework Revolution', logo: 'https://pbs.twimg.com/media/GinkOgUacAAxQO_.jpg', date: "2025-01-31", link: '/blog/carv' },
 ];
 
-const depin = [
-    { name: 'DePIN Tutorial 101: Just using an Smartphone?', logo: 'https://pbs.twimg.com/media/GgODRzAboAAZ-bB.jpg', date: "2025-01-01", link: '/blog/depin' },
-];
-
 const education = [
+    { name: 'DePIN Tutorial 101: Just using an Smartphone?', logo: 'https://pbs.twimg.com/media/GgODRzAboAAZ-bB.jpg', date: "2025-01-01", link: '/blog/depin' },
     { name: 'Learn Airdrop 101: How to be The King of Airdrop', logo: 'https://pbs.twimg.com/media/GaAc_XEbEAAyGfI.jpg', date: "2024-12-16", link: '/blog/airdrop' },
 ];
 
@@ -198,25 +195,6 @@ const Blog = () => {
                 <h3>GameFi</h3>
                 <div className="blog-grid">
                 {gamefi.map((project, i) => (
-                    <a key={i} href={project.link} className="blog-item-link">
-                        <div className="blog-item">
-                            <div className="blog-image">
-                                <img src={project.logo} alt={project.name} className="blog-logo" />
-                            </div>
-                            <div className="blog-content">
-                                <span className="blog-date">{formatDate(project.date)}</span>
-                                <span className="blog-title">{project.name}</span>    
-                            </div>
-                        </div>
-                    </a>
-                    ))}
-                </div>
-            </div>
-
-            <div className="blog-section">
-                <h3>DePIN</h3>
-                <div className="blog-grid">
-                {depin.map((project, i) => (
                     <a key={i} href={project.link} className="blog-item-link">
                         <div className="blog-item">
                             <div className="blog-image">

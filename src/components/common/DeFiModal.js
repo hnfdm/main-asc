@@ -4,11 +4,10 @@ import '@styles/common/BlogModal.css';
 
 const DeFiModal = ({ isOpen, onRequestClose }) => {
   const defi = [
-    { name: 'Nodo', image: '/blog/nodo.jpg', link: '/blog/' },
-    { name: 'USDT0', image: '/blog/usdt0.jpg', date: "2024-12-23", link: '/blog/' },
-    
+    { name: 'Nodo', image: '/blog/nodo.jpg', link: '/blog/nodo' },
+    { name: 'USDT0', image: '/blog/usdt0.jpg', link: '/blog/usdt0' },
     { name: 'PayFi', image: '/blog/payfi.png', link: '/blog/payfi' },
-    { name: 'Octo Wallet', image: '/blog/octo.png', date: "2024-12-23", link: '/blog/okto' },
+    { name: 'Octo Wallet', image: '/blog/octo.png', link: '/blog/okto' },
     { name: 'Islamic Coin', image: '/blog/islm.png', link: '/blog/islm' },
     { name: 'MevX', image: '/blog/mevx.png', link: '/blog/mevx' },
   ];

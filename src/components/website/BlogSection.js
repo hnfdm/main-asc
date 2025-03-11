@@ -19,40 +19,40 @@ function BlogSection() {
   const renderCards = () => {
     const blogs = activeTab === 'Script' ? [
       {
+        name: 'Seismic',
+        desc: 'The Encrypted Blockchain.',
+        image: '/blog/seismic.png',
+        Link: '/blog/seismic'
+      },
+      {
+        name: 'Mira Network',
+        desc: 'Trustless, Verified Intelligence.',
+        image: '/blog/mira.jpg',
+        Link: '/blog/mira'
+      },
+      {
+        name: 'Protocol Land',
+        desc: 'Decentralised source control and code collaboration platform.',
+        image: '/blog/pl.jpg',
+        Link: '/blog/protocolland'
+      },
+      {
+        name: 'Plume Network',
+        desc: 'Bringing the real world onchain.',
+        image: '/blog/plume.jpg',
+        Link: '/blog/plume'
+      },
+      {
+        name: '0G Labs',
+        desc: 'The largest DeAI L1 ecosystem.',
+        image: '/blog/0glabs.jpg',
+        Link: '/blog/0glabs'
+      },
+      {
         name: 'Anoma',
         desc: 'Web3 OS. Build apps that work like magic, powered by intents.',
         image: '/blog/anoma.jpg',
-        Link: 'https://x.com/Autosultan_team/status/1891884397491614031'
-      },
-      {
-        name: 'Union',
-        desc: 'Hyper-efficient interoperability protocol. Union connects all blockchains and rollups, across any ecosystem.',
-        image: '/blog/union.png',
-        Link: 'https://x.com/Autosultan_team/status/1891114894939799952'
-      },
-      {
-        name: 'Permabrawl by AO',
-        desc: 'The PermaBrawl is battle between 4 project for reward pool 3.412 AO to share with their communities.',
-        image: '/blog/ao.png',
-        Link: '/blog/permabrawl'
-      },
-      {
-        name: 'Nodo',
-        desc: 'AI Agent Swarm Coordination Layer on #SUI | Omni-chain futures trading ecosystem | 400k users | 1.2M - Trading Volume',
-        image: '/blog/nodo.jpg',
-        Link: 'https://x.com/Autosultan_team/status/1890824661245600088'
-      },
-      {
-        name: 'Tanssi Network',
-        desc: 'Launch your @Symbioticfi network in minutes—not months.',
-        image: '/blog/tanssi.jpg',
-        Link: 'https://x.com/Autosultan_team/status/1890782489838240187'
-      },
-      {
-        name: 'Linera',
-        desc: 'The Real-Time Blockchain - The first L1 blockchain infrastructure optimized for real-time applications. Founded by @ma2bd.',
-        image: '/blog/linera.jpg',
-        Link: 'https://x.com/Autosultan_team/status/1890455731859534041'
+        Link: '/blog/anoma'
       },
     ] : [
       {

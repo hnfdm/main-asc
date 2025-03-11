@@ -4,6 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const AIModal = ({ isOpen, onRequestClose }) => {
   const ai = [
+    { name: 'Mira Network', image: '/blog/mira.jpg', link: '/blog/mira' },
     { name: 'Sahara AI', image: '/blog/sahara.png', link: '/blog/sahara' },
     { name: 'Gaianet AI', image: '/blog/gaianet.png', link: '/blog/gaianet' },
     { name: 'Privasea', image: '/blog/privasea.png', link: '/blog/privasea' },

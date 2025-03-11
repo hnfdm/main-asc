@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { FiRefreshCcw, FiArrowLeftCircle } from 'react-icons/fi';
-import InfrastructureModal from '@components/common/DeFiModal';
+import DeFiModal from '@components/common/DeFiModal';
 import '@styles/blog/StatusBox.css'; // 
 
 const StatusBox = () => {
@@ -13,7 +13,7 @@ const StatusBox = () => {
           <a href="/blog/" className="back-link">
             <FiArrowLeftCircle size={23} className="back-icon" />
           </a>
-          <span className="project-name">Okto Wallet</span>
+          <span className="project-name">Nodo</span>
           <FiRefreshCcw
             size={20}
             className="refresh-icon"
@@ -23,7 +23,7 @@ const StatusBox = () => {
       </div>
 
       {/* Modal */}
-      <InfrastructureModal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
+      <DeFiModal isOpen={modalIsOpen} onRequestClose={() => setModalIsOpen(false)} />
     </div>
   );
 };

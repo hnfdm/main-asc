@@ -4,6 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const InfrastructureModal = ({ isOpen, onRequestClose }) => {
   const infrastructure = [
+    { name: 'Protocol Land', image: '/blog/pl.jpg', date: "2025-01-06", link: '/blog/protocolland' },
     { name: 'Analog', image: '/blog/anlog.png', date: "2025-01-06", link: '/blog/anlog' },
     { name: 'ar.io Network', image: '/blog/ario.png', date: "2025-01-06", link: '/blog/ario' },
     { name: 'GoPlus', image: '/blog/goplus.png', date: "2024-12-21", link: '/blog/goplus' },

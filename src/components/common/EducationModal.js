@@ -4,6 +4,7 @@ import '@styles/common/BlogModal.css';
 
 const EducationModal = ({ isOpen, onRequestClose }) => {
   const education = [
+    { name: 'Pexx', image: '/blog/pexx.jpg', link: '/blog/pexx' },
     { name: 'DePIN', image: '/blog/depin.png', link: '/blog/depin' },
     { name: 'Learn Airdrop', image: '/blog/asc.png', link: '/blog/airdrop' },
   ];

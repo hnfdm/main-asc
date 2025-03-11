@@ -4,11 +4,13 @@ import '@styles/common/BlogModal.css';
 
 const L1Modal = ({ isOpen, onRequestClose }) => {
   const l1 = [
-    { name: 'Anoma', image: '/blog/anoma.jpg', link: '/blog' },
-    { name: 'Union', image: '/blog/union.png', link: '/blog' },
-    { name: 'Tanssi Network', image: '/blog/tanssi.jpg', link: '/blog' },
-    { name: 'Linera', image: '/blog/linera.jpg', link: '/blog' },
-
+    { name: 'Seismic', image: '/blog/seismic.png', link: '/blog/seismic' },
+    { name: 'Plume Network', image: '/blog/plume.jpg', link: '/blog/plume' },
+    { name: '0G Labs', image: '/blog/0glabs.jpg', link: '/blog/0glabs' },
+    { name: 'Anoma', image: '/blog/anoma.jpg', link: '/blog/anoma' },
+    { name: 'Union', image: '/blog/union.png', link: '/blog/union' },
+    { name: 'Tanssi Network', image: '/blog/tanssi.jpg', link: '/blog/tanssi' },
+    { name: 'Linera', image: '/blog/linera.jpg', link: '/blog/linera' },
     { name: 'Fogo Chain', image: '/blog/fogo.png', link: '/blog/fogochain' },
     { name: 'Mango Network', image: '/blog/mango.png', link: '/blog/mangonetwork' },
     { name: 'Init Verse', image: '/blog/ini.png', link: '/blog/initverse' },

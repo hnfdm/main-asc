@@ -23,6 +23,13 @@ const DillMenu = React.lazy(() => import('./components/node/dill/DillMenu'));
 const BrinxaiMenu = React.lazy(() => import('./components/node/brinxai/BrinxaiMenu'));
 const GaianetMenu = React.lazy(() => import('./components/node/gaianet/GaianetMenu'));
 
+const SeismicBlog = React.lazy(() => import('./components/blog/seismic/Menu'));
+const PlumeBlog = React.lazy(() => import('./components/blog/plume/Menu'));
+const OGLabsBlog = React.lazy(() => import('./components/blog/0glabs/Menu'));
+const AnomaBlog = React.lazy(() => import('./components/blog/anoma/Menu'));
+const UnionBlog = React.lazy(() => import('./components/blog/union/Menu'));
+const TanssiBlog = React.lazy(() => import('./components/blog/tanssi/Menu'));
+const LineraBlog = React.lazy(() => import('./components/blog/linera/Menu'));
 const MangoBlog = React.lazy(() => import('./components/blog/mangonetwork/Menu'));
 const InitVerseBlog = React.lazy(() => import('./components/blog/initverse/Menu'));
 const HyperliquidBlog = React.lazy(() => import('./components/blog/hyperliquid/Menu'));
@@ -34,7 +41,10 @@ const MegaETHBlog = React.lazy(() => import('./components/blog/megaeth/Menu'));
 const RiseChainBlog = React.lazy(() => import('./components/blog/risechain/Menu'));
 const UniChainBlog = React.lazy(() => import('./components/blog/unichain/Menu'));
 
+const NodoBlog = React.lazy(() => import('./components/blog/nodo/Menu'));
+const USDT0Blog = React.lazy(() => import('./components/blog/usdt0/Menu'));
 const PayFiBlog = React.lazy(() => import('./components/blog/payfi/Menu'));
+const OktoBlog = React.lazy(() => import('./components/blog/okto/Menu'));
 const ISLMBlog = React.lazy(() => import('./components/blog/islm/Menu'));
 const MevXBlog = React.lazy(() => import('./components/blog/mevx/Menu'));
 
@@ -43,18 +53,20 @@ const KaitoBlog = React.lazy(() => import('./components/blog/kaito/Menu'));
 const HaloBlog = React.lazy(() => import('./components/blog/halo/Menu'));
 const LensBlog = React.lazy(() => import('./components/blog/lens/Menu'));
 
+const ProtocolLandBlog = React.lazy(() => import('./components/blog/protocolland/Menu'));
 const AnlogBlog = React.lazy(() => import('./components/blog/anlog/Menu'));
 const ARIOBlog = React.lazy(() => import('./components/blog/ario/Menu'));
-const OktoBlog = React.lazy(() => import('./components/blog/okto/Menu'));
 const GoPlusBlog = React.lazy(() => import('./components/blog/goplus/Menu'));
 
 const KGeNBlog = React.lazy(() => import('./components/blog/kgen/Menu'));
 const CARVBlog = React.lazy(() => import('./components/blog/carv/Menu'));
 
+const MiraBlog = React.lazy(() => import('./components/blog/mira/Menu'));
 const SaharaBlog = React.lazy(() => import('./components/blog/sahara/Menu'));
 const GaianetBlog = React.lazy(() => import('./components/blog/gaianet/Menu'));
 const PrivaseaBlog = React.lazy(() => import('./components/blog/privasea/Menu'));
 
+const PexxBlog = React.lazy(() => import('./components/blog/pexx/Menu'));
 const DepinBlog = React.lazy(() => import('./components/blog/depin/Menu'));
 const AirdropBlog = React.lazy(() => import('./components/blog/airdrop/Menu'));
 
@@ -66,19 +78,28 @@ function App() {
         <Suspense fallback={<div>Loading...</div>}>
           <Routes>
             <Route path="/blog" element={<Blog />} />
-            
+
+            <Route path="/blog/seismic/*" element={<SeismicBlog />}/>
+            <Route path="/blog/plume/*" element={<PlumeBlog />}/>
+            <Route path="/blog/0glabs/*" element={<OGLabsBlog />}/>
+            <Route path="/blog/anoma/*" element={<AnomaBlog />}/>
+            <Route path="/blog/union/*" element={<UnionBlog />}/>
+            <Route path="/blog/tanssi/*" element={<TanssiBlog />}/>
+            <Route path="/blog/linera/*" element={<LineraBlog />}/>
             <Route path="/blog/mangonetwork/*" element={<MangoBlog />}/>
             <Route path="/blog/initverse/*" element={<InitVerseBlog />}/>
             <Route path="/blog/hyperliquid/*" element={<HyperliquidBlog />}/>
             <Route path="/blog/fogochain/*" element={<FogoChainBlog />}/>
             <Route path="/blog/arweaveao/*" element={<ArweaveAOBlog />}/>
             <Route path="/blog/somnia/*" element={<SomniaBlog />}/>
-
             <Route path="/blog/megaeth/*" element={<MegaETHBlog />}/>
             <Route path="/blog/risechain/*" element={<RiseChainBlog />}/>
             <Route path="/blog/unichain/*" element={<UniChainBlog />}/>
 
+            <Route path="/blog/nodo/*" element={<NodoBlog />}/>
+            <Route path="/blog/usdt0/*" element={<USDT0Blog />}/>
             <Route path="/blog/payfi/*" element={<PayFiBlog />}/>
+            <Route path="/blog/okto/*" element={<OktoBlog />}/>
             <Route path="/blog/islm/*" element={<ISLMBlog />}/>
             <Route path="/blog/mevx/*" element={<MevXBlog />}/>
 
@@ -87,18 +108,20 @@ function App() {
             <Route path="/blog/halo/*" element={<HaloBlog />}/>
             <Route path="/blog/lens/*" element={<LensBlog />}/>
             
+            <Route path="/blog/protocolland/*" element={<ProtocolLandBlog />}/> 
             <Route path="/blog/anlog/*" element={<AnlogBlog />}/>
             <Route path="/blog/ario/*" element={<ARIOBlog />}/>
-            <Route path="/blog/okto/*" element={<OktoBlog />}/>
             <Route path="/blog/goplus/*" element={<GoPlusBlog />}/>
             
             <Route path="/blog/kgen/*" element={<KGeNBlog />}/>
             <Route path="/blog/carv/*" element={<CARVBlog />}/>
 
+            <Route path="/blog/mira/*" element={<MiraBlog />}/>
             <Route path="/blog/sahara/*" element={<SaharaBlog />}/>
             <Route path="/blog/gaianet/*" element={<GaianetBlog />}/>
             <Route path="/blog/privasea/*" element={<PrivaseaBlog />}/>
 
+            <Route path="/blog/pexx/*" element={<PexxBlog />}/>
             <Route path="/blog/depin/*" element={<DepinBlog />}/>
             <Route path="/blog/airdrop/*" element={<AirdropBlog />}/>
 

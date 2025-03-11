@@ -17,7 +17,7 @@ const InfrastructureModal = ({ isOpen, onRequestClose }) => {
       className="blog-modal"
       overlayClassName="blog-modal-overlay"
     >
-      <h2 className="blog-title">Layer 2</h2>
+      <h2 className="blog-title">Infrastructure</h2>
       <div className="blog-grid">
         {infrastructure.map((project) => (
           <a href={project.link} key={project.name} className="blog-item">

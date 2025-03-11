@@ -5,18 +5,18 @@ import '@styles/common/BlogModal.css';
 const GameFiModal = ({ isOpen, onRequestClose }) => {
   const ai = [
     { name: 'KGen IO', image: '/blog/kgen.png', link: '/blog/kgen' },
-    { name: 'DATA Framework by CARV', image: '/blog/carv.png', link: '/blog/carv' },
+    { name: 'DATA Framework', image: '/blog/carv.png', link: '/blog/carv' },
   ];
 
   return (
     <Modal
       isOpen={isOpen}
       onRequestClose={onRequestClose}
-      contentLabel="Depin Modal"
+      contentLabel="GameFi Modal"
       className="blog-modal"
       overlayClassName="blog-modal-overlay"
     >
-      <h2 className="blog-title">AI</h2>
+      <h2 className="blog-title">Game Fi</h2>
       <div className="blog-grid">
         {ai.map((project) => (
           <a href={project.link} key={project.name} className="blog-item">

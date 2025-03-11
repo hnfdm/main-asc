@@ -13,7 +13,7 @@ const AIModal = ({ isOpen, onRequestClose }) => {
     <Modal
       isOpen={isOpen}
       onRequestClose={onRequestClose}
-      contentLabel="Depin Modal"
+      contentLabel="AI Modal"
       className="blog-modal"
       overlayClassName="blog-modal-overlay"
     >

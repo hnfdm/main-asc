@@ -34,7 +34,7 @@ function BlogSection() {
         name: 'Permabrawl by AO',
         desc: 'The PermaBrawl is battle between 4 project for reward pool 3.412 AO to share with their communities.',
         image: '/blog/ao.png',
-        Link: 'https://x.com/Autosultan_team/status/1890848947377442933'
+        Link: '/blog/permabrawl'
       },
       {
         name: 'Nodo',

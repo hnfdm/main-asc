@@ -38,6 +38,8 @@ const PayFiBlog = React.lazy(() => import('./components/blog/payfi/Menu'));
 const ISLMBlog = React.lazy(() => import('./components/blog/islm/Menu'));
 const MevXBlog = React.lazy(() => import('./components/blog/mevx/Menu'));
 
+const PermaBrawlBlog = React.lazy(() => import('./components/blog/permabrawl/Menu'));
+const KaitoBlog = React.lazy(() => import('./components/blog/kaito/Menu'));
 const HaloBlog = React.lazy(() => import('./components/blog/halo/Menu'));
 const LensBlog = React.lazy(() => import('./components/blog/lens/Menu'));
 
@@ -80,6 +82,8 @@ function App() {
             <Route path="/blog/islm/*" element={<ISLMBlog />}/>
             <Route path="/blog/mevx/*" element={<MevXBlog />}/>
 
+            <Route path="/blog/permabrawl/*" element={<PermaBrawlBlog />}/> 
+            <Route path="/blog/kaito/*" element={<KaitoBlog />}/> 
             <Route path="/blog/halo/*" element={<HaloBlog />}/>
             <Route path="/blog/lens/*" element={<LensBlog />}/>
             

@@ -32,9 +32,8 @@ const defi = [
 ];
 
 const socialfi = [
-    { name: 'Permabrawl 101: Official Campaign by AO', logo: 'https://pbs.twimg.com/media/Gj2k3WtbEAAmWoD.jpg', date: "2025-02-16", link: 'https://x.com/Autosultan_team/status/1890848947377442933' },
-    { name: 'Kaito AI 101: Solusi untuk Fragmentasi Informasi di Crypto', logo: 'https://pbs.twimg.com/media/GjcIrtUbsAABbAe.jpg', date: "2025-02-10", link: 'https://x.com/Autosultan_team/status/1888989415994986895' },
-
+    { name: 'Permabrawl 101: Official Campaign by AO', logo: 'https://pbs.twimg.com/media/Gj2k3WtbEAAmWoD.jpg', date: "2025-02-16", link: '/blog/permabrawl' },
+    { name: 'Kaito AI 101: Solusi untuk Fragmentasi Informasi di Crypto', logo: 'https://pbs.twimg.com/media/GjcIrtUbsAABbAe.jpg', date: "2025-02-10", link: '/blog/kaito' },
     { name: 'Halo Social 101: Previously get 10M IDR, Next Airdrop?', logo: 'https://pbs.twimg.com/media/GhXMCNYbMAAbL-g.jpg', date: "2025-01-16", link: '/blog/halo' },
     { name: 'Lens Protocol 101: Mainnet Q1 2025?', logo: 'https://pbs.twimg.com/media/GhG2WHkakAA80jv.jpg', date: "2024-12-22", link: '/blog/lens' },
 ];

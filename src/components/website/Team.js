@@ -140,8 +140,13 @@ display: flex;
 align-items: center;
 justify-content: center;
 text-transform: none;
-color: ${props => props.theme.text};
+color: white;
 margin-top: 1rem;
+text-decoration: none;
+&:hover {
+    text-decoration: underline;
+    color: ${props => props.theme.text};
+}
 `
 
 const Position = styled.h2`
@@ -155,25 +160,29 @@ color: ${props => `rgba(${props.theme.textRgba},0.9)`};
 font-weight:400;
 `
 
-const MemberComponent = ({img, name=" ",position=" "}) => {
+const MemberComponent = ({img, name=" ",position=" ",link="#"}) => {
   return(
     <Item>
       <ImageContainer>
         <img width={500} height={400}  src={img} alt={name} />
       </ImageContainer>
-      <Name>{name}</Name>
+      <Name as="a" href={link} target="_blank" rel="noopener noreferrer">
+        {name}
+      </Name>
       <Position>{position}</Position>
     </Item>
   )
 }
 
-const FounderComponent = ({img, name=" ",position=" "}) => {
+const FounderComponent = ({img, name=" ",position=" ",link="#"}) => {
   return(
     <Item>
       <ImageSingleContainer>
         <img width={500} height={400}  src={img} alt={name} />
       </ImageSingleContainer>
-      <Name>{name}</Name>
+      <Name as="a" href={link} target="_blank" rel="noopener noreferrer">
+        {name}
+      </Name>
       <Position>{position}</Position>
     </Item>
   )
@@ -186,17 +195,17 @@ const Team = () => {
     
       <Title>Team</Title>
       <SingleContainer>
-        <FounderComponent img={img11} name="Zamza Salim" position="Founder" />
+        <FounderComponent img={img11} name="Zamza Salim" position="Founder" link="https://x.com/zamzasalim"/>
       </SingleContainer>
       <Container>
-        <MemberComponent img={img2} name="Agan" position="Leader" />
-        <MemberComponent img={img3} name="Aldi" position="Airdrop Team" />
-        <MemberComponent img={img7} name="Remover" position="Airdrop Team" />
-        <MemberComponent img={img8} name="Javier" position="OG ASC" />
-        <MemberComponent img={img9} name="Mail" position="OG ASC" />
-        <MemberComponent img={img5} name="Chiga" position="Editor" />
-        <MemberComponent img={img10} name="Yuli" position="Research Team" />
-        <MemberComponent img={img6} name="Hanip" position="Research Team" />
+        <MemberComponent img={img2} name="Agan" position="Leader" link="https://t.me/autosultank"/>
+        <MemberComponent img={img3} name="Aldi" position="Airdrop Team" link="https://t.me/AlldiiRamadhan"/>
+        <MemberComponent img={img7} name="Remover" position="Airdrop Team" link="https://t.me/remover96"/>
+        <MemberComponent img={img8} name="Javier" position="OG ASC" link="https://t.me/xyjrvzx"/>
+        <MemberComponent img={img9} name="Mail" position="OG ASC" link="https://t.me/haiimail"/>
+        <MemberComponent img={img5} name="Chiga" position="Editor" link="https://t.me/joglostudio01"/>
+        <MemberComponent img={img10} name="Yuli" position="Research Team" link="https://x.com/yulsrich"/>
+        <MemberComponent img={img6} name="Hanip" position="Research Team" link="https://x.com/hnfdmxyz"/>
       </Container>
     </Section>
   )
